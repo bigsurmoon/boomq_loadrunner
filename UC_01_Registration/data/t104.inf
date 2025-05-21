@@ -1,0 +1,11 @@
+[t104]
+FileName1=t104_teamMember.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=25&page=11&size=3
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_104.xml
+RequestHeaderFile=t104_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t104_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

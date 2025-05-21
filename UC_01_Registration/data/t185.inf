@@ -1,0 +1,11 @@
+[t185]
+FileName1=t185_teamContext.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=25
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_185.xml
+RequestHeaderFile=t185_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t185_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

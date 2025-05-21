@@ -1,0 +1,18 @@
+[t2]
+FileName2=t1_1_main.css
+RawStepEndTime=1747821338431
+RequestBodyFile=t2_RequestBody.txt
+RawStepName=login
+ContentType=text/html
+URL1=file:
+URL2=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css
+URL3=https://dev-boomq.pflb.ru/static/js/main.cddf1824.js
+ResponseHeaderFile=t2_ResponseHeader.txt
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1747821338212
+Total=3
+StepName=Submit Data: login
+FileName1=t1.html
+FileName3=t1_0_main.UNK

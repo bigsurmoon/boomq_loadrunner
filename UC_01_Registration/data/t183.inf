@@ -1,0 +1,11 @@
+[t183]
+FileName1=t183_modelSchema.json
+URL1=https://dev-boomq.pflb.ru/project-srv/modelSchema
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_183.xml
+RequestHeaderFile=t183_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t183_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,3 @@
+"[{\"email\":\"666xxx@gmail.com\",\"id\":6245,\"permissionList\":[\"EDIT\",\"VIEW\",\"RUN\"],\""
+"teamId\":\"25\",\"userDisplayName\":\"666xxx\",\"userId\":6081,\"updateInviteExpiration\":true"
+"}]"

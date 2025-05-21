@@ -1,0 +1,11 @@
+[t85]
+FileName1=t85_identityProvider.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/identityProvider
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_85.xml
+RequestHeaderFile=t85_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t85_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

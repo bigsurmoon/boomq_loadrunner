@@ -1,0 +1,11 @@
+[t34]
+FileName1=t34_test.json
+URL1=https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&displayState=FINISHED
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_34.xml
+RequestHeaderFile=t34_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t34_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t35]
+FileName1=t35_teamContext.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=25
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_35.xml
+RequestHeaderFile=t35_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t35_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

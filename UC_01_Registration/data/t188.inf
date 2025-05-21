@@ -1,0 +1,11 @@
+[t188]
+FileName1=t188.html
+URL1=https://dev-boomq.pflb.ru/auth-srv/login
+Total=1
+RequestHeaderFile=t188_RequestHeader.txt
+RequestBodyFile=t188_RequestBody.txt
+ResponseHeaderFile=t188_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_188.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t207]
+FileName1=t207.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/user
+Total=2
+RequestHeaderFile=t207_RequestHeader.txt
+RequestBodyFile=t207_RequestBody.txt
+ResponseHeaderFile=t207_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_207.xml
+FileName2=t207_en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg
+URL2=https://dev-boomq.pflb.ru/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t176]
+FileName1=t176.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=25
+Total=1
+RequestHeaderFile=t176_RequestHeader.txt
+RequestBodyFile=t176_RequestBody.txt
+ResponseHeaderFile=t176_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_176.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

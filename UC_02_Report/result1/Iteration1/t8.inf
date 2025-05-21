@@ -1,0 +1,18 @@
+[t8]
+FileName2=t1_1_main.css
+RawStepEndTime=1747826989763
+RequestBodyFile=t8_RequestBody.txt
+RawStepName=report
+ContentType=application/json
+URL1=https://dev-boomq.pflb.ru/report-srv/report
+URL2=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css
+URL3=https://dev-boomq.pflb.ru/static/js/main.cddf1824.js
+ResponseHeaderFile=t8_ResponseHeader.txt
+SnapshotXmlFile=snapshot_7.xml
+RequestHeaderFile=t8_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1747826989674
+Total=3
+StepName=Custom Request: report
+FileName1=t8.json
+FileName3=t1_0_main.UNK

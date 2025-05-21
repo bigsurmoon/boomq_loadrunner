@@ -1,0 +1,14 @@
+{
+  "defaultTimer": {
+    "timerType": "CONSTANT",
+    "type": "CONSTANT",
+    "durationMs": 8000,
+    "lowerLimitMs": 4000,
+    "upperLimitMs": 12000
+  },
+  "httpRequestDefaults": {
+    "responseTimeout": 120000,
+    "connectTimeout": 60000,
+    "isSaveResponseInMd5Hash": false
+  }
+}

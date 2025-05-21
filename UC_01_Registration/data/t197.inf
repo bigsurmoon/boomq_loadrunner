@@ -1,0 +1,11 @@
+[t197]
+FileName1=t197_25.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/team/25
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_197.xml
+RequestHeaderFile=t197_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t197_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

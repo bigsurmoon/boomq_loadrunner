@@ -1,0 +1,11 @@
+[t65]
+FileName1=t65_team.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/team?page=0&size=5
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_65.xml
+RequestHeaderFile=t65_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t65_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

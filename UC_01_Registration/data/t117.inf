@@ -1,0 +1,13 @@
+[t117]
+FileName1=t117.html
+URL1=https://dev-boomq.pflb.ru/auth-srv/login
+Total=2
+RequestHeaderFile=t117_RequestHeader.txt
+RequestBodyFile=t117_RequestBody.txt
+ResponseHeaderFile=t117_ResponseHeader.txt
+ContentType=image/svg+xml
+SnapshotXmlFile=snapshot_117.xml
+FileName2=t117_en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg
+URL2=https://dev-boomq.pflb.ru/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t180]
+FileName1=t180.htm
+URL1=https://dev-boomq.pflb.ru/change-password
+Total=1
+RequestHeaderFile=t180_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t180_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_180.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

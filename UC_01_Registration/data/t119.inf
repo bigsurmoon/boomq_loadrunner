@@ -1,0 +1,11 @@
+[t119]
+FileName1=t119_config.json
+URL1=https://dev-boomq.pflb.ru/config.json
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_119.xml
+RequestHeaderFile=t119_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t119_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

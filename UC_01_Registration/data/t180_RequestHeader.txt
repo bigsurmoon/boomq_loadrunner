@@ -1,0 +1,17 @@
+GET https://dev-boomq.pflb.ru/auth-srv/invite/rUKch0x_fI-6VsR91-bw4zxeQ4A3MxiNaHQH2hS37tofbaTDiO0xO4Fal5HZCZM2vPGKx8Oe0tga-XrX7OH0D8BYTjnkrathcbq4mu7zHdw= HTTP/1.1
+sec-ch-ua: "Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+DNT: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru
+Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjU4ODEsInVzZXJfbmFtZSI6Im5hZ3J1emthM19ncjAxQG1haWwuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwidXNlcl9sYW5ndWFnZSI6IlJVIiwiZXhwIjoxNzQ3ODE4OTIyLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiOTQ3MzY3NmQtYWZlYi00ZjJhLTljNjktNThiMjBhODI1MjY4IiwiY2xpZW50X2lkIjoiY2xpZW50In0.OLXbGwiMSYsLOXNOtEGEeWveBQOeDgL2pVwjrsIKYWO5KqVCXfTa9nftaZj60GeQlZ9dGaz8mmkaVyDpxuUkktNC9bMpf8rqDEFqb3InfE5kUYrB1SK6YwxvHEJ4fGIv-xqAM2i--rJpktaR58_LWUDj2d5Q-Ul2w2sRw7coUM8jd8137qY-zSzqjxivlWKengs3vS4pI7qEFWCYgqZttanwpfpUvxWcqYZgnQH6PYNEkxBpHA7lycLBRzNy-pk1UeW8UReen355IoXTq27bxmQfqmntecuNfiT5efpLS8eJ45NIiUeU6m98aDQOErE_ReP1MHV6Rh1ggdZ2RbOL3A
+Host: dev-boomq.pflb.ru
+

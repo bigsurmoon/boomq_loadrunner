@@ -1,0 +1,454 @@
+[API Trapper      (10f0:39d0)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (56ec:5628)] ------------------------------------------------------------------------------------------
+[Network Analyzer (56ec:5628)] Load Network Traffic Analyzers:
+[Network Analyzer (56ec:5628)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (56ec:5628)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (56ec:5628)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (56ec:5628)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (56ec:5628)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (56ec:5628)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (56ec:5628)]     Analyzer Module: local_server (value=)
+[Network Analyzer (56ec:5628)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (56ec:5628)] Started proxy on port 8889 listening IP 192.168.184.1, 127.0.0.1, in synchronous mode
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34636
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34637
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34638
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34639
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34640
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34641
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34642
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34643
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34646
+[Proxy Recording.Error (56ec: b3c)] Exception is caught while trying to connect to https://config.edge.skype.com:443, message=Authentication failed because the remote party has closed the transport stream.
+[Proxy Recording.Error (56ec: b3c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (56ec:5428)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/invite/rUKch0x_fI-6VsR91-bw4zxeQ4A3MxiNaHQH2hS37tofbaTDiO0xO4Fal5HZCZM2vPGKx8Oe0tga-XrX7OH0DwCadRNx4mL1d515e2u7aTI= ...
+[Proxy Recording  (56ec:5428)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/invite/rUKch0x_fI-6VsR91-bw4zxeQ4A3MxiNaHQH2hS37tofbaTDiO0xO4Fal5HZCZM2vPGKx8Oe0tga-XrX7OH0DwCadRNx4mL1d515e2u7aTI= ...
+[Proxy Recording  (56ec:5428)] Received response of 1447 header and 0 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/invite/rUKch0x_fI-6VsR91-bw4zxeQ4A3MxiNaHQH2hS37tofbaTDiO0xO4Fal5HZCZM2vPGKx8Oe0tga-XrX7OH0DwCadRNx4mL1d515e2u7aTI=
+[Web Request      (56ec:5428)] "GET https://dev-boomq.pflb.ru/auth-srv/invite/rUKch0x_fI-6VsR91-bw4zxeQ4A3MxiNaHQH2hS37tofbaTDiO0xO4Fal5HZCZM2vPGKx8Oe0tga-XrX7OH0DwCadRNx4mL1d515e2u7aTI="   
+[Network Analyzer (56ec:5428)]   (Sid:  1) Client -> Server @ : 823 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:5428)]   (Sid:  1) Server -> Client : 1462 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:5428)] Sent 0 bytes to client @ 192.168.184.1:34637
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34652
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34653
+[Proxy Recording  (56ec:3ab8)] Trying to connect to https://edge.microsoft.com:443/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.26100&devicefamily=desktop&installdate=1726177648&clientversion=136.0.3240.76&experimentationmode=2&scpguard=0&scpfull=0&scpver=0 ...
+[Proxy Recording  (56ec:3ab8)] Trying to connect to https://edge.microsoft.com:443/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.26100&devicefamily=desktop&installdate=1726177648&clientversion=136.0.3240.76&experimentationmode=2&scpguard=0&scpfull=0&scpver=0 ...
+[Proxy Recording  (56ec:3ab8)] Received response of 477 header and 158 body bytes from https://edge.microsoft.com:443/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.26100&devicefamily=desktop&installdate=1726177648&clientversion=136.0.3240.76&experimentationmode=2&scpguard=0&scpfull=0&scpver=0
+[Web Request      (56ec:3ab8)] "GET https://edge.microsoft.com/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.26100&devicefamily=desktop&installdate=1726177648&clientversion=136.0.3240.76&experimentationmode=2&scpguard=0&scpfull=0&scpver=0"   
+[Network Analyzer (56ec:3ab8)]   (Sid:  2) Client -> Server @ : 1012 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:3ab8)]   (Sid:  2) Server -> Client : 494 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:3ab8)]   (Sid:  2) Server -> Client : 158 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:3ab8)] Sent 158 bytes to client @ 192.168.184.1:34638
+[Proxy Recording.Error (56ec:5998)] Exception is caught while trying to connect to https://nav-edge.smartscreen.microsoft.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (56ec:5998)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (56ec: e64)] Trying to connect to https://edge.microsoft.com:443/identity/api/v3/msa ...
+[Proxy Recording  (56ec: e64)] Trying to connect to https://edge.microsoft.com:443/identity/api/v3/msa ...
+[Proxy Recording  (56ec:36e8)] Trying to connect to https://config.edge.skype.com:443/config/v1/Edge/136.0.3240.76?clientId=664339649591579807&agents=EdgeRuntime%2CEdgeRuntimeConfig%2CEdgeDomainActions&osname=win&client=edge&channel=stable&scpfre=0&osarch=x86_64&osver=10.0.26100&wu=1&devicefamily=desktop&soobedate=1726177529&uma=0&sessionid=504&mngd=0&installdate=1726177648&edu=0&vm=0&bphint=2&fg=1&lbfgdate=1747776041&lafgdate=0 ...
+[Proxy Recording  (56ec:36e8)] Trying to connect to https://config.edge.skype.com:443/config/v1/Edge/136.0.3240.76?clientId=664339649591579807&agents=EdgeRuntime%2CEdgeRuntimeConfig%2CEdgeDomainActions&osname=win&client=edge&channel=stable&scpfre=0&osarch=x86_64&osver=10.0.26100&wu=1&devicefamily=desktop&soobedate=1726177529&uma=0&sessionid=504&mngd=0&installdate=1726177648&edu=0&vm=0&bphint=2&fg=1&lbfgdate=1747776041&lafgdate=0 ...
+[Proxy Recording  (56ec:2e8c)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (56ec: e64)] Received response of 316 header and 3049 body bytes from https://edge.microsoft.com:443/identity/api/v3/msa
+[Network Analyzer (56ec: e64)]   (Sid:  3) Client -> Server @ : 781 bytes (SSL)(Service=HTTP)
+[Web Request      (56ec: e64)] "POST https://edge.microsoft.com/identity/api/v3/msa"   
+[Network Analyzer (56ec: e64)]   (Sid:  3) Client -> Server @ : 1388 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec: e64)]   (Sid:  3) Server -> Client : 333 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec: e64)]   (Sid:  3) Server -> Client : 3049 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec: e64)] Sent 3049 bytes to client @ 192.168.184.1:34642
+[Proxy Recording  (56ec:2e8c)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (56ec:2e8c)] Received response of 252 header and 1085 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (56ec:2e8c)]   (Sid:  4) Client -> Server @ : 647 bytes (SSL)(Service=HTTP)
+[Web Request      (56ec:2e8c)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Network Analyzer (56ec:2e8c)]   (Sid:  4) Client -> Server @ : 1998 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:2e8c)]   (Sid:  4) Server -> Client : 269 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:2e8c)]   (Sid:  4) Server -> Client : 1085 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:2e8c)] Sent 1085 bytes to client @ 192.168.184.1:34641
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34661
+[Proxy Recording  (56ec:36e8)] Received response of 792 header and 0 body bytes from https://config.edge.skype.com:443/config/v1/Edge/136.0.3240.76?clientId=664339649591579807&agents=EdgeRuntime%2CEdgeRuntimeConfig%2CEdgeDomainActions&osname=win&client=edge&channel=stable&scpfre=0&osarch=x86_64&osver=10.0.26100&wu=1&devicefamily=desktop&soobedate=1726177529&uma=0&sessionid=504&mngd=0&installdate=1726177648&edu=0&vm=0&bphint=2&fg=1&lbfgdate=1747776041&lafgdate=0
+[Web Request      (56ec:36e8)] "GET https://config.edge.skype.com/config/v1/Edge/136.0.3240.76?clientId=664339649591579807&agents=EdgeRuntime%2CEdgeRuntimeConfig%2CEdgeDomainActions&osname=win&client=edge&channel=stable&scpfre=0&osarch=x86_64&osver=10.0.26100&wu=1&devicefamily=desktop&soobedate=1726177529&uma=0&sessionid=504&mngd=0&installdate=1726177648&edu=0&vm=0&bphint=2&fg=1&lbfgdate=1747776041&lafgdate=0"   
+[Network Analyzer (56ec:36e8)]   (Sid:  5) Client -> Server @ : 741 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:36e8)]   (Sid:  5) Server -> Client : 819 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:36e8)] Sent 0 bytes to client @ 192.168.184.1:34640
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34662
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34663
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34664
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34665
+[Proxy Recording.Error (56ec:5f10)] Exception is caught while trying to connect to https://www.bing.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (56ec:5f10)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34668
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34669
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34670
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34671
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34672
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34673
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34678
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34679
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34680
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34681
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34682
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34683
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34684
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34685
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34686
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34687
+[Proxy Recording.Error (56ec:36e8)] Exception is caught while trying to connect to https://nav-edge.smartscreen.microsoft.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (56ec: fa0)] Exception is caught while trying to connect to https://edge.microsoft.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (56ec:5428)] Exception is caught while trying to connect to https://nav-edge.smartscreen.microsoft.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (56ec:1ffc)] Exception is caught while trying to connect to https://nav-edge.smartscreen.microsoft.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (56ec: b3c)] Exception is caught while trying to connect to https://dev-boomq.pflb.ru:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (56ec:2e8c)] Exception is caught while trying to connect to https://www.bing.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (56ec:36e8)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (56ec: e64)] Exception is caught while trying to connect to https://www.bing.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (56ec: fa0)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (56ec:3ab8)] Exception is caught while trying to connect to https://dev-boomq.pflb.ru:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (56ec:5998)] Exception is caught while trying to connect to https://www.bing.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (56ec:5428)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (56ec:1ffc)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (56ec: b3c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (56ec:2e8c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (56ec: e64)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (56ec:3ab8)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (56ec:5998)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (56ec:38b4)] Trying to connect to https://login.live.com:443/RST2.srf ...
+[Proxy Recording  (56ec:38b4)] Trying to connect to https://login.live.com:443/RST2.srf ...
+[Proxy Recording  (56ec:38b4)] Received response of 557 header and 16677 body bytes from https://login.live.com:443/RST2.srf
+[Proxy Recording  (56ec:38b4)] Sent 16677 bytes to client @ 192.168.184.1:34646
+[Proxy Recording.Error (56ec: 8a8)] Exception is caught while trying to connect to https://edge.microsoft.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (56ec: 8a8)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (56ec: 198)] Exception is caught while trying to connect to https://www.bing.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (56ec:33dc)] Exception is caught while trying to connect to https://www.bing.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (56ec: 198)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (56ec:33dc)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (56ec:5f10)] Exception is caught while trying to connect to https://substrate.office.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (56ec:5f10)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (56ec: e64)] Trying to connect to https://dev-boomq.pflb.ru:443/change-password ...
+[Proxy Recording  (56ec: e64)] Trying to connect to https://dev-boomq.pflb.ru:443/change-password ...
+[Proxy Recording  (56ec:5998)] Trying to connect to https://edge.microsoft.com:443/abusiveadblocking/api/v1/blocklist ...
+[Proxy Recording  (56ec:5998)] Trying to connect to https://edge.microsoft.com:443/abusiveadblocking/api/v1/blocklist ...
+[Proxy Recording  (56ec:36e8)] Trying to connect to https://edge.microsoft.com:443/extensionwebstorebase/v1/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=edgecrx&prodchannel=&prodversion=136.0.3240.76&lang=en-US&acceptformat=crx3,puff&x=id%3Djmjflgjpcpepeafmmgdpfkogkghcpiha%26v%3D1.2.1%26installedby%3Dother%26uc ...
+[Proxy Recording  (56ec:36e8)] Trying to connect to https://edge.microsoft.com:443/extensionwebstorebase/v1/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=edgecrx&prodchannel=&prodversion=136.0.3240.76&lang=en-US&acceptformat=crx3,puff&x=id%3Djmjflgjpcpepeafmmgdpfkogkghcpiha%26v%3D1.2.1%26installedby%3Dother%26uc ...
+[Proxy Recording  (56ec: e64)] Received response of 306 header and 655 body bytes from https://dev-boomq.pflb.ru:443/change-password
+[Web Request      (56ec: e64)] "GET https://dev-boomq.pflb.ru/change-password"   
+[Network Analyzer (56ec: e64)]   (Sid:  6) Client -> Server @ : 1857 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec: e64)]   (Sid:  6) Server -> Client : 295 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec: e64)]   (Sid:  6) Server -> Client : 655 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec: e64)] Sent 655 bytes to client @ 192.168.184.1:34684
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34701
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34702
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34705
+[Proxy Recording  (56ec:5998)] Received response of 426 header and 0 body bytes from https://edge.microsoft.com:443/abusiveadblocking/api/v1/blocklist
+[Web Request      (56ec:5998)] "GET https://edge.microsoft.com/abusiveadblocking/api/v1/blocklist"   
+[Proxy Recording  (56ec:38b4)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Network Analyzer (56ec:5998)]   (Sid:  7) Client -> Server @ : 678 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (56ec:38b4)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Network Analyzer (56ec:5998)]   (Sid:  7) Server -> Client : 453 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:5998)] Sent 0 bytes to client @ 192.168.184.1:34686
+[Proxy Recording  (56ec: fa0)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (56ec: fa0)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (56ec: 8a8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/js/main.cddf1824.js ...
+[Proxy Recording  (56ec: 8a8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/js/main.cddf1824.js ...
+[Proxy Recording  (56ec:38b4)] Received response of 251 header and 834 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (56ec:38b4)]   (Sid:  8) Client -> Server @ : 623 bytes (SSL)(Service=HTTP)
+[Web Request      (56ec:38b4)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Proxy Recording  (56ec:33dc)] Trying to connect to https://dev-boomq.pflb.ru:443/static/css/main.64a4c65b.css ...
+[Proxy Recording  (56ec:33dc)] Trying to connect to https://dev-boomq.pflb.ru:443/static/css/main.64a4c65b.css ...
+[Network Analyzer (56ec:38b4)]   (Sid:  8) Client -> Server @ : 2058 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:38b4)]   (Sid:  8) Server -> Client : 268 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:38b4)]   (Sid:  8) Server -> Client : 834 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:38b4)] Sent 834 bytes to client @ 192.168.184.1:34687
+[Proxy Recording  (56ec:36e8)] Received response of 289 header and 413 body bytes from https://edge.microsoft.com:443/extensionwebstorebase/v1/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=edgecrx&prodchannel=&prodversion=136.0.3240.76&lang=en-US&acceptformat=crx3,puff&x=id%3Djmjflgjpcpepeafmmgdpfkogkghcpiha%26v%3D1.2.1%26installedby%3Dother%26uc
+[Web Request      (56ec:36e8)] "GET https://edge.microsoft.com/extensionwebstorebase/v1/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=edgecrx&prodchannel=&prodversion=136.0.3240.76&lang=en-US&acceptformat=crx3,puff&x=id%3Djmjflgjpcpepeafmmgdpfkogkghcpiha%26v%3D1.2.1%26installedby%3Dother%26uc"   
+[Network Analyzer (56ec:36e8)]   (Sid:  9) Client -> Server @ : 749 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:36e8)]   (Sid:  9) Server -> Client : 306 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:36e8)]   (Sid:  9) Server -> Client : 413 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:36e8)] Sent 413 bytes to client @ 192.168.184.1:34678
+[Proxy Recording  (56ec:3ab8)] Trying to connect to https://www.bing.com:443/api/shopping/v1/user/shoppingsettings ...
+[Proxy Recording  (56ec:3ab8)] Trying to connect to https://www.bing.com:443/api/shopping/v1/user/shoppingsettings ...
+[Proxy Recording  (56ec: b3c)] Trying to connect to https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo ...
+[Proxy Recording  (56ec:1ffc)] Trying to connect to https://www.bing.com:443/fd/auth/signin/v2?action=header ...
+[Proxy Recording  (56ec:1ffc)] Trying to connect to https://www.bing.com:443/fd/auth/signin/v2?action=header ...
+[Proxy Recording  (56ec:5428)] Trying to connect to https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo ...
+[Proxy Recording  (56ec: 8a8)] Received response of 322 header and 889798 body bytes from https://dev-boomq.pflb.ru:443/static/js/main.cddf1824.js
+[Web Request      (56ec: 8a8)] "GET https://dev-boomq.pflb.ru/static/js/main.cddf1824.js"   
+[Network Analyzer (56ec: 8a8)]   (Sid: 10) Client -> Server @ : 1742 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec: 8a8)]   (Sid: 10) Server -> Client : 311 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec: 8a8)]   (Sid: 10) Server -> Client : 889798 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec: 8a8)] Sent 889798 bytes to client @ 192.168.184.1:34702
+[Proxy Recording  (56ec:33dc)] Received response of 292 header and 23017 body bytes from https://dev-boomq.pflb.ru:443/static/css/main.64a4c65b.css
+[Web Request      (56ec:33dc)] "GET https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css"   
+[Network Analyzer (56ec:33dc)]   (Sid: 11) Client -> Server @ : 1758 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:33dc)]   (Sid: 11) Server -> Client : 281 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:33dc)]   (Sid: 11) Server -> Client : 23017 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:33dc)] Sent 23017 bytes to client @ 192.168.184.1:34701
+[Proxy Recording  (56ec: fa0)] Received response of 1333 header and 4158 body bytes from https://substrate.office.com:443/profileb2/v2.0/me/V1Profile
+[Web Request      (56ec: fa0)] "GET https://substrate.office.com/profileb2/v2.0/me/V1Profile"   
+[Network Analyzer (56ec: fa0)]   (Sid: 12) Client -> Server @ : 1948 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec: fa0)]   (Sid: 12) Server -> Client : 1322 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec: fa0)]   (Sid: 12) Server -> Client : 4158 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec: fa0)] Sent 4158 bytes to client @ 192.168.184.1:34679
+[Proxy Recording  (56ec:2e8c)] Trying to connect to https://www.bing.com:443/api/shopping/v1/user/shoppingsettings ...
+[Proxy Recording  (56ec:2e8c)] Trying to connect to https://www.bing.com:443/api/shopping/v1/user/shoppingsettings ...
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34711
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34712
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34715
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34716
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34717
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34718
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34719
+[Proxy Recording  (56ec: 198)] Trying to connect to https://www.bing.com:443/bloomfilterfiles/ExpandedDomainsFilterGlobal.json ...
+[Proxy Recording  (56ec: 198)] Trying to connect to https://www.bing.com:443/bloomfilterfiles/ExpandedDomainsFilterGlobal.json ...
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34725
+[Proxy Recording  (56ec:33dc)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff ...
+[Proxy Recording  (56ec:33dc)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff ...
+[Proxy Recording  (56ec:5998)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg ...
+[Proxy Recording  (56ec:5998)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg ...
+[Proxy Recording  (56ec: e64)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg ...
+[Proxy Recording  (56ec: e64)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg ...
+[Proxy Recording  (56ec: 8a8)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-3124388678620693797?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (56ec: 8a8)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-3124388678620693797?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (56ec:36e8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff ...
+[Proxy Recording  (56ec:36e8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff ...
+[Proxy Recording  (56ec:33dc)] Received response of 262 header and 138600 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff
+[Proxy Recording  (56ec:5f10)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff ...
+[Proxy Recording  (56ec:38b4)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff ...
+[Proxy Recording  (56ec:5f10)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff ...
+[Proxy Recording  (56ec:38b4)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff ...
+[Proxy Recording  (56ec: e64)] Received response of 262 header and 1861 body bytes from https://dev-boomq.pflb.ru:443/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg
+[Web Request      (56ec:33dc)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff"   
+[Proxy Recording  (56ec: fa0)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Network Analyzer (56ec:33dc)]   (Sid: 13) Client -> Server @ : 1816 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (56ec: fa0)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (56ec:5998)] Received response of 263 header and 8365 body bytes from https://dev-boomq.pflb.ru:443/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg
+[Network Analyzer (56ec:33dc)]   (Sid: 13) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:33dc)]   (Sid: 13) Server -> Client : 138600 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:33dc)] Sent 138600 bytes to client @ 192.168.184.1:34718
+[Proxy Recording  (56ec: 8a8)] Received response of 257 header and 20 body bytes from https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-3124388678620693797?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2
+[Proxy Recording  (56ec:5f10)] Received response of 262 header and 138232 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff
+[Web Request      (56ec: e64)] "GET https://dev-boomq.pflb.ru/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg"   
+[Network Analyzer (56ec: e64)]   (Sid: 14) Client -> Server @ : 1833 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec: e64)]   (Sid: 14) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:38b4)] Received response of 262 header and 138900 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff
+[Network Analyzer (56ec: e64)]   (Sid: 14) Server -> Client : 1861 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec: e64)] Sent 1861 bytes to client @ 192.168.184.1:34712
+[Web Request      (56ec:5998)] "GET https://dev-boomq.pflb.ru/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg"   
+[Network Analyzer (56ec:5998)]   (Sid: 15) Client -> Server @ : 1830 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:5998)]   (Sid: 15) Server -> Client : 280 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:5998)]   (Sid: 15) Server -> Client : 8365 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:5998)] Sent 8365 bytes to client @ 192.168.184.1:34711
+[Web Request      (56ec: 8a8)] "GET https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/-3124388678620693797?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"   
+[Network Analyzer (56ec: 8a8)]   (Sid: 16) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec: 8a8)]   (Sid: 16) Server -> Client : 274 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec: 8a8)]   (Sid: 16) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec: 8a8)] Sent 20 bytes to client @ 192.168.184.1:34719
+[Web Request      (56ec:5f10)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff"   
+[Network Analyzer (56ec:5f10)]   (Sid: 17) Client -> Server @ : 1817 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:5f10)]   (Sid: 17) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:5f10)]   (Sid: 17) Server -> Client : 138232 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:5f10)] Sent 138232 bytes to client @ 192.168.184.1:34715
+[Web Request      (56ec:38b4)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff"   
+[Network Analyzer (56ec:38b4)]   (Sid: 18) Client -> Server @ : 1813 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:38b4)]   (Sid: 18) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:38b4)]   (Sid: 18) Server -> Client : 138900 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:38b4)] Sent 138900 bytes to client @ 192.168.184.1:34716
+[Proxy Recording  (56ec:36e8)] Received response of 262 header and 138516 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff
+[Web Request      (56ec:36e8)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff"   
+[Network Analyzer (56ec:36e8)]   (Sid: 19) Client -> Server @ : 1815 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:36e8)]   (Sid: 19) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:36e8)]   (Sid: 19) Server -> Client : 138516 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:36e8)] Sent 138516 bytes to client @ 192.168.184.1:34717
+[Proxy Recording  (56ec: b3c)] Trying to connect to https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo ...
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34729
+[Proxy Recording  (56ec: fa0)] Received response of 1334 header and 4158 body bytes from https://substrate.office.com:443/profileb2/v2.0/me/V1Profile
+[Proxy Recording  (56ec: e64)] Trying to connect to https://dev-boomq.pflb.ru:443/favicon.png ...
+[Proxy Recording  (56ec: e64)] Trying to connect to https://dev-boomq.pflb.ru:443/favicon.png ...
+[Web Request      (56ec: fa0)] "GET https://substrate.office.com/profileb2/v2.0/me/V1Profile"   
+[Network Analyzer (56ec: fa0)]   (Sid: 20) Client -> Server @ : 1924 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec: fa0)]   (Sid: 20) Server -> Client : 1323 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec: fa0)]   (Sid: 20) Server -> Client : 4158 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec: fa0)] Sent 4158 bytes to client @ 192.168.184.1:34725
+[Proxy Recording  (56ec: e64)] Received response of 258 header and 1016 body bytes from https://dev-boomq.pflb.ru:443/favicon.png
+[Web Request      (56ec: e64)] "GET https://dev-boomq.pflb.ru/favicon.png"   
+[Network Analyzer (56ec: e64)]   (Sid: 21) Client -> Server @ : 1787 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec: e64)]   (Sid: 21) Server -> Client : 275 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec: e64)]   (Sid: 21) Server -> Client : 1016 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec: e64)] Sent 1016 bytes to client @ 192.168.184.1:34729
+[Proxy Recording  (56ec: b3c)] Received response of 1028 header and 134 body bytes from https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo
+[Proxy Recording  (56ec:5428)] Trying to connect to https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo ...
+[Network Analyzer (56ec: b3c)]   (Sid: 22) Client -> Server @ : 638 bytes (SSL)(Service=HTTP)
+[Web Request      (56ec: b3c)] "POST https://www.bing.com/api/shopping/v1/savings/rewards/rewardsUserInfo"   
+[Network Analyzer (56ec: b3c)]   (Sid: 22) Client -> Server @ : 82 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec: b3c)]   (Sid: 22) Server -> Client : 1045 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec: b3c)]   (Sid: 22) Server -> Client : 134 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec: b3c)] Sent 134 bytes to client @ 192.168.184.1:34682
+[Proxy Recording  (56ec:3ab8)] Received response of 1028 header and 418 body bytes from https://www.bing.com:443/api/shopping/v1/user/shoppingsettings
+[Web Request      (56ec:3ab8)] "GET https://www.bing.com/api/shopping/v1/user/shoppingsettings"   
+[Network Analyzer (56ec:3ab8)]   (Sid: 23) Client -> Server @ : 421 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:3ab8)]   (Sid: 23) Server -> Client : 1017 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:3ab8)]   (Sid: 23) Server -> Client : 418 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:3ab8)] Sent 418 bytes to client @ 192.168.184.1:34685
+[Proxy Recording  (56ec:1ffc)] Received response of 3161 header and 0 body bytes from https://www.bing.com:443/fd/auth/signin/v2?action=header
+[Web Request      (56ec:1ffc)] "GET https://www.bing.com/fd/auth/signin/v2?action=header"   
+[Network Analyzer (56ec:1ffc)]   (Sid: 24) Client -> Server @ : 4825 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:1ffc)]   (Sid: 24) Server -> Client : 3178 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:1ffc)] Sent 0 bytes to client @ 192.168.184.1:34681
+[Proxy Recording  (56ec:5428)] Received response of 1028 header and 134 body bytes from https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo
+[Network Analyzer (56ec:5428)]   (Sid: 25) Client -> Server @ : 614 bytes (SSL)(Service=HTTP)
+[Web Request      (56ec:5428)] "POST https://www.bing.com/api/shopping/v1/savings/rewards/rewardsUserInfo"   
+[Network Analyzer (56ec:5428)]   (Sid: 25) Client -> Server @ : 82 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:5428)]   (Sid: 25) Server -> Client : 1045 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:5428)]   (Sid: 25) Server -> Client : 134 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:5428)] Sent 134 bytes to client @ 192.168.184.1:34680
+[Proxy Recording  (56ec:2e8c)] Received response of 815 header and 418 body bytes from https://www.bing.com:443/api/shopping/v1/user/shoppingsettings
+[Web Request      (56ec:2e8c)] "GET https://www.bing.com/api/shopping/v1/user/shoppingsettings"   
+[Network Analyzer (56ec:2e8c)]   (Sid: 26) Client -> Server @ : 1157 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:2e8c)]   (Sid: 26) Server -> Client : 804 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:2e8c)]   (Sid: 26) Server -> Client : 418 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:2e8c)] Sent 418 bytes to client @ 192.168.184.1:34683
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34731
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34732
+[Proxy Recording  (56ec: 198)] Received response of 687 header and 670615 body bytes from https://www.bing.com:443/bloomfilterfiles/ExpandedDomainsFilterGlobal.json
+[Web Request      (56ec: 198)] "GET https://www.bing.com/bloomfilterfiles/ExpandedDomainsFilterGlobal.json"   
+[Network Analyzer (56ec: 198)]   (Sid: 27) Client -> Server @ : 409 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec: 198)]   (Sid: 27) Server -> Client : 704 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec: 198)]   (Sid: 27) Server -> Client : 670615 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec: 198)] Sent 670615 bytes to client @ 192.168.184.1:34705
+[Proxy Recording  (56ec: e64)] Trying to connect to https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D ...
+[Proxy Recording  (56ec: e64)] Trying to connect to https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D ...
+[Proxy Recording  (56ec:33dc)] Trying to connect to https://aks-prod-switzerlandnorth.access-point.cloudmessaging.edge.microsoft.com:443/ ...
+[Proxy Recording  (56ec: e64)] Received response of 558 header and 838 body bytes from https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D
+[Network Analyzer (56ec: e64)]   (Sid: 28) Client -> Server @ : 2925 bytes (SSL)(Service=HTTP)
+[Web Request      (56ec: e64)] "POST https://edge.microsoft.com/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D"   
+[Network Analyzer (56ec: e64)]   (Sid: 28) Client -> Server @ : 362 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec: e64)]   (Sid: 28) Server -> Client : 547 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec: e64)]   (Sid: 28) Server -> Client : 838 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec: e64)] Sent 838 bytes to client @ 192.168.184.1:34732
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34737
+[Proxy Recording  (56ec:36e8)] Trying to connect to https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D ...
+[Proxy Recording  (56ec:36e8)] Trying to connect to https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D ...
+[Proxy Recording  (56ec:36e8)] Received response of 558 header and 104 body bytes from https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D
+[Network Analyzer (56ec:36e8)]   (Sid: 29) Client -> Server @ : 2926 bytes (SSL)(Service=HTTP)
+[Web Request      (56ec:36e8)] "POST https://edge.microsoft.com/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D"   
+[Network Analyzer (56ec:36e8)]   (Sid: 29) Client -> Server @ : 1137 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:36e8)]   (Sid: 29) Server -> Client : 547 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:36e8)]   (Sid: 29) Server -> Client : 104 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:36e8)] Sent 104 bytes to client @ 192.168.184.1:34737
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34739
+[Proxy Recording  (56ec:5f10)] Trying to connect to https://graph.microsoft.com:443/beta/me/settings/regionalAndLanguageSettings ...
+[Proxy Recording  (56ec:5f10)] Trying to connect to https://graph.microsoft.com:443/beta/me/settings/regionalAndLanguageSettings ...
+[Proxy Recording  (56ec:5f10)] Received response of 576 header and 475 body bytes from https://graph.microsoft.com:443/beta/me/settings/regionalAndLanguageSettings
+[Web Request      (56ec:5f10)] "GET https://graph.microsoft.com/beta/me/settings/regionalAndLanguageSettings"   
+[Network Analyzer (56ec:5f10)]   (Sid: 30) Client -> Server @ : 1949 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:5f10)]   (Sid: 30) Server -> Client : 565 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:5f10)]   (Sid: 30) Server -> Client : 475 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:5f10)] Sent 475 bytes to client @ 192.168.184.1:34739
+[User action                 ] StartTransactionEvent UC_01_TR_06_change_password [Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34744
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34745
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34746
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34752
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34753
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34754
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34755
+[Proxy Recording  (56ec: 198)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (56ec:5f10)] Trying to connect to https://dev-boomq.pflb.ru:443/config.json ...
+[Proxy Recording  (56ec: 198)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (56ec:5f10)] Trying to connect to https://dev-boomq.pflb.ru:443/config.json ...
+[Proxy Recording  (56ec:36e8)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  (56ec: fa0)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg ...
+[Proxy Recording  (56ec:1ffc)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (56ec: e64)] Trying to connect to https://substrate.office.com:443/imageb2/v1.0/me/image/$value ...
+[Proxy Recording  (56ec:36e8)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  (56ec: fa0)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg ...
+[Proxy Recording  (56ec:1ffc)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (56ec: e64)] Trying to connect to https://substrate.office.com:443/imageb2/v1.0/me/image/$value ...
+[Proxy Recording  (56ec:5f10)] Received response of 298 header and 184 body bytes from https://dev-boomq.pflb.ru:443/config.json
+[Proxy Recording  (56ec:36e8)] Received response of 478 header and 4680 body bytes from https://dev-boomq.pflb.ru:443/project-srv/modelSchema
+[Proxy Recording  (56ec:38b4)] Trying to connect to https://edge-consumer-static.azureedge.net:443/mouse-gesture/config.json ...
+[Proxy Recording  (56ec:38b4)] Trying to connect to https://edge-consumer-static.azureedge.net:443/mouse-gesture/config.json ...
+[Web Request      (56ec:5f10)] "GET https://dev-boomq.pflb.ru/config.json"   
+[Network Analyzer (56ec:5f10)]   (Sid: 31) Client -> Server @ : 2893 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:5f10)]   (Sid: 31) Server -> Client : 287 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:5f10)]   (Sid: 31) Server -> Client : 184 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:5f10)] Sent 184 bytes to client @ 192.168.184.1:34754
+[Web Request      (56ec:36e8)] "GET https://dev-boomq.pflb.ru/project-srv/modelSchema"   
+[Network Analyzer (56ec:36e8)]   (Sid: 32) Client -> Server @ : 2905 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:36e8)]   (Sid: 32) Server -> Client : 465 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:36e8)]   (Sid: 32) Server -> Client : 4680 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:36e8)] Sent 4680 bytes to client @ 192.168.184.1:34753
+[Proxy Recording  (56ec:1ffc)] Received response of 515 header and 147 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/user
+[Network Analyzer (56ec:1ffc)]   (Sid: 33) Client -> Server @ : 2982 bytes (SSL)(Service=HTTP)
+[Web Request      (56ec:1ffc)] "PUT https://dev-boomq.pflb.ru/auth-srv/user"   
+[Network Analyzer (56ec:1ffc)]   (Sid: 33) Client -> Server @ : 24 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:1ffc)]   (Sid: 33) Server -> Client : 502 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:1ffc)]   (Sid: 33) Server -> Client : 147 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:1ffc)] Sent 147 bytes to client @ 192.168.184.1:34752
+[Proxy Recording  (56ec:38b4)] Received response of 516 header and 101 body bytes from https://edge-consumer-static.azureedge.net:443/mouse-gesture/config.json
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34774
+[Proxy Recording  (56ec: fa0)] Received response of 262 header and 4045 body bytes from https://dev-boomq.pflb.ru:443/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg
+[Web Request      (56ec:38b4)] "GET https://edge-consumer-static.azureedge.net/mouse-gesture/config.json"   
+[Network Analyzer (56ec:38b4)]   (Sid: 34) Client -> Server @ : 432 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (56ec: 198)] Received response of 1333 header and 4158 body bytes from https://substrate.office.com:443/profileb2/v2.0/me/V1Profile
+[Network Analyzer (56ec:38b4)]   (Sid: 34) Server -> Client : 533 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:38b4)]   (Sid: 34) Server -> Client : 101 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:38b4)] Sent 101 bytes to client @ 192.168.184.1:34744
+[Web Request      (56ec: fa0)] "GET https://dev-boomq.pflb.ru/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg"   
+[Network Analyzer (56ec: fa0)]   (Sid: 35) Client -> Server @ : 1829 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec: fa0)]   (Sid: 35) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec: fa0)]   (Sid: 35) Server -> Client : 4045 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec: fa0)] Sent 4045 bytes to client @ 192.168.184.1:34755
+[Proxy Recording  (56ec: 8a8)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team?size=2 ...
+[Web Request      (56ec: 198)] "GET https://substrate.office.com/profileb2/v2.0/me/V1Profile"   
+[Proxy Recording  (56ec: 8a8)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team?size=2 ...
+[Network Analyzer (56ec: 198)]   (Sid: 36) Client -> Server @ : 1924 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec: 198)]   (Sid: 36) Server -> Client : 1322 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec: 198)]   (Sid: 36) Server -> Client : 4158 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec: 198)] Sent 4158 bytes to client @ 192.168.184.1:34745
+[Proxy Recording  (56ec: 8a8)] Received response of 515 header and 332 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/team?size=2
+[Web Request      (56ec: 8a8)] "GET https://dev-boomq.pflb.ru/auth-srv/team?size=2"   
+[Network Analyzer (56ec: 8a8)]   (Sid: 37) Client -> Server @ : 2903 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec: 8a8)]   (Sid: 37) Server -> Client : 502 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec: 8a8)]   (Sid: 37) Server -> Client : 332 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec: 8a8)] Sent 332 bytes to client @ 192.168.184.1:34774
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34776
+[Proxy Recording  (56ec: e64)] Received response of 1331 header and 181106 body bytes from https://substrate.office.com:443/imageb2/v1.0/me/image/$value
+[Web Request      (56ec: e64)] "GET https://substrate.office.com/imageb2/v1.0/me/image/$value"   
+[Network Analyzer (56ec: e64)]   (Sid: 38) Client -> Server @ : 1832 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec: e64)]   (Sid: 38) Server -> Client : 1348 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec: e64)]   (Sid: 38) Server -> Client : 181106 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec: e64)] Sent 181106 bytes to client @ 192.168.184.1:34746
+[Proxy Recording  (56ec: b3c)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=25 ...
+[Proxy Recording  (56ec: b3c)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=25 ...
+[Proxy Recording  (56ec: b3c)] Received response of 2849 header and 217 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=25
+[Web Request      (56ec: b3c)] "GET https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=25"   
+[Network Analyzer (56ec: b3c)]   (Sid: 39) Client -> Server @ : 2924 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec: b3c)]   (Sid: 39) Server -> Client : 2836 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec: b3c)]   (Sid: 39) Server -> Client : 217 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec: b3c)] Sent 217 bytes to client @ 192.168.184.1:34776
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34779
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34781
+[Proxy Recording  (56ec:5428)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  (56ec:5428)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  (56ec:5428)] Received response of 410 header and 251 body bytes from https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc
+[Web Request      (56ec:5428)] "GET https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc"   
+[Network Analyzer (56ec:5428)]   (Sid: 40) Client -> Server @ : 2922 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (56ec:2e8c)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-4776165001487966812?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (56ec:2e8c)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-4776165001487966812?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Network Analyzer (56ec:5428)]   (Sid: 40) Server -> Client : 397 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:5428)]   (Sid: 40) Server -> Client : 251 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:5428)] Sent 251 bytes to client @ 192.168.184.1:34779
+[Proxy Recording  (56ec:2e8c)] Received response of 257 header and 20 body bytes from https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-4776165001487966812?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2
+[Web Request      (56ec:2e8c)] "GET https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/-4776165001487966812?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"   
+[Network Analyzer (56ec:2e8c)]   (Sid: 41) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (56ec:2e8c)]   (Sid: 41) Server -> Client : 274 bytes (SSL) (Service=HTTP)
+[Network Analyzer (56ec:2e8c)]   (Sid: 41) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (56ec:2e8c)] Sent 20 bytes to client @ 192.168.184.1:34781
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34793
+[Proxy Recording  (56ec: 198)] Trying to connect to http://download.windowsupdate.com/c/msdownload/update/others/2025/05/43301711_7bfb03cdf995456b42b69c926a4247c6ca177a10.cab ...
+[Proxy Recording  (56ec: 198)] Trying to connect to http://download.windowsupdate.com/c/msdownload/update/others/2025/05/43301711_7bfb03cdf995456b42b69c926a4247c6ca177a10.cab ...
+[Proxy Recording  (56ec: 198)] Received response of 287 header and 7307 body bytes from http://download.windowsupdate.com/c/msdownload/update/others/2025/05/43301711_7bfb03cdf995456b42b69c926a4247c6ca177a10.cab
+[Proxy Recording  (56ec: 198)] Sent 7307 bytes to client @ 192.168.184.1:34793
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34795
+[Proxy Recording  (56ec:36e8)] Trying to connect to http://download.windowsupdate.com/c/msdownload/update/others/2025/05/43301710_f019e5672e28d0826b80a107ee89a4cc50f71c17.cab ...
+[Proxy Recording  (56ec:36e8)] Trying to connect to http://download.windowsupdate.com/c/msdownload/update/others/2025/05/43301710_f019e5672e28d0826b80a107ee89a4cc50f71c17.cab ...
+[Proxy Recording  (56ec:36e8)] Received response of 287 header and 7305 body bytes from http://download.windowsupdate.com/c/msdownload/update/others/2025/05/43301710_f019e5672e28d0826b80a107ee89a4cc50f71c17.cab
+[Proxy Recording  (56ec:36e8)] Sent 7305 bytes to client @ 192.168.184.1:34795
+[Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34800
+[Proxy Recording  (56ec: b3c)] Empty http command received from client's ssl connection
+[User action                 ] EndTransactionEvent UC_01_TR_06_change_password [Proxy Recording  (56ec:3088)] Client request from @ 192.168.184.1:34803
+[Proxy Recording  (56ec:33dc)] Empty http command received from client's ssl connection

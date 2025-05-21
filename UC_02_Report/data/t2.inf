@@ -1,0 +1,13 @@
+[t2]
+FileName1=t2.html
+URL1=https://dev-boomq.pflb.ru/auth-srv/login
+Total=2
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=t2_RequestBody.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=image/svg+xml
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2_en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg
+URL2=https://dev-boomq.pflb.ru/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

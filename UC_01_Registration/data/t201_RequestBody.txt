@@ -1,0 +1,2 @@
+"[{\"email\":\"666xxx@gmail.com\",\"permissionList\":[\"VIEW\",\"EDIT\",\"RUN\"],\"userDisplayN"
+"ame\":\"666xxx\"}]"

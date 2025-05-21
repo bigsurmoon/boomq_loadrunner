@@ -1,0 +1,11 @@
+[t171]
+FileName1=t171.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/user
+Total=1
+RequestHeaderFile=t171_RequestHeader.txt
+RequestBodyFile=t171_RequestBody.txt
+ResponseHeaderFile=t171_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_171.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

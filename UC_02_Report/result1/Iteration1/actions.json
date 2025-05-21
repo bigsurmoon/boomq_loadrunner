@@ -1,0 +1,79 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: authorize",
+                "infFile": "t1.inf",
+                "time": 1747826988744
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login",
+                "infFile": "t2.inf",
+                "time": 1747826989015
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: user",
+                "infFile": "t4.inf",
+                "time": 1747826989139
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: team_context",
+                "infFile": "t5.inf",
+                "time": 1747826989221
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: search",
+                "infFile": "t6.inf",
+                "time": 1747826989416
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: test",
+                "infFile": "t7.inf",
+                "time": 1747826989579
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: report",
+                "infFile": "t8.inf",
+                "time": 1747826989775
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC_02_TR_01_sign_in",
+                "rawStartTime": 1747826988757,
+                "rawEndTime": 1747826989223,
+                "thinkTime": 0.0,
+                "wastedTime": 0.017772197723388673
+            },
+            {
+                "transactionName": "UC_02_TR_02_click_on_reports",
+                "rawStartTime": 1747826989238,
+                "rawEndTime": 1747826989425,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0036830902099609377
+            },
+            {
+                "transactionName": "UC_02_TR_03_add_report",
+                "rawStartTime": 1747826989456,
+                "rawEndTime": 1747826989596,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0039980411529541019
+            },
+            {
+                "transactionName": "UC_02_TR_04_save_report",
+                "rawStartTime": 1747826989627,
+                "rawEndTime": 1747826989784,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003630399703979492
+            }
+        ]
+    }
+]

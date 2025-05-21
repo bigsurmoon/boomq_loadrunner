@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\vinny\Desktop\Project Scripts\UC_01_Registration_Ryzhkov_E.A
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\vinny\desktop\project scripts\uc_01_registration_ryzhkov_e.a\\logfile.log
+c:\users\vinny\desktop\project scripts\uc_01_registration_ryzhkov_e.a\\combined_UC_01_Registration_Ryzhkov_E.A.c
+c:\users\vinny\desktop\project scripts\uc_01_registration_ryzhkov_e.a\\pre_cci.c

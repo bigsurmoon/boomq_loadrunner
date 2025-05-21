@@ -1,0 +1,11 @@
+[t201]
+FileName1=t201.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=25
+Total=1
+RequestHeaderFile=t201_RequestHeader.txt
+RequestBodyFile=t201_RequestBody.txt
+ResponseHeaderFile=t201_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_201.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t86]
+FileName1=t86_team.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/team?size=2
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_86.xml
+RequestHeaderFile=t86_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t86_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

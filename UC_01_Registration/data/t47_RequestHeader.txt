@@ -1,0 +1,17 @@
+GET https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=25 HTTP/1.1
+sec-ch-ua-platform: "Windows"
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjU4ODEsInVzZXJfbmFtZSI6Im5hZ3J1emthM19ncjAxQG1haWwuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwidXNlcl9sYW5ndWFnZSI6IkVOIiwiZXhwIjoxNzQ3NzE2OTgzLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiY2E0ZWY4MTUtMmI5Yi00Y2M4LTg3MWUtMGJmMmMyZTczZDVmIiwiY2xpZW50X2lkIjoiY2xpZW50In0.iUoplP3NeSmlIv-wcrnE1qAt2VGqeZ-8NBiaN2zl7PYI-nBJ52NqYDREjq2f0WLH8euPPKr-KFkfjXfvKZ_BHZCtgNdLRlJL1L9UsdPouvR0IbUx5KKT_4qmGk2A2idhAY-hnKiRbzyQ0d9QYwErWgEDRD9qBuTaK8pbxsZAWFfV6sbTtAy5BnVo0axgcJtcixVN32MjO5YprGsNpN_zZ7wkTLFwNfDverOlRYmt52uywdl8FN7QWFqtX03e127Q-Qt3xg-XwZYcGJfOf7Hve7f27GvyK13sz_hqLuEOHYgugeY5ekxSfjhJ5RK1CekQRJzkFrJlaMcnWCNnFcoC4g
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Accept: */*
+sec-ch-ua: "Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"
+DNT: 1
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://dev-boomq.pflb.ru/account/new-test
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru
+Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjU4ODEsInVzZXJfbmFtZSI6Im5hZ3J1emthM19ncjAxQG1haWwuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwidXNlcl9sYW5ndWFnZSI6IkVOIiwiZXhwIjoxNzQ3NzE2OTgzLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiY2E0ZWY4MTUtMmI5Yi00Y2M4LTg3MWUtMGJmMmMyZTczZDVmIiwiY2xpZW50X2lkIjoiY2xpZW50In0.iUoplP3NeSmlIv-wcrnE1qAt2VGqeZ-8NBiaN2zl7PYI-nBJ52NqYDREjq2f0WLH8euPPKr-KFkfjXfvKZ_BHZCtgNdLRlJL1L9UsdPouvR0IbUx5KKT_4qmGk2A2idhAY-hnKiRbzyQ0d9QYwErWgEDRD9qBuTaK8pbxsZAWFfV6sbTtAy5BnVo0axgcJtcixVN32MjO5YprGsNpN_zZ7wkTLFwNfDverOlRYmt52uywdl8FN7QWFqtX03e127Q-Qt3xg-XwZYcGJfOf7Hve7f27GvyK13sz_hqLuEOHYgugeY5ekxSfjhJ5RK1CekQRJzkFrJlaMcnWCNnFcoC4g
+Host: dev-boomq.pflb.ru
+
