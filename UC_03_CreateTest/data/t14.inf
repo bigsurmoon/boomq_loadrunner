@@ -1,0 +1,13 @@
+[t14]
+FileName1=t14_user.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/user
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_14.xml
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t14_ResponseHeader.txt
+FileName2=t14_en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg
+URL2=https://dev-boomq.pflb.ru/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

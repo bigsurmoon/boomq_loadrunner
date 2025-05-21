@@ -1,0 +1,13 @@
+[t21]
+FileName1=t21.json
+URL1=https://dev-boomq.pflb.ru/project-srv/project
+Total=2
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=t21_RequestBody.txt
+ResponseHeaderFile=t21_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_21.xml
+FileName2=t21_check.9725c0396328bae9471b624111fc14ca.svg
+URL2=https://dev-boomq.pflb.ru/static/media/check.9725c0396328bae9471b624111fc14ca.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

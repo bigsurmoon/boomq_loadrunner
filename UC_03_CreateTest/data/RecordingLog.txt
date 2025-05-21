@@ -1,0 +1,722 @@
+[API Trapper      (5940:17e0)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (30a4:3440)] ------------------------------------------------------------------------------------------
+[Network Analyzer (30a4:3440)] Load Network Traffic Analyzers:
+[Network Analyzer (30a4:3440)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (30a4:3440)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (30a4:3440)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (30a4:3440)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (30a4:3440)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (30a4:3440)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (30a4:3440)]     Analyzer Module: local_server (value=)
+[Network Analyzer (30a4:3440)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (30a4:3440)] Started proxy on port 8889 listening IP 192.168.184.1, 127.0.0.1, in synchronous mode
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50468
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50469
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50470
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50471
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50472
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50473
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50475
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50476
+[Proxy Recording  (30a4:45dc)] Trying to connect to https://edge.microsoft.com:443/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.26100&devicefamily=desktop&installdate=1726177648&clientversion=136.0.3240.76&experimentationmode=2&scpguard=0&scpfull=0&scpver=0 ...
+[Proxy Recording  (30a4:45dc)] Trying to connect to https://edge.microsoft.com:443/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.26100&devicefamily=desktop&installdate=1726177648&clientversion=136.0.3240.76&experimentationmode=2&scpguard=0&scpfull=0&scpver=0 ...
+[Proxy Recording  (30a4:45dc)] Received response of 477 header and 158 body bytes from https://edge.microsoft.com:443/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.26100&devicefamily=desktop&installdate=1726177648&clientversion=136.0.3240.76&experimentationmode=2&scpguard=0&scpfull=0&scpver=0
+[Web Request      (30a4:45dc)] "GET https://edge.microsoft.com/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.26100&devicefamily=desktop&installdate=1726177648&clientversion=136.0.3240.76&experimentationmode=2&scpguard=0&scpfull=0&scpver=0"   
+[Network Analyzer (30a4:45dc)]   (Sid:  1) Client -> Server @ : 1012 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:45dc)]   (Sid:  1) Server -> Client : 494 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:45dc)]   (Sid:  1) Server -> Client : 158 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:45dc)] Sent 158 bytes to client @ 192.168.184.1:50468
+[Proxy Recording  (30a4:4b08)] Trying to connect to https://dev-boomq.pflb.ru:443/authorize ...
+[Proxy Recording  (30a4:4b08)] Trying to connect to https://dev-boomq.pflb.ru:443/authorize ...
+[Proxy Recording  (30a4:4b08)] Received response of 306 header and 655 body bytes from https://dev-boomq.pflb.ru:443/authorize
+[Web Request      (30a4:4b08)] "GET https://dev-boomq.pflb.ru/authorize"   
+[Network Analyzer (30a4:4b08)]   (Sid:  2) Client -> Server @ : 708 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:4b08)]   (Sid:  2) Server -> Client : 295 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:4b08)]   (Sid:  2) Server -> Client : 655 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:4b08)] Sent 655 bytes to client @ 192.168.184.1:50470
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50484
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50485
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50486
+[Proxy Recording  (30a4:5e1c)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (30a4:5e1c)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (30a4:5e1c)] Received response of 251 header and 820 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (30a4:5e1c)]   (Sid:  3) Client -> Server @ : 647 bytes (SSL)(Service=HTTP)
+[Web Request      (30a4:5e1c)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Network Analyzer (30a4:5e1c)]   (Sid:  3) Client -> Server @ : 1883 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:5e1c)]   (Sid:  3) Server -> Client : 268 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:5e1c)]   (Sid:  3) Server -> Client : 820 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:5e1c)] Sent 820 bytes to client @ 192.168.184.1:50473
+[Proxy Recording  (30a4: 9a8)] Trying to connect to https://edge.microsoft.com:443/identity/api/v3/msa ...
+[Proxy Recording  (30a4: 9a8)] Trying to connect to https://edge.microsoft.com:443/identity/api/v3/msa ...
+[Proxy Recording  (30a4: e00)] Trying to connect to https://config.edge.skype.com:443/config/v1/Edge/136.0.3240.76?clientId=664339649591579807&agents=EdgeRuntime%2CEdgeRuntimeConfig%2CEdgeDomainActions&osname=win&client=edge&channel=stable&scpfre=0&osarch=x86_64&osver=10.0.26100&wu=1&devicefamily=desktop&soobedate=1726177529&uma=0&sessionid=517&mngd=0&installdate=1726177648&edu=0&vm=0&bphint=2&fg=1&lbfgdate=1747829379&lafgdate=0 ...
+[Proxy Recording  (30a4: e00)] Trying to connect to https://config.edge.skype.com:443/config/v1/Edge/136.0.3240.76?clientId=664339649591579807&agents=EdgeRuntime%2CEdgeRuntimeConfig%2CEdgeDomainActions&osname=win&client=edge&channel=stable&scpfre=0&osarch=x86_64&osver=10.0.26100&wu=1&devicefamily=desktop&soobedate=1726177529&uma=0&sessionid=517&mngd=0&installdate=1726177648&edu=0&vm=0&bphint=2&fg=1&lbfgdate=1747829379&lafgdate=0 ...
+[Proxy Recording  (30a4: 9a8)] Received response of 316 header and 3049 body bytes from https://edge.microsoft.com:443/identity/api/v3/msa
+[Network Analyzer (30a4: 9a8)]   (Sid:  4) Client -> Server @ : 781 bytes (SSL)(Service=HTTP)
+[Web Request      (30a4: 9a8)] "POST https://edge.microsoft.com/identity/api/v3/msa"   
+[Network Analyzer (30a4: 9a8)]   (Sid:  4) Client -> Server @ : 1388 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4: 9a8)]   (Sid:  4) Server -> Client : 333 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4: 9a8)]   (Sid:  4) Server -> Client : 3049 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4: 9a8)] Sent 3049 bytes to client @ 192.168.184.1:50475
+[Proxy Recording  (30a4: e00)] Received response of 792 header and 0 body bytes from https://config.edge.skype.com:443/config/v1/Edge/136.0.3240.76?clientId=664339649591579807&agents=EdgeRuntime%2CEdgeRuntimeConfig%2CEdgeDomainActions&osname=win&client=edge&channel=stable&scpfre=0&osarch=x86_64&osver=10.0.26100&wu=1&devicefamily=desktop&soobedate=1726177529&uma=0&sessionid=517&mngd=0&installdate=1726177648&edu=0&vm=0&bphint=2&fg=1&lbfgdate=1747829379&lafgdate=0
+[Web Request      (30a4: e00)] "GET https://config.edge.skype.com/config/v1/Edge/136.0.3240.76?clientId=664339649591579807&agents=EdgeRuntime%2CEdgeRuntimeConfig%2CEdgeDomainActions&osname=win&client=edge&channel=stable&scpfre=0&osarch=x86_64&osver=10.0.26100&wu=1&devicefamily=desktop&soobedate=1726177529&uma=0&sessionid=517&mngd=0&installdate=1726177648&edu=0&vm=0&bphint=2&fg=1&lbfgdate=1747829379&lafgdate=0"   
+[Network Analyzer (30a4: e00)]   (Sid:  5) Client -> Server @ : 741 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4: e00)]   (Sid:  5) Server -> Client : 819 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4: e00)] Sent 0 bytes to client @ 192.168.184.1:50472
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50492
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50493
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50494
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50495
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50496
+[Proxy Recording.Error (30a4:42b4)] Exception is caught while trying to connect to https://dev-boomq.pflb.ru:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (30a4:65d8)] Exception is caught while trying to connect to https://dev-boomq.pflb.ru:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (30a4:42b4)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (30a4:65d8)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (30a4:45dc)] Exception is caught while trying to connect to https://www.bing.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (30a4:6478)] Exception is caught while trying to connect to https://www.bing.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (30a4:45dc)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (30a4:6478)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (30a4:4b08)] Trying to connect to https://dev-boomq.pflb.ru:443/static/js/main.cddf1824.js ...
+[Proxy Recording  (30a4:4b08)] Trying to connect to https://dev-boomq.pflb.ru:443/static/js/main.cddf1824.js ...
+[Proxy Recording  (30a4:42ac)] Trying to connect to https://dev-boomq.pflb.ru:443/static/css/main.64a4c65b.css ...
+[Proxy Recording  (30a4:42ac)] Trying to connect to https://dev-boomq.pflb.ru:443/static/css/main.64a4c65b.css ...
+[Proxy Recording  (30a4:42ac)] Received response of 292 header and 23017 body bytes from https://dev-boomq.pflb.ru:443/static/css/main.64a4c65b.css
+[Web Request      (30a4:42ac)] "GET https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css"   
+[Network Analyzer (30a4:42ac)]   (Sid:  6) Client -> Server @ : 585 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:42ac)]   (Sid:  6) Server -> Client : 281 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:42ac)]   (Sid:  6) Server -> Client : 23017 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:42ac)] Sent 23017 bytes to client @ 192.168.184.1:50493
+[Proxy Recording  (30a4:506c)] Trying to connect to https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo ...
+[Proxy Recording  (30a4:25c4)] Trying to connect to https://www.bing.com:443/bloomfilterfiles/ExpandedDomainsFilterGlobal.json ...
+[Proxy Recording  (30a4:25c4)] Trying to connect to https://www.bing.com:443/bloomfilterfiles/ExpandedDomainsFilterGlobal.json ...
+[Proxy Recording  (30a4:3c24)] Trying to connect to https://www.bing.com:443/fd/auth/signin/v2?action=header ...
+[Proxy Recording  (30a4:3c24)] Trying to connect to https://www.bing.com:443/fd/auth/signin/v2?action=header ...
+[Proxy Recording  (30a4:4b08)] Received response of 322 header and 889798 body bytes from https://dev-boomq.pflb.ru:443/static/js/main.cddf1824.js
+[Proxy Recording  (30a4:506c)] Trying to connect to https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo ...
+[Web Request      (30a4:4b08)] "GET https://dev-boomq.pflb.ru/static/js/main.cddf1824.js"   
+[Network Analyzer (30a4:4b08)]   (Sid:  7) Client -> Server @ : 569 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:4b08)]   (Sid:  7) Server -> Client : 311 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:4b08)]   (Sid:  7) Server -> Client : 889798 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:4b08)] Sent 889798 bytes to client @ 192.168.184.1:50494
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50505
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50506
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50509
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50510
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50511
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50512
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50513
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50519
+[Proxy Recording  (30a4:506c)] Received response of 1031 header and 134 body bytes from https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo
+[Proxy Recording  (30a4:5e1c)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg ...
+[Proxy Recording  (30a4:65d8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg ...
+[Proxy Recording  (30a4:5e1c)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg ...
+[Proxy Recording  (30a4:65d8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg ...
+[Network Analyzer (30a4:506c)]   (Sid:  8) Client -> Server @ : 638 bytes (SSL)(Service=HTTP)
+[Web Request      (30a4:506c)] "POST https://www.bing.com/api/shopping/v1/savings/rewards/rewardsUserInfo"   
+[Network Analyzer (30a4:506c)]   (Sid:  8) Client -> Server @ : 82 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:506c)]   (Sid:  8) Server -> Client : 1048 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:506c)]   (Sid:  8) Server -> Client : 134 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:4b08)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff ...
+[Proxy Recording  (30a4:42ac)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff ...
+[Proxy Recording  (30a4:506c)] Sent 134 bytes to client @ 192.168.184.1:50492
+[Proxy Recording  (30a4:4b08)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff ...
+[Proxy Recording  (30a4:42ac)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff ...
+[Proxy Recording  (30a4:5e1c)] Received response of 262 header and 1861 body bytes from https://dev-boomq.pflb.ru:443/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg
+[Proxy Recording  (30a4:65d8)] Received response of 263 header and 8365 body bytes from https://dev-boomq.pflb.ru:443/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg
+[Web Request      (30a4:5e1c)] "GET https://dev-boomq.pflb.ru/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg"   
+[Network Analyzer (30a4:5e1c)]   (Sid:  9) Client -> Server @ : 660 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:5e1c)]   (Sid:  9) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4: e00)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/8066415539964960608?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4: e00)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/8066415539964960608?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Network Analyzer (30a4:5e1c)]   (Sid:  9) Server -> Client : 1861 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:5e1c)] Sent 1861 bytes to client @ 192.168.184.1:50506
+[Proxy Recording  (30a4:6478)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff ...
+[Proxy Recording  (30a4:6478)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff ...
+[Web Request      (30a4:65d8)] "GET https://dev-boomq.pflb.ru/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg"   
+[Network Analyzer (30a4:65d8)]   (Sid: 10) Client -> Server @ : 657 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (30a4:42b4)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff ...
+[Proxy Recording  (30a4:42b4)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff ...
+[Network Analyzer (30a4:65d8)]   (Sid: 10) Server -> Client : 280 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:65d8)]   (Sid: 10) Server -> Client : 8365 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:65d8)] Sent 8365 bytes to client @ 192.168.184.1:50505
+[Proxy Recording  (30a4: e00)] Received response of 258 header and 365 body bytes from https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/8066415539964960608?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2
+[Web Request      (30a4: e00)] "GET https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/8066415539964960608?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"   
+[Network Analyzer (30a4: e00)]   (Sid: 11) Client -> Server @ : 468 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4: e00)]   (Sid: 11) Server -> Client : 275 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4: e00)]   (Sid: 11) Server -> Client : 365 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4: e00)] Sent 365 bytes to client @ 192.168.184.1:50513
+[Proxy Recording  (30a4:4b08)] Received response of 262 header and 138516 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff
+[Web Request      (30a4:4b08)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff"   
+[Network Analyzer (30a4:4b08)]   (Sid: 12) Client -> Server @ : 648 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:4b08)]   (Sid: 12) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:4b08)]   (Sid: 12) Server -> Client : 138516 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:4b08)] Sent 138516 bytes to client @ 192.168.184.1:50511
+[Proxy Recording  (30a4:3c24)] Received response of 3164 header and 0 body bytes from https://www.bing.com:443/fd/auth/signin/v2?action=header
+[Proxy Recording  (30a4:42ac)] Received response of 262 header and 138900 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff
+[Web Request      (30a4:3c24)] "GET https://www.bing.com/fd/auth/signin/v2?action=header"   
+[Network Analyzer (30a4:3c24)]   (Sid: 13) Client -> Server @ : 4825 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:3c24)]   (Sid: 13) Server -> Client : 3181 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:3c24)] Sent 0 bytes to client @ 192.168.184.1:50496
+[Web Request      (30a4:42ac)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff"   
+[Network Analyzer (30a4:42ac)]   (Sid: 14) Client -> Server @ : 646 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:42ac)]   (Sid: 14) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:42ac)]   (Sid: 14) Server -> Client : 138900 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:42ac)] Sent 138900 bytes to client @ 192.168.184.1:50510
+[Proxy Recording  (30a4:6478)] Received response of 262 header and 138600 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff
+[Web Request      (30a4:6478)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff"   
+[Network Analyzer (30a4:6478)]   (Sid: 15) Client -> Server @ : 649 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:6478)]   (Sid: 15) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:6478)]   (Sid: 15) Server -> Client : 138600 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:6478)] Sent 138600 bytes to client @ 192.168.184.1:50512
+[Proxy Recording  (30a4:42b4)] Received response of 262 header and 138232 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff
+[Web Request      (30a4:42b4)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff"   
+[Network Analyzer (30a4:42b4)]   (Sid: 16) Client -> Server @ : 650 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:42b4)]   (Sid: 16) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:42b4)]   (Sid: 16) Server -> Client : 138232 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:42b4)] Sent 138232 bytes to client @ 192.168.184.1:50509
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50520
+[Proxy Recording  (30a4:25c4)] Received response of 690 header and 670615 body bytes from https://www.bing.com:443/bloomfilterfiles/ExpandedDomainsFilterGlobal.json
+[Web Request      (30a4:25c4)] "GET https://www.bing.com/bloomfilterfiles/ExpandedDomainsFilterGlobal.json"   
+[Network Analyzer (30a4:25c4)]   (Sid: 17) Client -> Server @ : 433 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:25c4)]   (Sid: 17) Server -> Client : 707 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:25c4)]   (Sid: 17) Server -> Client : 670615 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:25c4)] Sent 670615 bytes to client @ 192.168.184.1:50495
+[Proxy Recording  (30a4:4b08)] Trying to connect to https://dev-boomq.pflb.ru:443/favicon.png ...
+[Proxy Recording  (30a4:4b08)] Trying to connect to https://dev-boomq.pflb.ru:443/favicon.png ...
+[Proxy Recording  (30a4:4b08)] Received response of 258 header and 1016 body bytes from https://dev-boomq.pflb.ru:443/favicon.png
+[Web Request      (30a4:4b08)] "GET https://dev-boomq.pflb.ru/favicon.png"   
+[Network Analyzer (30a4:4b08)]   (Sid: 18) Client -> Server @ : 614 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (30a4: 9a8)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (30a4: 9a8)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Network Analyzer (30a4:4b08)]   (Sid: 18) Server -> Client : 275 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:4b08)]   (Sid: 18) Server -> Client : 1016 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:4b08)] Sent 1016 bytes to client @ 192.168.184.1:50520
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50524
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50525
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50526
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50527
+[Proxy Recording  (30a4: 9a8)] Received response of 1334 header and 4158 body bytes from https://substrate.office.com:443/profileb2/v2.0/me/V1Profile
+[Web Request      (30a4: 9a8)] "GET https://substrate.office.com/profileb2/v2.0/me/V1Profile"   
+[Network Analyzer (30a4: 9a8)]   (Sid: 19) Client -> Server @ : 1948 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4: 9a8)]   (Sid: 19) Server -> Client : 1323 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4: 9a8)]   (Sid: 19) Server -> Client : 4158 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4: 9a8)] Sent 4158 bytes to client @ 192.168.184.1:50519
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50532
+[Proxy Recording  (30a4:5e1c)] Trying to connect to https://edge.microsoft.com:443/extensionwebstorebase/v1/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=edgecrx&prodchannel=&prodversion=136.0.3240.76&lang=en-US&acceptformat=crx3,puff&x=id%3Djmjflgjpcpepeafmmgdpfkogkghcpiha%26v%3D1.2.1%26installedby%3Dother%26uc ...
+[Proxy Recording  (30a4:5e1c)] Trying to connect to https://edge.microsoft.com:443/extensionwebstorebase/v1/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=edgecrx&prodchannel=&prodversion=136.0.3240.76&lang=en-US&acceptformat=crx3,puff&x=id%3Djmjflgjpcpepeafmmgdpfkogkghcpiha%26v%3D1.2.1%26installedby%3Dother%26uc ...
+[Proxy Recording  (30a4:25c4)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (30a4:25c4)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (30a4:5e1c)] Received response of 289 header and 413 body bytes from https://edge.microsoft.com:443/extensionwebstorebase/v1/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=edgecrx&prodchannel=&prodversion=136.0.3240.76&lang=en-US&acceptformat=crx3,puff&x=id%3Djmjflgjpcpepeafmmgdpfkogkghcpiha%26v%3D1.2.1%26installedby%3Dother%26uc
+[Web Request      (30a4:5e1c)] "GET https://edge.microsoft.com/extensionwebstorebase/v1/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=edgecrx&prodchannel=&prodversion=136.0.3240.76&lang=en-US&acceptformat=crx3,puff&x=id%3Djmjflgjpcpepeafmmgdpfkogkghcpiha%26v%3D1.2.1%26installedby%3Dother%26uc"   
+[Network Analyzer (30a4:5e1c)]   (Sid: 20) Client -> Server @ : 749 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:5e1c)]   (Sid: 20) Server -> Client : 306 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:5e1c)]   (Sid: 20) Server -> Client : 413 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:5e1c)] Sent 413 bytes to client @ 192.168.184.1:50526
+[Proxy Recording  (30a4: e00)] Trying to connect to https://www.bing.com:443/api/shopping/v1/user/shoppingsettings ...
+[Proxy Recording  (30a4:65d8)] Trying to connect to https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo ...
+[Proxy Recording  (30a4: e00)] Trying to connect to https://www.bing.com:443/api/shopping/v1/user/shoppingsettings ...
+[Proxy Recording  (30a4:65d8)] Trying to connect to https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo ...
+[Proxy Recording  (30a4:6478)] Trying to connect to https://www.bing.com:443/api/shopping/v1/user/shoppingsettings ...
+[Proxy Recording  (30a4:6478)] Trying to connect to https://www.bing.com:443/api/shopping/v1/user/shoppingsettings ...
+[Proxy Recording  (30a4: e00)] Received response of 793 header and 418 body bytes from https://www.bing.com:443/api/shopping/v1/user/shoppingsettings
+[Web Request      (30a4: e00)] "GET https://www.bing.com/api/shopping/v1/user/shoppingsettings"   
+[Network Analyzer (30a4: e00)]   (Sid: 21) Client -> Server @ : 1157 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50536
+[Network Analyzer (30a4: e00)]   (Sid: 21) Server -> Client : 810 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4: e00)]   (Sid: 21) Server -> Client : 418 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4: e00)] Sent 418 bytes to client @ 192.168.184.1:50527
+[Proxy Recording  (30a4:4b08)] Trying to connect to https://edge.microsoft.com:443/abusiveadblocking/api/v1/blocklist ...
+[Proxy Recording  (30a4:4b08)] Trying to connect to https://edge.microsoft.com:443/abusiveadblocking/api/v1/blocklist ...
+[Proxy Recording  (30a4:4b08)] Received response of 426 header and 0 body bytes from https://edge.microsoft.com:443/abusiveadblocking/api/v1/blocklist
+[Web Request      (30a4:4b08)] "GET https://edge.microsoft.com/abusiveadblocking/api/v1/blocklist"   
+[Network Analyzer (30a4:4b08)]   (Sid: 22) Client -> Server @ : 678 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:4b08)]   (Sid: 22) Server -> Client : 453 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:4b08)] Sent 0 bytes to client @ 192.168.184.1:50536
+[Proxy Recording  (30a4:65d8)] Received response of 1031 header and 134 body bytes from https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo
+[Network Analyzer (30a4:65d8)]   (Sid: 23) Client -> Server @ : 614 bytes (SSL)(Service=HTTP)
+[Web Request      (30a4:65d8)] "POST https://www.bing.com/api/shopping/v1/savings/rewards/rewardsUserInfo"   
+[Network Analyzer (30a4:65d8)]   (Sid: 23) Client -> Server @ : 82 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:65d8)]   (Sid: 23) Server -> Client : 1048 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:65d8)]   (Sid: 23) Server -> Client : 134 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:65d8)] Sent 134 bytes to client @ 192.168.184.1:50524
+[Proxy Recording  (30a4:6478)] Received response of 1006 header and 418 body bytes from https://www.bing.com:443/api/shopping/v1/user/shoppingsettings
+[Web Request      (30a4:6478)] "GET https://www.bing.com/api/shopping/v1/user/shoppingsettings"   
+[Network Analyzer (30a4:6478)]   (Sid: 24) Client -> Server @ : 397 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:6478)]   (Sid: 24) Server -> Client : 1023 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:6478)]   (Sid: 24) Server -> Client : 418 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:6478)] Sent 418 bytes to client @ 192.168.184.1:50525
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50541
+[Proxy Recording  (30a4:3c24)] Trying to connect to https://access-point.cloudmessaging.edge.microsoft.com:443/ ...
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50544
+[Proxy Recording  (30a4:42ac)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (30a4:42ac)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording.Error (30a4:42ac)] Failed to connect to server https://worldtimeapi.org:443/api/ip.
+Message=SendFailure, status=The underlying connection was closed: An unexpected error occurred on a send.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50548
+[Proxy Recording  (30a4:4b08)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/login ...
+[Proxy Recording  (30a4:4b08)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/login ...
+[Proxy Recording  (30a4:4b08)] Received response of 1890 header and 0 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/login
+[Network Analyzer (30a4:4b08)]   (Sid: 25) Client -> Server @ : 735 bytes (SSL)(Service=HTTP)
+[Web Request      (30a4:4b08)] "POST https://dev-boomq.pflb.ru/auth-srv/login"   
+[Network Analyzer (30a4:4b08)]   (Sid: 25) Client -> Server @ : 364 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:4b08)]   (Sid: 25) Server -> Client : 1905 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:4b08)] Sent 0 bytes to client @ 192.168.184.1:50548
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50551
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50552
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50553
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50557
+[Proxy Recording  (30a4: e00)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (30a4: e00)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (30a4:42ac)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg ...
+[Proxy Recording  (30a4:42ac)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg ...
+[Proxy Recording  (30a4:506c)] Trying to connect to https://dev-boomq.pflb.ru:443/config.json ...
+[Proxy Recording  (30a4:506c)] Trying to connect to https://dev-boomq.pflb.ru:443/config.json ...
+[Proxy Recording  (30a4: e00)] Received response of 515 header and 152 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/user
+[Proxy Recording  (30a4:42ac)] Received response of 262 header and 4045 body bytes from https://dev-boomq.pflb.ru:443/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg
+[Proxy Recording  (30a4:45dc)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  (30a4:45dc)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  (30a4:506c)] Received response of 298 header and 184 body bytes from https://dev-boomq.pflb.ru:443/config.json
+[Web Request      (30a4: e00)] "GET https://dev-boomq.pflb.ru/auth-srv/user"   
+[Network Analyzer (30a4: e00)]   (Sid: 26) Client -> Server @ : 2010 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4: e00)]   (Sid: 26) Server -> Client : 502 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4: e00)]   (Sid: 26) Server -> Client : 152 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4: e00)] Sent 152 bytes to client @ 192.168.184.1:50553
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50560
+[Proxy Recording  (30a4:45dc)] Received response of 478 header and 4680 body bytes from https://dev-boomq.pflb.ru:443/project-srv/modelSchema
+[Web Request      (30a4:42ac)] "GET https://dev-boomq.pflb.ru/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg"   
+[Network Analyzer (30a4:42ac)]   (Sid: 27) Client -> Server @ : 1386 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:42ac)]   (Sid: 27) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:42ac)]   (Sid: 27) Server -> Client : 4045 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:42ac)] Sent 4045 bytes to client @ 192.168.184.1:50557
+[Web Request      (30a4:506c)] "GET https://dev-boomq.pflb.ru/config.json"   
+[Network Analyzer (30a4:506c)]   (Sid: 28) Client -> Server @ : 2008 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:506c)]   (Sid: 28) Server -> Client : 287 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:506c)]   (Sid: 28) Server -> Client : 184 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:506c)] Sent 184 bytes to client @ 192.168.184.1:50551
+[Web Request      (30a4:45dc)] "GET https://dev-boomq.pflb.ru/project-srv/modelSchema"   
+[Proxy Recording  (30a4:65d8)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/identityProvider ...
+[Network Analyzer (30a4:45dc)]   (Sid: 29) Client -> Server @ : 2020 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (30a4:65d8)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/identityProvider ...
+[Network Analyzer (30a4:45dc)]   (Sid: 29) Server -> Client : 465 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:45dc)]   (Sid: 29) Server -> Client : 4680 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:45dc)] Sent 4680 bytes to client @ 192.168.184.1:50552
+[Proxy Recording  (30a4:65d8)] Received response of 515 header and 22 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/identityProvider
+[Web Request      (30a4:65d8)] "GET https://dev-boomq.pflb.ru/auth-srv/identityProvider"   
+[Network Analyzer (30a4:65d8)]   (Sid: 30) Client -> Server @ : 2022 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:65d8)]   (Sid: 30) Server -> Client : 502 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:65d8)]   (Sid: 30) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:65d8)] Sent 22 bytes to client @ 192.168.184.1:50560
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50562
+[Proxy Recording  (30a4:4b08)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team?size=2 ...
+[Proxy Recording  (30a4:4b08)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team?size=2 ...
+[Proxy Recording  (30a4:4b08)] Received response of 515 header and 359 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/team?size=2
+[Web Request      (30a4:4b08)] "GET https://dev-boomq.pflb.ru/auth-srv/team?size=2"   
+[Network Analyzer (30a4:4b08)]   (Sid: 31) Client -> Server @ : 2017 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:4b08)]   (Sid: 31) Server -> Client : 502 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:4b08)]   (Sid: 31) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:4b08)] Sent 359 bytes to client @ 192.168.184.1:50562
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50564
+[Proxy Recording  (30a4:42ac)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=25 ...
+[Proxy Recording  (30a4:42ac)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=25 ...
+[Proxy Recording  (30a4:42ac)] Received response of 2997 header and 253 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=25
+[Web Request      (30a4:42ac)] "GET https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=25"   
+[Network Analyzer (30a4:42ac)]   (Sid: 32) Client -> Server @ : 2038 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:42ac)]   (Sid: 32) Server -> Client : 2984 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:42ac)]   (Sid: 32) Server -> Client : 253 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:42ac)] Sent 253 bytes to client @ 192.168.184.1:50564
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50566
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50568
+[Proxy Recording  (30a4:45dc)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  (30a4:45dc)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  (30a4:45dc)] Received response of 410 header and 251 body bytes from https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc
+[Web Request      (30a4:45dc)] "GET https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc"   
+[Network Analyzer (30a4:45dc)]   (Sid: 33) Client -> Server @ : 2553 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:45dc)]   (Sid: 33) Server -> Client : 397 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:45dc)]   (Sid: 33) Server -> Client : 251 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:45dc)] Sent 251 bytes to client @ 192.168.184.1:50566
+[Proxy Recording  (30a4:65d8)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-4776165001487966812?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:65d8)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-4776165001487966812?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:65d8)] Received response of 257 header and 20 body bytes from https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-4776165001487966812?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2
+[Web Request      (30a4:65d8)] "GET https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/-4776165001487966812?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"   
+[Network Analyzer (30a4:65d8)]   (Sid: 34) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:65d8)]   (Sid: 34) Server -> Client : 274 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:65d8)]   (Sid: 34) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:65d8)] Sent 20 bytes to client @ 192.168.184.1:50568
+[Proxy Recording  (30a4:25c4)] Received response of 1333 header and 4158 body bytes from https://substrate.office.com:443/profileb2/v2.0/me/V1Profile
+[Web Request      (30a4:25c4)] "GET https://substrate.office.com/profileb2/v2.0/me/V1Profile"   
+[Network Analyzer (30a4:25c4)]   (Sid: 35) Client -> Server @ : 1924 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:25c4)]   (Sid: 35) Server -> Client : 1322 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:25c4)]   (Sid: 35) Server -> Client : 4158 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:25c4)] Sent 4158 bytes to client @ 192.168.184.1:50532
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50573
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50575
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50576
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50577
+[Proxy Recording  (30a4:4b08)] Trying to connect to https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D ...
+[Proxy Recording  (30a4:4b08)] Trying to connect to https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D ...
+[Proxy Recording  (30a4:6478)] Trying to connect to https://substrate.office.com:443/imageb2/v1.0/me/image/$value ...
+[Proxy Recording  (30a4: 9a8)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (30a4:6478)] Trying to connect to https://substrate.office.com:443/imageb2/v1.0/me/image/$value ...
+[Proxy Recording  (30a4: 9a8)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (30a4:506c)] Trying to connect to https://edge-consumer-static.azureedge.net:443/mouse-gesture/config.json ...
+[Proxy Recording  (30a4:506c)] Trying to connect to https://edge-consumer-static.azureedge.net:443/mouse-gesture/config.json ...
+[Proxy Recording  (30a4:506c)] Received response of 516 header and 101 body bytes from https://edge-consumer-static.azureedge.net:443/mouse-gesture/config.json
+[Web Request      (30a4:506c)] "GET https://edge-consumer-static.azureedge.net/mouse-gesture/config.json"   
+[Network Analyzer (30a4:506c)]   (Sid: 36) Client -> Server @ : 432 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:506c)]   (Sid: 36) Server -> Client : 533 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:506c)]   (Sid: 36) Server -> Client : 101 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:506c)] Sent 101 bytes to client @ 192.168.184.1:50573
+[Proxy Recording  (30a4:4b08)] Received response of 558 header and 1161 body bytes from https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D
+[Network Analyzer (30a4:4b08)]   (Sid: 37) Client -> Server @ : 2925 bytes (SSL)(Service=HTTP)
+[Web Request      (30a4:4b08)] "POST https://edge.microsoft.com/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D"   
+[Network Analyzer (30a4:4b08)]   (Sid: 37) Client -> Server @ : 362 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:4b08)]   (Sid: 37) Server -> Client : 547 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:4b08)]   (Sid: 37) Server -> Client : 1161 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:4b08)] Sent 1161 bytes to client @ 192.168.184.1:50577
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50591
+[Proxy Recording  (30a4: 9a8)] Received response of 1333 header and 4158 body bytes from https://substrate.office.com:443/profileb2/v2.0/me/V1Profile
+[Web Request      (30a4: 9a8)] "GET https://substrate.office.com/profileb2/v2.0/me/V1Profile"   
+[Network Analyzer (30a4: 9a8)]   (Sid: 38) Client -> Server @ : 1924 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4: 9a8)]   (Sid: 38) Server -> Client : 1322 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4: 9a8)]   (Sid: 38) Server -> Client : 4158 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4: 9a8)] Sent 4158 bytes to client @ 192.168.184.1:50575
+[Proxy Recording  (30a4:42b4)] Trying to connect to https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D ...
+[Proxy Recording  (30a4:42b4)] Trying to connect to https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D ...
+[Proxy Recording  (30a4:6478)] Received response of 1333 header and 181106 body bytes from https://substrate.office.com:443/imageb2/v1.0/me/image/$value
+[Web Request      (30a4:6478)] "GET https://substrate.office.com/imageb2/v1.0/me/image/$value"   
+[Network Analyzer (30a4:6478)]   (Sid: 39) Client -> Server @ : 1832 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:6478)]   (Sid: 39) Server -> Client : 1350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:6478)]   (Sid: 39) Server -> Client : 181106 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:6478)] Sent 181106 bytes to client @ 192.168.184.1:50576
+[Proxy Recording  (30a4:42b4)] Received response of 558 header and 104 body bytes from https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D
+[Network Analyzer (30a4:42b4)]   (Sid: 40) Client -> Server @ : 2926 bytes (SSL)(Service=HTTP)
+[Web Request      (30a4:42b4)] "POST https://edge.microsoft.com/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D"   
+[Network Analyzer (30a4:42b4)]   (Sid: 40) Client -> Server @ : 1138 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:42b4)]   (Sid: 40) Server -> Client : 547 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:42b4)]   (Sid: 40) Server -> Client : 104 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:42b4)] Sent 104 bytes to client @ 192.168.184.1:50591
+[User action                 ] StartTransactionEvent UC_03_TR_02_create_test [Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50605
+[Proxy Recording  (30a4:65d8)] Trying to connect to https://access-point.cloudmessaging.edge.microsoft.com:443/ ...
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50611
+[Proxy Recording  (30a4:506c)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-7290567040324457449?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:506c)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-7290567040324457449?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:506c)] Received response of 257 header and 20 body bytes from https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-7290567040324457449?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2
+[Web Request      (30a4:506c)] "GET https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/-7290567040324457449?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"   
+[Network Analyzer (30a4:506c)]   (Sid: 41) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:506c)]   (Sid: 41) Server -> Client : 274 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:506c)]   (Sid: 41) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:506c)] Sent 20 bytes to client @ 192.168.184.1:50611
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50617
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50618
+[Proxy Recording  (30a4:1fb0)] Trying to connect to https://edge.microsoft.com:443/componentupdater/api/v1/update?cup2key=7:ibvC8MLfSe_MtYZNUdKrNwOnhIl1vZO6avS91uWFoM8&cup2hreq=59e57d39739c2659f7c138d44617cc5a7a556d2aa2584a777f49906fa8948f3c ...
+[Proxy Recording  (30a4:1fb0)] Trying to connect to https://edge.microsoft.com:443/componentupdater/api/v1/update?cup2key=7:ibvC8MLfSe_MtYZNUdKrNwOnhIl1vZO6avS91uWFoM8&cup2hreq=59e57d39739c2659f7c138d44617cc5a7a556d2aa2584a777f49906fa8948f3c ...
+[Proxy Recording  (30a4:1fb0)] Received response of 908 header and 1751 body bytes from https://edge.microsoft.com:443/componentupdater/api/v1/update?cup2key=7:ibvC8MLfSe_MtYZNUdKrNwOnhIl1vZO6avS91uWFoM8&cup2hreq=59e57d39739c2659f7c138d44617cc5a7a556d2aa2584a777f49906fa8948f3c
+[Web Request      (30a4:1fb0)] "POST https://edge.microsoft.com/componentupdater/api/v1/update?cup2key=7:ibvC8MLfSe_MtYZNUdKrNwOnhIl1vZO6avS91uWFoM8&cup2hreq=59e57d39739c2659f7c138d44617cc5a7a556d2aa2584a777f49906fa8948f3c"
+[Network Analyzer (30a4:1fb0)]   (Sid: 42) Client -> Server @ : 1887 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:1fb0)]   (Sid: 42) Client -> Server @ : 14589 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:1fb0)]   (Sid: 42) Server -> Client : 925 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:1fb0)]   (Sid: 42) Server -> Client : 1751 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:1fb0)] Sent 1751 bytes to client @ 192.168.184.1:50618
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50623
+[Proxy Recording  (30a4:1778)] Trying to connect to https://edge.microsoft.com:443/componentupdater/api/v1/update ...
+[Proxy Recording  (30a4:1778)] Trying to connect to https://edge.microsoft.com:443/componentupdater/api/v1/update ...
+[Proxy Recording  (30a4:1778)] Received response of 459 header and 354 body bytes from https://edge.microsoft.com:443/componentupdater/api/v1/update
+[Network Analyzer (30a4:1778)]   (Sid: 43) Client -> Server @ : 637 bytes (SSL)(Service=HTTP)
+[Web Request      (30a4:1778)] "POST https://edge.microsoft.com/componentupdater/api/v1/update"   
+[Network Analyzer (30a4:1778)]   (Sid: 43) Client -> Server @ : 1108 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:1778)]   (Sid: 43) Server -> Client : 476 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:1778)]   (Sid: 43) Server -> Client : 354 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:1778)] Sent 354 bytes to client @ 192.168.184.1:50623
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50626
+[Proxy Recording  (30a4:65d8)] Trying to connect to https://edge.microsoft.com:443/componentupdater/api/v1/update ...
+[Proxy Recording  (30a4:65d8)] Trying to connect to https://edge.microsoft.com:443/componentupdater/api/v1/update ...
+[Proxy Recording  (30a4:65d8)] Received response of 459 header and 351 body bytes from https://edge.microsoft.com:443/componentupdater/api/v1/update
+[Network Analyzer (30a4:65d8)]   (Sid: 44) Client -> Server @ : 637 bytes (SSL)(Service=HTTP)
+[Web Request      (30a4:65d8)] "POST https://edge.microsoft.com/componentupdater/api/v1/update"   
+[Network Analyzer (30a4:65d8)]   (Sid: 44) Client -> Server @ : 1095 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:65d8)]   (Sid: 44) Server -> Client : 476 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:65d8)]   (Sid: 44) Server -> Client : 351 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:65d8)] Sent 351 bytes to client @ 192.168.184.1:50626
+[Proxy Recording  (30a4:506c)] Trying to connect to https://static.edge.microsoftapp.net:443/default/cloud_config_observers.json ...
+[Proxy Recording  (30a4:506c)] Trying to connect to https://static.edge.microsoftapp.net:443/default/cloud_config_observers.json ...
+[Proxy Recording  (30a4:506c)] Received response of 516 header and 0 body bytes from https://static.edge.microsoftapp.net:443/default/cloud_config_observers.json
+[Web Request      (30a4:506c)] "HEAD https://static.edge.microsoftapp.net/default/cloud_config_observers.json"   
+[Network Analyzer (30a4:506c)]   (Sid: 45) Client -> Server @ : 440 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:506c)]   (Sid: 45) Server -> Client : 533 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:506c)] Sent 0 bytes to client @ 192.168.184.1:50617
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50636
+[Proxy Recording  (30a4:1778)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/380532319250797170?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:1778)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/380532319250797170?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:1778)] Received response of 257 header and 20 body bytes from https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/380532319250797170?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2
+[Web Request      (30a4:1778)] "GET https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/380532319250797170?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"   
+[Network Analyzer (30a4:1778)]   (Sid: 46) Client -> Server @ : 467 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:1778)]   (Sid: 46) Server -> Client : 274 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:1778)]   (Sid: 46) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:1778)] Sent 20 bytes to client @ 192.168.184.1:50636
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50638
+[Proxy Recording  (30a4:506c)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/3706210257134335163?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:506c)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/3706210257134335163?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:506c)] Received response of 257 header and 20 body bytes from https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/3706210257134335163?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2
+[Web Request      (30a4:506c)] "GET https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/3706210257134335163?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"   
+[Network Analyzer (30a4:506c)]   (Sid: 47) Client -> Server @ : 468 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:506c)]   (Sid: 47) Server -> Client : 274 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:506c)]   (Sid: 47) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:506c)] Sent 20 bytes to client @ 192.168.184.1:50638
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:50644
+[Proxy Recording  (30a4:65d8)] Trying to connect to https://access-point.cloudmessaging.edge.microsoft.com:443/ ...
+[User action                 ] EndTransactionEvent UC_03_TR_02_create_test [Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33897
+[Proxy Recording  (30a4:506c)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33899
+[Proxy Recording  (30a4:506c)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33900
+[Proxy Recording  (30a4:4bfc)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:4390)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:4bfc)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:4390)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33902
+[Proxy Recording  (30a4:3920)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:3920)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:4390)] Received response of 125 header and 0 body bytes from http://www.msftconnecttest.com/connecttest.txt
+[Proxy Recording.Error (30a4:4bfc)] Failed to connect to server http://ipv6.msftconnecttest.com/connecttest.txt.
+Message=NameResolutionFailure, status=The remote name could not be resolved: 'ipv6.msftconnecttest.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording.Error (30a4:506c)] Failed to connect to server http://ipv6.msftconnecttest.com/connecttest.txt.
+Message=NameResolutionFailure, status=The remote name could not be resolved: 'ipv6.msftconnecttest.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording.Error (30a4:3920)] Failed to connect to server http://ipv6.msftconnecttest.com/connecttest.txt.
+Message=NameResolutionFailure, status=The remote name could not be resolved: 'ipv6.msftconnecttest.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33904
+[Proxy Recording  (30a4: 7b4)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4: 7b4)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording.Error (30a4: 7b4)] Failed to connect to server http://ipv6.msftconnecttest.com/connecttest.txt.
+Message=NameResolutionFailure, status=The remote name could not be resolved: 'ipv6.msftconnecttest.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (30a4:4390)] Sent 0 bytes to client @ 192.168.184.1:33900
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33906
+[Proxy Recording  (30a4:3920)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:3920)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:3920)] Received response of 125 header and 0 body bytes from http://www.msftconnecttest.com/connecttest.txt
+[Proxy Recording  (30a4:3920)] Sent 0 bytes to client @ 192.168.184.1:33906
+[User action                 ] StartTransactionEvent UC_03_TR_03_edit_test [Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33920
+[Proxy Recording  (30a4:4390)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-5094816008827707636?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:4390)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-5094816008827707636?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:4390)] Received response of 258 header and 20 body bytes from https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-5094816008827707636?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2
+[Web Request      (30a4:4390)] "GET https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/-5094816008827707636?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"   
+[Network Analyzer (30a4:4390)]   (Sid: 48) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:4390)]   (Sid: 48) Server -> Client : 275 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:4390)]   (Sid: 48) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:4390)] Sent 20 bytes to client @ 192.168.184.1:33920
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33923
+[Proxy Recording  (30a4:65d8)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33924
+[Proxy Recording  (30a4:65d8)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:506c)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:506c)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:65d8)] Received response of 125 header and 0 body bytes from http://www.msftconnecttest.com/connecttest.txt
+[Proxy Recording  (30a4:506c)] Received response of 125 header and 0 body bytes from http://www.msftconnecttest.com/connecttest.txt
+[Proxy Recording  (30a4:65d8)] Sent 0 bytes to client @ 192.168.184.1:33923
+[Proxy Recording  (30a4:506c)] Sent 0 bytes to client @ 192.168.184.1:33924
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33927
+[Proxy Recording  (30a4:4390)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:4390)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:4390)] Received response of 125 header and 0 body bytes from http://www.msftconnecttest.com/connecttest.txt
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33929
+[Proxy Recording  (30a4:65d8)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:65d8)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (30a4:4390)] Sent 0 bytes to client @ 192.168.184.1:33927
+[Proxy Recording  (30a4:65d8)] Received response of 125 header and 0 body bytes from http://www.msftconnecttest.com/connecttest.txt
+[Proxy Recording  (30a4:65d8)] Sent 0 bytes to client @ 192.168.184.1:33929
+[User action                 ] EndTransactionEvent UC_03_TR_03_edit_test [Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33941
+[Proxy Recording  (30a4:27ac)] Trying to connect to https://access-point.cloudmessaging.edge.microsoft.com:443/ ...
+[User action                 ] StartTransactionEvent UC_03_TR_04_edit_transaction [Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33951
+[Proxy Recording  (30a4:59d0)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-5589093177659688448?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:59d0)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-5589093177659688448?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:59d0)] Received response of 258 header and 20 body bytes from https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-5589093177659688448?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2
+[Web Request      (30a4:59d0)] "GET https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/-5589093177659688448?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"   
+[Network Analyzer (30a4:59d0)]   (Sid: 49) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:59d0)]   (Sid: 49) Server -> Client : 275 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:59d0)]   (Sid: 49) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:59d0)] Sent 20 bytes to client @ 192.168.184.1:33951
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33953
+[Proxy Recording  (30a4:610c)] Trying to connect to https://edge.microsoft.com:443/extensionrevocation/v1/threatListUpdates:fetch?req=ChcKBm1zZWRnZRINMTM2LjAuMzI0MC43NhobCAEQCBoNMTc0NzgwNjUwOTE3OCIEIAEgAigEIgIIAQ==&ct=application/x-protobuf&key=d414dd4f9db345fa8003e32adc81b362 ...
+[Proxy Recording  (30a4:610c)] Trying to connect to https://edge.microsoft.com:443/extensionrevocation/v1/threatListUpdates:fetch?req=ChcKBm1zZWRnZRINMTM2LjAuMzI0MC43NhobCAEQCBoNMTc0NzgwNjUwOTE3OCIEIAEgAigEIgIIAQ==&ct=application/x-protobuf&key=d414dd4f9db345fa8003e32adc81b362 ...
+[Proxy Recording  (30a4:610c)] Received response of 308 header and 49 body bytes from https://edge.microsoft.com:443/extensionrevocation/v1/threatListUpdates:fetch?req=ChcKBm1zZWRnZRINMTM2LjAuMzI0MC43NhobCAEQCBoNMTc0NzgwNjUwOTE3OCIEIAEgAigEIgIIAQ==&ct=application/x-protobuf&key=d414dd4f9db345fa8003e32adc81b362
+[Web Request      (30a4:610c)] "GET https://edge.microsoft.com/extensionrevocation/v1/threatListUpdates:fetch?req=ChcKBm1zZWRnZRINMTM2LjAuMzI0MC43NhobCAEQCBoNMTc0NzgwNjUwOTE3OCIEIAEgAigEIgIIAQ==&ct=application/x-protobuf&key=d414dd4f9db345fa8003e32adc81b362"   
+[Network Analyzer (30a4:610c)]   (Sid: 50) Client -> Server @ : 751 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:610c)]   (Sid: 50) Server -> Client : 297 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:610c)]   (Sid: 50) Server -> Client : 49 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:610c)] Sent 49 bytes to client @ 192.168.184.1:33953
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33955
+[Proxy Recording  (30a4:59d0)] Trying to connect to https://discord.com:443/api/v9/science ...
+[Proxy Recording  (30a4:59d0)] Trying to connect to https://discord.com:443/api/v9/science ...
+[Proxy Recording  (30a4:59d0)] Received response of 1141 header and 0 body bytes from https://discord.com:443/api/v9/science
+[Proxy Recording  (30a4:59d0)] Sent 0 bytes to client @ 192.168.184.1:33955
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33958
+[Proxy Recording  (30a4:610c)] Trying to connect to https://discord.com:443/api/v9/science ...
+[Proxy Recording  (30a4:610c)] Trying to connect to https://discord.com:443/api/v9/science ...
+[Proxy Recording  (30a4:610c)] Received response of 1153 header and 0 body bytes from https://discord.com:443/api/v9/science
+[Proxy Recording  (30a4:610c)] Sent 0 bytes to client @ 192.168.184.1:33958
+[User action                 ] EndTransactionEvent UC_03_TR_04_edit_transaction [Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33972
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:33974
+[Proxy Recording  (30a4:4ae0)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=136 ...
+[Proxy Recording  (30a4:4ae0)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=136 ...
+[Proxy Recording  (30a4:3b20)] Trying to connect to https://discord.com:443/api/v9/science ...
+[Proxy Recording  (30a4:3b20)] Trying to connect to https://discord.com:443/api/v9/science ...
+[Proxy Recording  (30a4:3b20)] Received response of 1145 header and 0 body bytes from https://discord.com:443/api/v9/science
+[Proxy Recording  (30a4:3b20)] Sent 0 bytes to client @ 192.168.184.1:33974
+[Proxy Recording  (30a4:4ae0)] Received response of 556 header and 0 body bytes from https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=136
+[Proxy Recording  (30a4:4ae0)] Sent 0 bytes to client @ 192.168.184.1:33972
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20005
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20006
+[Proxy Recording  (30a4:3b20)] Trying to connect to http://ipv6.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20008
+[Proxy Recording  (30a4:5018)] Trying to connect to http://ipv6.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:3b20)] Trying to connect to http://ipv6.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20009
+[Proxy Recording  (30a4:3fb4)] Trying to connect to http://ipv6.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:5018)] Trying to connect to http://ipv6.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:4ae0)] Trying to connect to http://www.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:3fb4)] Trying to connect to http://ipv6.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:4ae0)] Trying to connect to http://www.msftncsi.com/connecttest.txt ...
+[Proxy Recording.Error (30a4:3b20)] Failed to connect to server http://ipv6.msftncsi.com/connecttest.txt.
+Message=NameResolutionFailure, status=The remote name could not be resolved: 'ipv6.msftncsi.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording.Error (30a4:5018)] Failed to connect to server http://ipv6.msftncsi.com/connecttest.txt.
+Message=NameResolutionFailure, status=The remote name could not be resolved: 'ipv6.msftncsi.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording.Error (30a4:3fb4)] Failed to connect to server http://ipv6.msftncsi.com/connecttest.txt.
+Message=NameResolutionFailure, status=The remote name could not be resolved: 'ipv6.msftncsi.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (30a4:4ae0)] Received response of 125 header and 0 body bytes from http://www.msftncsi.com/connecttest.txt
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20012
+[Proxy Recording  (30a4:1920)] Trying to connect to http://ipv6.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:1920)] Trying to connect to http://ipv6.msftncsi.com/connecttest.txt ...
+[Proxy Recording.Error (30a4:1920)] Failed to connect to server http://ipv6.msftncsi.com/connecttest.txt.
+Message=NameResolutionFailure, status=The remote name could not be resolved: 'ipv6.msftncsi.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (30a4:4ae0)] Sent 0 bytes to client @ 192.168.184.1:20009
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20014
+[Proxy Recording  (30a4:3fb4)] Trying to connect to http://www.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:3fb4)] Trying to connect to http://www.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:3fb4)] Received response of 125 header and 0 body bytes from http://www.msftncsi.com/connecttest.txt
+[Proxy Recording  (30a4:3fb4)] Sent 0 bytes to client @ 192.168.184.1:20014
+[User action                 ] StartTransactionEvent UC_03_TR_05_save_changes [Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20017
+[Proxy Recording  (30a4:4ae0)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/5007960648141241409?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:4ae0)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/5007960648141241409?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:4ae0)] Received response of 258 header and 20 body bytes from https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/5007960648141241409?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2
+[Web Request      (30a4:4ae0)] "GET https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/5007960648141241409?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"   
+[Network Analyzer (30a4:4ae0)]   (Sid: 51) Client -> Server @ : 468 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:4ae0)]   (Sid: 51) Server -> Client : 275 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:4ae0)]   (Sid: 51) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:4ae0)] Sent 20 bytes to client @ 192.168.184.1:20017
+[User action                 ] EndTransactionEvent UC_03_TR_05_save_changes [Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20050
+[User action                 ] StartTransactionEvent UC_03_TR_07_load_profile [Proxy Recording  (30a4:5018)] Trying to connect to https://eastus-8.in.applicationinsights.azure.com:443/v2/track ...
+[Proxy Recording.Error (30a4:5018)] Exception is caught while connecting to https://eastus-8.in.applicationinsights.azure.com:443/v2/track, message=100-Continue may not be set using this property.
+Parameter name: value
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20052
+[Proxy Recording  (30a4:4ae0)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-9037826917080962554?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:4ae0)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-9037826917080962554?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:4ae0)] Received response of 258 header and 20 body bytes from https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/-9037826917080962554?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2
+[Web Request      (30a4:4ae0)] "GET https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/-9037826917080962554?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"   
+[Network Analyzer (30a4:4ae0)]   (Sid: 52) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:4ae0)]   (Sid: 52) Server -> Client : 275 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:4ae0)]   (Sid: 52) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:4ae0)] Sent 20 bytes to client @ 192.168.184.1:20052
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20057
+[Proxy Recording  (30a4:5018)] Trying to connect to https://eastus-8.in.applicationinsights.azure.com:443/v2/track ...
+[Proxy Recording.Error (30a4:5018)] Exception is caught while connecting to https://eastus-8.in.applicationinsights.azure.com:443/v2/track, message=100-Continue may not be set using this property.
+Parameter name: value
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20059
+[Proxy Recording  (30a4:4ae0)] Trying to connect to http://www.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20060
+[Proxy Recording  (30a4:4ae0)] Trying to connect to http://www.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:3b20)] Trying to connect to http://www.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:3b20)] Trying to connect to http://www.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:4ae0)] Received response of 125 header and 0 body bytes from http://www.msftncsi.com/connecttest.txt
+[Proxy Recording  (30a4:3b20)] Received response of 125 header and 0 body bytes from http://www.msftncsi.com/connecttest.txt
+[Proxy Recording  (30a4:4ae0)] Sent 0 bytes to client @ 192.168.184.1:20059
+[Proxy Recording  (30a4:3b20)] Sent 0 bytes to client @ 192.168.184.1:20060
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20064
+[Proxy Recording  (30a4:5018)] Trying to connect to http://www.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:5018)] Trying to connect to http://www.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:5018)] Received response of 125 header and 0 body bytes from http://www.msftncsi.com/connecttest.txt
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20067
+[Proxy Recording  (30a4:4ae0)] Trying to connect to http://www.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:4ae0)] Trying to connect to http://www.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (30a4:4ae0)] Received response of 125 header and 0 body bytes from http://www.msftncsi.com/connecttest.txt
+[Proxy Recording  (30a4:5018)] Sent 0 bytes to client @ 192.168.184.1:20064
+[Proxy Recording  (30a4:4ae0)] Sent 0 bytes to client @ 192.168.184.1:20067
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20071
+[Proxy Recording  (30a4:5018)] Trying to connect to https://eastus-8.in.applicationinsights.azure.com:443/v2/track ...
+[Proxy Recording.Error (30a4:5018)] Exception is caught while connecting to https://eastus-8.in.applicationinsights.azure.com:443/v2/track, message=100-Continue may not be set using this property.
+Parameter name: value
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20079
+[Proxy Recording  (30a4:4ae0)] Trying to connect to https://eastus-8.in.applicationinsights.azure.com:443/v2/track ...
+[Proxy Recording.Error (30a4:4ae0)] Exception is caught while connecting to https://eastus-8.in.applicationinsights.azure.com:443/v2/track, message=100-Continue may not be set using this property.
+Parameter name: value
+[User action                 ] EndTransactionEvent UC_03_TR_07_load_profile [Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20081
+[Proxy Recording  (30a4:5018)] Trying to connect to https://eastus-8.in.applicationinsights.azure.com:443/v2/track ...
+[Proxy Recording.Error (30a4:5018)] Exception is caught while connecting to https://eastus-8.in.applicationinsights.azure.com:443/v2/track, message=100-Continue may not be set using this property.
+Parameter name: value
+[User action                 ] StartTransactionEvent UC_03_TR_08_sla [Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20094
+[Proxy Recording  (30a4:2a48)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/6390942939443604410?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:2a48)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/6390942939443604410?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:2a48)] Received response of 258 header and 20 body bytes from https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/6390942939443604410?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2
+[Web Request      (30a4:2a48)] "GET https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/6390942939443604410?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"   
+[Network Analyzer (30a4:2a48)]   (Sid: 53) Client -> Server @ : 468 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:2a48)]   (Sid: 53) Server -> Client : 275 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:2a48)]   (Sid: 53) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:2a48)] Sent 20 bytes to client @ 192.168.184.1:20094
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20100
+[Proxy Recording  (30a4:2a48)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/6180558957378629304?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:2a48)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/6180558957378629304?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2 ...
+[Proxy Recording  (30a4:2a48)] Received response of 258 header and 20 body bytes from https://edge.microsoft.com:443/autofillservice/core/page/-5404104625039984836/6180558957378629304?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2
+[Web Request      (30a4:2a48)] "GET https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/6180558957378629304?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"   
+[Network Analyzer (30a4:2a48)]   (Sid: 54) Client -> Server @ : 468 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:2a48)]   (Sid: 54) Server -> Client : 275 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:2a48)]   (Sid: 54) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:2a48)] Sent 20 bytes to client @ 192.168.184.1:20100
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20107
+[Proxy Recording  (30a4:2a60)] Trying to connect to https://access-point.cloudmessaging.edge.microsoft.com:443/ ...
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20114
+[Proxy Recording  (30a4:56d0)] Trying to connect to https://eastus-8.in.applicationinsights.azure.com:443/v2/track ...
+[Proxy Recording.Error (30a4:56d0)] Exception is caught while connecting to https://eastus-8.in.applicationinsights.azure.com:443/v2/track, message=100-Continue may not be set using this property.
+Parameter name: value
+[User action                 ] EndTransactionEvent UC_03_TR_08_sla [User action                 ] StartTransactionEvent UC_03_TR_09_save_test [Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20119
+[Proxy Recording  (30a4:29b0)] Trying to connect to https://dev-boomq.pflb.ru:443/testplan-srv/testInfo?testMode=TEST ...
+[Proxy Recording  (30a4:29b0)] Trying to connect to https://dev-boomq.pflb.ru:443/testplan-srv/testInfo?testMode=TEST ...
+[Proxy Recording.Error (30a4:29b0)] Failed to connect to server https://dev-boomq.pflb.ru:443/testplan-srv/testInfo?testMode=TEST.
+Message=ProtocolError, status=The remote server returned an error: (500) Internal Server Error.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (30a4:29b0)] Received response of 320 header and 162 body bytes from https://dev-boomq.pflb.ru:443/testplan-srv/testInfo?testMode=TEST
+[Network Analyzer (30a4:29b0)]   (Sid: 55) Client -> Server @ : 2663 bytes (SSL)(Service=HTTP)
+[Web Request      (30a4:29b0)] "POST https://dev-boomq.pflb.ru/testplan-srv/testInfo?testMode=TEST"   
+[Network Analyzer (30a4:29b0)]   (Sid: 55) Client -> Server @ : 3703 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:29b0)]   (Sid: 55) Server -> Client : 307 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:29b0)]   (Sid: 55) Server -> Client : 162 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:29b0)] Sent 162 bytes to client @ 192.168.184.1:20119
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20122
+[Proxy Recording  (30a4:29b0)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project ...
+[Proxy Recording  (30a4:29b0)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project ...
+[Proxy Recording  (30a4:29b0)] Received response of 438 header and 525 body bytes from https://dev-boomq.pflb.ru:443/project-srv/project
+[Network Analyzer (30a4:29b0)]   (Sid: 56) Client -> Server @ : 2623 bytes (SSL)(Service=HTTP)
+[Web Request      (30a4:29b0)] "POST https://dev-boomq.pflb.ru/project-srv/project"   
+[Network Analyzer (30a4:29b0)]   (Sid: 56) Client -> Server @ : 3703 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:29b0)]   (Sid: 56) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:29b0)]   (Sid: 56) Server -> Client : 525 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:29b0)] Sent 525 bytes to client @ 192.168.184.1:20122
+[Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20124
+[Proxy Recording  (30a4:29b0)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/check.9725c0396328bae9471b624111fc14ca.svg ...
+[Proxy Recording  (30a4:29b0)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/check.9725c0396328bae9471b624111fc14ca.svg ...
+[Proxy Recording  (30a4:29b0)] Received response of 261 header and 877 body bytes from https://dev-boomq.pflb.ru:443/static/media/check.9725c0396328bae9471b624111fc14ca.svg
+[Web Request      (30a4:29b0)] "GET https://dev-boomq.pflb.ru/static/media/check.9725c0396328bae9471b624111fc14ca.svg"   
+[Network Analyzer (30a4:29b0)]   (Sid: 57) Client -> Server @ : 1389 bytes (SSL)(Service=HTTP)
+[Network Analyzer (30a4:29b0)]   (Sid: 57) Server -> Client : 278 bytes (SSL) (Service=HTTP)
+[Network Analyzer (30a4:29b0)]   (Sid: 57) Server -> Client : 877 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (30a4:29b0)] Sent 877 bytes to client @ 192.168.184.1:20124
+[User action                 ] EndTransactionEvent UC_03_TR_09_save_test [Proxy Recording  (30a4:3950)] Client request from @ 192.168.184.1:20126
+[Proxy Recording  (30a4:29b0)] Trying to connect to https://discord.com:443/api/v9/science ...
+[Proxy Recording  (30a4:29b0)] Trying to connect to https://discord.com:443/api/v9/science ...
+[Proxy Recording  (30a4:29b0)] Received response of 1149 header and 0 body bytes from https://discord.com:443/api/v9/science
+[Proxy Recording  (30a4:29b0)] Sent 0 bytes to client @ 192.168.184.1:20126

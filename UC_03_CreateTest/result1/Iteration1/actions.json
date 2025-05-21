@@ -1,0 +1,53 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: authorize",
+                "infFile": "t1.inf",
+                "time": 1747840505024
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login",
+                "infFile": "t2.inf",
+                "time": 1747840505353
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: user",
+                "infFile": "t4.inf",
+                "time": 1747840505505
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: team_context",
+                "infFile": "t5.inf",
+                "time": 1747840505632
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: create_test",
+                "infFile": "t6.inf",
+                "time": 1747840505958
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC_03_TR_01_sign_in",
+                "rawStartTime": 1747840505039,
+                "rawEndTime": 1747840505644,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0175931453704834
+            },
+            {
+                "transactionName": "UC_03_TR_02_create_test",
+                "rawStartTime": 1747840505675,
+                "rawEndTime": 1747840505972,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004515647888183594
+            }
+        ]
+    }
+]

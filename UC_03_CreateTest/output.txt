@@ -1,0 +1,67 @@
+Virtual User Script started at: May 21, 2025 6:15:02 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (џэт 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\vinny\Desktop\Project Scripts\UC_03_CreateTest\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(5): web_url("authorize") started  	[MsgId: MMSG-26355]
+Action.c(5): Found resource "https://dev-boomq.pflb.ru/static/js/main.cddf1824.js" in HTML "https://dev-boomq.pflb.ru/authorize"  	[MsgId: MMSG-26659]
+Action.c(5): Found resource "https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css" in HTML "https://dev-boomq.pflb.ru/authorize"  	[MsgId: MMSG-26659]
+Action.c(5): web_url("authorize") was successful, 913470 body bytes, 845 header bytes  	[MsgId: MMSG-26386]
+Action.c(15): Notify: Transaction "UC_03_TR_01_sign_in" started.
+Action.c(17): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(17): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(21): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(21): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(23): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(23): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(30): web_submit_data("login") started  	[MsgId: MMSG-26355]
+Action.c(30): web_submit_data("login") was successful, 0 body bytes, 1935 header bytes  	[MsgId: MMSG-26386]
+Action.c(44): ========= TOKEN =========: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjU4ODEsInVzZXJfbmFtZSI6Im5hZ3J1emthM19ncjAxQG1haWwuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwidXNlcl9sYW5ndWFnZSI6IkVOIiwiZXhwIjoxNzQ3ODgzNzI3LCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiNGJkMDhkNWUtMzMxYS00YjQ3LWJiYzYtMDI0ZTc4YjQ4M2FkIiwiY2xpZW50X2lkIjoiY2xpZW50In0.Rrkh5zHBfW7lbaxHQAGw97dzb1betIcsTDQvCtB4O5_k-rX3eXOTqzuco6OIdiTTNP6edpoLEji1MJFp5jCfBDyLhQElgIppGfxz2c0Pd1Nn9ZiIYeTjVCWHhe7Ui_qV9RYkIC3lhGq46RmdpIdt90hlvR8v2AMl6fZLyQ6MdCG2DZkD5P0v9-KJL2ua9ZhXsJnrrkWcGNVG2xtMmdTDPOaSToWOqqGuu3ANhljUZsscT44XWnFHIhWmqqF7G0r0szhA9_tAN7g36psD0-l1IYIk4uq4Pitdl1GCa5wziCtlNf1XAnv6r5Oygy47ogKHxqkBjqx2uAEIJya8xdazBg
+Action.c(46): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(46): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
+Action.c(46): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(48): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(48): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(50): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(50): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(56): web_url("user") started  	[MsgId: MMSG-26355]
+Action.c(56): web_url("user") was successful, 152 body bytes, 539 header bytes  	[MsgId: MMSG-26386]
+Action.c(66): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(66): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(73): web_url("team_context") started  	[MsgId: MMSG-26355]
+Action.c(73): web_url("team_context") was successful, 253 body bytes, 3021 header bytes  	[MsgId: MMSG-26386]
+Action.c(83): Notify: Transaction "UC_03_TR_01_sign_in" ended with a "Pass" status (Duration: 0.6046 Wasted Time: 0.0176).
+Action.c(87): Notify: Transaction "UC_03_TR_02_create_test" started.
+Action.c(89): web_add_header("Cookie") started  	[MsgId: MMSG-26355]
+Action.c(89): web_add_header("Cookie") was successful  	[MsgId: MMSG-26392]
+Action.c(91): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(91): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
+Action.c(91): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(93): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(93): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(119): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(119): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(121): Response body: {ResponseBody}
+Action.c(123): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(123): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(125): web_custom_request("create_test") started  	[MsgId: MMSG-26355]
+Action.c(125): Downloading resource "https://dev-boomq.pflb.ru/static/media/check.9725c0396328bae9471b624111fc14ca.svg" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(125): Warning -26376: Requested parameter "ResponseBody" found in 2 different pages/frames. Use "web_reg_save_param" with more restrictive LB/RB/RelFrameId  	[MsgId: MWAR-26376]
+Action.c(125): Warning -26373: Parameter "ResponseBody" saved from a resource (URL="https://dev-boomq.pflb.ru/static/media/check.9725c0396328bae9471b624111fc14ca.svg")  	[MsgId: MWAR-26373]
+Action.c(125): Registered web_reg_find successful for "Text=<svg" (count=1)  	[MsgId: MMSG-26364]
+Action.c(125): web_custom_request("create_test") highest severity level was "warning", 1397 body bytes, 691 header bytes  	[MsgId: MMSG-26388]
+Action.c(142): Notify: Transaction "UC_03_TR_02_create_test" ended with a "Pass" status (Duration: 0.2966 Wasted Time: 0.0045).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
