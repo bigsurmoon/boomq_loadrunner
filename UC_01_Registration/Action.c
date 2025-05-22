@@ -1,6 +1,5 @@
 Action()
-{
-	
+{	
 	lr_start_transaction("UC_01_TR_GLOBAL");
 	
 	web_set_sockets_option("SSL_VERSION", "AUTO");
