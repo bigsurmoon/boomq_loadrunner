@@ -1,4 +1,4 @@
-Virtual User Script started at: May 21, 2025 2:29:47 PM
+Virtual User Script started at: May 22, 2025 1:33:37 PM
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (џэт 05 2021 19:27:22)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -9,22 +9,23 @@ Running Vuser...
 Starting iteration 1.
 Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action Action.
-Action.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
-Action.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-Action.c(5): web_url("authorize") started  	[MsgId: MMSG-26355]
-Action.c(5): Found resource "https://dev-boomq.pflb.ru/static/js/main.cddf1824.js" in HTML "https://dev-boomq.pflb.ru/authorize"  	[MsgId: MMSG-26659]
-Action.c(5): Found resource "https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css" in HTML "https://dev-boomq.pflb.ru/authorize"  	[MsgId: MMSG-26659]
-Action.c(5): web_url("authorize") was successful, 913470 body bytes, 845 header bytes  	[MsgId: MMSG-26386]
-Action.c(15): Notify: Transaction "UC_02_TR_01_sign_in" started.
-Action.c(17): web_add_header("Origin") started  	[MsgId: MMSG-26355]
-Action.c(17): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(3): Notify: Transaction "UC_02_TR_GLOBAL" started.
+Action.c(5): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(5): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(7): web_url("authorize") started  	[MsgId: MMSG-26355]
+Action.c(7): Found resource "https://dev-boomq.pflb.ru/static/js/main.cddf1824.js" in HTML "https://dev-boomq.pflb.ru/authorize"  	[MsgId: MMSG-26659]
+Action.c(7): Found resource "https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css" in HTML "https://dev-boomq.pflb.ru/authorize"  	[MsgId: MMSG-26659]
+Action.c(7): web_url("authorize") was successful, 3626187 body bytes, 835 header bytes  	[MsgId: MMSG-26386]
+Action.c(17): Notify: Transaction "UC_02_TR_01_sign_in" started.
+Action.c(19): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(19): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
 Action.c(21): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
 Action.c(21): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
 Action.c(23): web_reg_save_param started  	[MsgId: MMSG-26355]
 Action.c(23): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 Action.c(30): web_submit_data("login") started  	[MsgId: MMSG-26355]
-Action.c(30): web_submit_data("login") was successful, 0 body bytes, 1935 header bytes  	[MsgId: MMSG-26386]
-Action.c(44): ========= TOKEN =========: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjU4ODEsInVzZXJfbmFtZSI6Im5hZ3J1emthM19ncjAxQG1haWwuY29tIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwidXNlcl9sYW5ndWFnZSI6IlJVIiwiZXhwIjoxNzQ3ODcwMjEwLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiODE5MGMyNzAtZTU2YS00ZWYwLTk4YjktOGJiNzkwNGI2NzVhIiwiY2xpZW50X2lkIjoiY2xpZW50In0.G_SJZnC0FCe4_uL6V6Fuy8HMnaxRCW2oBPQZ9CZ3TSYNaaMClOd0kqjAmlZRApMtL93G8BnAhEsj93KmS8PaJM1WFaVV7SBhtEcrEkJ5Rc0w4aJe0aiGqdFvuNagZ8y0BYI4WxLP1DqYatEkXsyBxV1B9vZcj3LjjKTDNlrlKtOOpKghY-OmHlQTFqbhTUTiGCI6bqhvLeb7snKk81rnCq4kZMgDdeApGxBIHJWP7v0YOu0JRY_n_ZzMj8uGEGfeYe3OfDEwWSxivO1i7zSeLOwYPYG3dfNe78ERA4xdC2uGekbN2OPGonKG5tG9TDI7acX0eeR2w40N2eMXDwiFKg
+Action.c(30): web_submit_data("login") was successful, 0 body bytes, 1929 header bytes  	[MsgId: MMSG-26386]
+Action.c(44): ========= TOKEN =========: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjIsInVzZXJfbmFtZSI6Im5hZ3J1emthM2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc0Nzk1MzIxOSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6IjU4OGMxOGU0LTJmMTgtNDBjNS04NzNhLWQwYzkxYmI4OWI2OSIsImNsaWVudF9pZCI6ImNsaWVudCJ9.aHoZBV8BJehwP4wtz_DITMPb_akcZ372foojRRXiEoDJ9THvqOGuFWXqGvSEUfzSJ5jOPmCZF9U7HFZctIMDCpXHMN6SGCeEfBr2YuUOJ30mAkrBBpEu2yhm0LRgDvNamzyOrpGWSyDM-VzUUukeFWvrEeshbVgY5hjq_UFf2K4dXDOC9PT2l1LkgfQ8VmJffRIF8kP-sNVJBRi6puE1aTuXF9L3XH3fc4W_Hs7l3T1HgbUNpctdbwOzYah-Zd-A_OFvcmzM-kqc9IBbL8bDtK1ao12roRgq7cNSscZSySJMzsw_4Mg7OM8INnkVIkPLrHHPvyuiyxaxfRm6PVA8zg
 Action.c(46): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
 Action.c(46): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(46): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
@@ -33,33 +34,34 @@ Action.c(48): web_add_cookie was successful  	[MsgId: MMSG-26392]
 Action.c(50): web_reg_save_param_json started  	[MsgId: MMSG-26355]
 Action.c(50): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
 Action.c(56): web_url("user") started  	[MsgId: MMSG-26355]
-Action.c(56): web_url("user") was successful, 152 body bytes, 539 header bytes  	[MsgId: MMSG-26386]
+Action.c(56): web_url("user") was successful, 162 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
 Action.c(66): web_reg_save_param started  	[MsgId: MMSG-26355]
 Action.c(66): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 Action.c(73): web_url("team_context") started  	[MsgId: MMSG-26355]
-Action.c(73): web_url("team_context") was successful, 253 body bytes, 3021 header bytes  	[MsgId: MMSG-26386]
-Action.c(83): Notify: Transaction "UC_02_TR_01_sign_in" ended with a "Pass" status (Duration: 0.4660 Wasted Time: 0.0178).
+Action.c(73): web_url("team_context") was successful, 312 body bytes, 2958 header bytes  	[MsgId: MMSG-26386]
+Action.c(83): Notify: Transaction "UC_02_TR_01_sign_in" ended with a "Pass" status (Duration: 0.4806 Wasted Time: 0.0197).
 Action.c(85): Notify: Transaction "UC_02_TR_02_click_on_reports" started.
 Action.c(87): web_add_header("Origin") started  	[MsgId: MMSG-26355]
 Action.c(87): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
-Action.c(92): web_add_header("Cookie") started  	[MsgId: MMSG-26355]
-Action.c(92): web_add_header("Cookie") was successful  	[MsgId: MMSG-26392]
-Action.c(94): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
-Action.c(94): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
-Action.c(94): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(96): web_custom_request("search") started  	[MsgId: MMSG-26355]
-Action.c(96): web_custom_request("search") was successful, 483 body bytes, 385 header bytes  	[MsgId: MMSG-26386]
-Action.c(109): Notify: Transaction "UC_02_TR_02_click_on_reports" ended with a "Pass" status (Duration: 0.1866 Wasted Time: 0.0037).
-Action.c(113): Notify: Transaction "UC_02_TR_03_add_report" started.
-Action.c(115): web_url("test") started  	[MsgId: MMSG-26355]
-Action.c(115): web_url("test") was successful, 4007 body bytes, 474 header bytes  	[MsgId: MMSG-26386]
-Action.c(125): Notify: Transaction "UC_02_TR_03_add_report" ended with a "Pass" status (Duration: 0.1397 Wasted Time: 0.0040).
-Action.c(129): Notify: Transaction "UC_02_TR_04_save_report" started.
-Action.c(131): web_add_header("Origin") started  	[MsgId: MMSG-26355]
-Action.c(131): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
-Action.c(136): web_custom_request("report") started  	[MsgId: MMSG-26355]
-Action.c(136): web_custom_request("report") was successful, 234 body bytes, 338 header bytes  	[MsgId: MMSG-26386]
-Action.c(149): Notify: Transaction "UC_02_TR_04_save_report" ended with a "Pass" status (Duration: 0.1569 Wasted Time: 0.0036).
+Action.c(90): web_add_header("Cookie") started  	[MsgId: MMSG-26355]
+Action.c(90): web_add_header("Cookie") was successful  	[MsgId: MMSG-26392]
+Action.c(92): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(92): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
+Action.c(92): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(94): web_custom_request("search") started  	[MsgId: MMSG-26355]
+Action.c(94): web_custom_request("search") was successful, 315 body bytes, 338 header bytes  	[MsgId: MMSG-26386]
+Action.c(107): Notify: Transaction "UC_02_TR_02_click_on_reports" ended with a "Pass" status (Duration: 0.6547 Wasted Time: 0.0044).
+Action.c(109): Notify: Transaction "UC_02_TR_03_add_report" started.
+Action.c(111): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(111): web_url("test") was successful, 317 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(121): Notify: Transaction "UC_02_TR_03_add_report" ended with a "Pass" status (Duration: 1.0276 Wasted Time: 0.0040).
+Action.c(123): Notify: Transaction "UC_02_TR_04_save_report" started.
+Action.c(125): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(125): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(128): web_custom_request("report") started  	[MsgId: MMSG-26355]
+Action.c(128): web_custom_request("report") was successful, 230 body bytes, 338 header bytes  	[MsgId: MMSG-26386]
+Action.c(141): Notify: Transaction "UC_02_TR_04_save_report" ended with a "Pass" status (Duration: 1.0264 Wasted Time: 0.0037).
+Action.c(143): Notify: Transaction "UC_02_TR_GLOBAL" ended with a "Pass" status (Duration: 7.9380 Wasted Time: 0.6615).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

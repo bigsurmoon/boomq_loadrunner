@@ -6,73 +6,80 @@
                 "stepId": "STEP1",
                 "stepName": "Url: authorize",
                 "infFile": "t1.inf",
-                "time": 1747826988744
+                "time": 1747910022621
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Submit Data: login",
                 "infFile": "t2.inf",
-                "time": 1747826989015
+                "time": 1747910022882
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Url: user",
                 "infFile": "t4.inf",
-                "time": 1747826989139
+                "time": 1747910023011
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Url: team_context",
                 "infFile": "t5.inf",
-                "time": 1747826989221
+                "time": 1747910023092
             },
             {
                 "stepId": "STEP5",
                 "stepName": "Custom Request: search",
                 "infFile": "t6.inf",
-                "time": 1747826989416
+                "time": 1747910023767
             },
             {
                 "stepId": "STEP6",
                 "stepName": "Url: test",
                 "infFile": "t7.inf",
-                "time": 1747826989579
+                "time": 1747910024813
             },
             {
                 "stepId": "STEP7",
                 "stepName": "Custom Request: report",
                 "infFile": "t8.inf",
-                "time": 1747826989775
+                "time": 1747910025857
             }
         ],
         "transactions": [
             {
                 "transactionName": "UC_02_TR_01_sign_in",
-                "rawStartTime": 1747826988757,
-                "rawEndTime": 1747826989223,
+                "rawStartTime": 1747910022625,
+                "rawEndTime": 1747910023106,
                 "thinkTime": 0.0,
-                "wastedTime": 0.017772197723388673
+                "wastedTime": 0.019672155380249025
             },
             {
                 "transactionName": "UC_02_TR_02_click_on_reports",
-                "rawStartTime": 1747826989238,
-                "rawEndTime": 1747826989425,
+                "rawStartTime": 1747910023121,
+                "rawEndTime": 1747910023776,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0036830902099609377
+                "wastedTime": 0.0044248104095458988
             },
             {
                 "transactionName": "UC_02_TR_03_add_report",
-                "rawStartTime": 1747826989456,
-                "rawEndTime": 1747826989596,
+                "rawStartTime": 1747910023791,
+                "rawEndTime": 1747910024819,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0039980411529541019
+                "wastedTime": 0.003985404968261719
             },
             {
                 "transactionName": "UC_02_TR_04_save_report",
-                "rawStartTime": 1747826989627,
-                "rawEndTime": 1747826989784,
+                "rawStartTime": 1747910024835,
+                "rawEndTime": 1747910025861,
                 "thinkTime": 0.0,
-                "wastedTime": 0.003630399703979492
+                "wastedTime": 0.0036847591400146486
+            },
+            {
+                "transactionName": "UC_02_TR_GLOBAL",
+                "rawStartTime": 1747910017938,
+                "rawEndTime": 1747910025876,
+                "thinkTime": 0.0,
+                "wastedTime": 0.6614842414855957
             }
         ]
     }

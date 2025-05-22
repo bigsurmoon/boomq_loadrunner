@@ -52,13 +52,14 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC_01_TR_01_sign_in__*delimiter*__UC_01_TR_02_click_on_group__*delimiter*__UC_01_TR_03_edit_group__*delimiter*__UC_01_TR_04_add_member__*delimiter*__UC_01_TR_05_invite_url__*delimiter*__UC_01_TR_06_change_password"
+Order="UC_01_GLOBAL_TRANSACTION__*delimiter*__UC_01_TR_01_sign_in__*delimiter*__UC_01_TR_02_click_on_group__*delimiter*__UC_01_TR_03_edit_group__*delimiter*__UC_01_TR_04_add_member__*delimiter*__UC_01_TR_05_invite_url__*delimiter*__UC_01_TR_06_change_password"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
+UC_01_GLOBAL_TRANSACTION=
 UC_01_TR_01_sign_in=
 UC_01_TR_02_click_on_group=
 UC_01_TR_03_edit_group=

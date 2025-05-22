@@ -1,6 +1,7 @@
 Action()
 {
-	char change_pass_url[1024];
+	
+	lr_start_transaction("UC_01_GLOBAL_TRANSACTION");
 	
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 	
@@ -17,8 +18,6 @@ Action()
 	lr_start_transaction("UC_01_TR_01_sign_in");
 
 	web_add_header("Origin", "https://dev-boomq.pflb.ru");
-
-	lr_think_time(5);
 
 	web_set_max_html_param_len("4096");
 	
@@ -73,7 +72,7 @@ Action()
         LAST);
 	
 	web_url("team_context", 
-		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=25", 
+		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=22", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
@@ -83,8 +82,6 @@ Action()
 		LAST);
 
 	lr_end_transaction("UC_01_TR_01_sign_in",LR_AUTO);
-	
-	lr_think_time(5);
 	
 	lr_start_transaction("UC_01_TR_02_click_on_group");
 	
@@ -100,16 +97,14 @@ Action()
 
 	lr_end_transaction("UC_01_TR_02_click_on_group",LR_AUTO);
 
-	lr_think_time(5);
-
 	lr_start_transaction("UC_01_TR_03_edit_group");
 
 	web_url("team_number", 
-		"URL=https://dev-boomq.pflb.ru/auth-srv/team/25", 
+		"URL=https://dev-boomq.pflb.ru/auth-srv/team/22", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer=https://dev-boomq.pflb.ru/account/teams/25", 
+		"Referer=https://dev-boomq.pflb.ru/account/teams/22", 
 		"Snapshot=t6.inf", 
 		"Mode=HTML", 
 		LAST);
@@ -120,8 +115,6 @@ Action()
 
 	lr_end_transaction("UC_01_TR_03_edit_group",LR_AUTO);
 	
-	lr_think_time(5);
-	
 	lr_start_transaction("UC_01_TR_04_add_member");
 	
 	web_reg_save_param_json(
@@ -131,12 +124,12 @@ Action()
 		LAST);
 	
 	web_custom_request("add_member", 
-    	"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=25", 
+    	"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=22", 
     	"Method=POST", 
     	"TargetFrame=", 
     	"Resource=0", 
     	"RecContentType=application/json", 
-    	"Referer=https://dev-boomq.pflb.ru/account/teams/25", 
+    	"Referer=https://dev-boomq.pflb.ru/account/teams/22", 
     	"Snapshot=t7.inf", 
     	"Mode=HTML", 
     	"EncType=application/json", 
@@ -151,13 +144,9 @@ Action()
 
 	lr_end_transaction("UC_01_TR_04_add_member",LR_AUTO);
 	
-	lr_think_time(5);
-	
 	lr_start_transaction("UC_01_TR_05_invite_url");
 	
-	sprintf(change_pass_url, "https://dev-boomq.pflb.ru%s", lr_eval_string("{inviteUrl}"));
-	
-    lr_save_string(change_pass_url, "change_pass_url");
+	lr_save_string(lr_eval_string("https://dev-boomq.pflb.ru{inviteUrl}"), "change_pass_url");
 
     web_reg_save_param("auth_token_cookie", 
     	"LB=set-cookie: boomq_auth=", 
@@ -178,8 +167,6 @@ Action()
     web_add_auto_header("Authorization", "Bearer {auth_token_cookie}");
 	
 	lr_end_transaction("UC_01_TR_05_invite_url", LR_AUTO);
-
-	lr_think_time(5);
 	
 	lr_start_transaction("UC_01_TR_06_change_password");
 	
@@ -198,6 +185,8 @@ Action()
 		LAST);
 
 	lr_end_transaction("UC_01_TR_06_change_password",LR_AUTO);
+	
+	lr_end_transaction("UC_01_GLOBAL_TRANSACTION",LR_AUTO);
 	
 	return 0;
 }

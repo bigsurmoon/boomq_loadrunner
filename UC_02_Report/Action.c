@@ -1,5 +1,7 @@
 Action()
 {
+	lr_start_transaction("UC_02_TR_GLOBAL");
+	
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
 	web_url("authorize", 
@@ -15,8 +17,6 @@ Action()
 	lr_start_transaction("UC_02_TR_01_sign_in");
 
 	web_add_header("Origin", "https://dev-boomq.pflb.ru");
-
-	lr_think_time(5);
 
 	web_set_max_html_param_len("4096");
 	
@@ -71,7 +71,7 @@ Action()
         LAST);
 	
 	web_url("team_context", 
-		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=25", 
+		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=22", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
@@ -86,8 +86,6 @@ Action()
 
 	web_add_header("Origin", 
 		"https://dev-boomq.pflb.ru");
-
-	lr_think_time(5);
 	
 	web_add_header("Cookie",  lr_eval_string("boomq_auth={auth_token_new}; boomq_auth={auth_token}"));
 	
@@ -108,8 +106,6 @@ Action()
 
 	lr_end_transaction("UC_02_TR_02_click_on_reports",LR_AUTO);
 
-	lr_think_time(5);
-
 	lr_start_transaction("UC_02_TR_03_add_report");
 
 	web_url("test", 
@@ -123,15 +119,11 @@ Action()
 		LAST);
 
 	lr_end_transaction("UC_02_TR_03_add_report",LR_AUTO);
-	
-	lr_think_time(5);
 
 	lr_start_transaction("UC_02_TR_04_save_report");
 
 	web_add_header("Origin", 
 		"https://dev-boomq.pflb.ru");
-
-	lr_think_time(5);
 	
 	web_custom_request("report", 
 		"URL=https://dev-boomq.pflb.ru/report-srv/report", 
@@ -147,6 +139,8 @@ Action()
 		LAST);
 
 	lr_end_transaction("UC_02_TR_04_save_report",LR_AUTO);
+	
+	lr_end_transaction("UC_02_TR_GLOBAL",LR_AUTO);
 
 	return 0;
 }

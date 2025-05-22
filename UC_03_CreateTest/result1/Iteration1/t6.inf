@@ -1,6 +1,6 @@
 [t6]
 FileName2=t6_2_check.UNK
-RawStepEndTime=1747840505944
+RawStepEndTime=1747915273439
 FileName4=t1_0_main.UNK
 RequestBodyFile=t6_RequestBody.txt
 RawStepName=create_test
@@ -13,7 +13,7 @@ URL4=https://dev-boomq.pflb.ru/static/js/main.cddf1824.js
 SnapshotXmlFile=snapshot_5.xml
 RequestHeaderFile=t6_RequestHeader.txt
 SaveSnapshotResources=1
-RawStepStartTime=1747840505785
+RawStepStartTime=1747915273332
 Total=4
 StepName=Custom Request: create_test
 FileName1=t6.json

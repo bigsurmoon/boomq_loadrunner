@@ -17,6 +17,12 @@
     <FileEntry Name="combined_UC_02_Report.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="90510496440.idx" Filter="1" />
+    <FileEntry Name="9051049644_5PN.843.idx" Filter="1" />
+    <FileEntry Name="9051049644_b8H.59.idx" Filter="1" />
+    <FileEntry Name="9051049644_Bg7.171.idx" Filter="1" />
+    <FileEntry Name="9051049644_grL.103.idx" Filter="1" />
+    <FileEntry Name="9051049644_MD4.585.idx" Filter="1" />
+    <FileEntry Name="9051049644_t6x.151.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -35,6 +41,7 @@
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="UC_02_Report.c.pickle" Filter="1" />
     <FileEntry Name="UC_02_Report.ci" Filter="1" />
+    <FileEntry Name="UC_02_Report.prm.bak" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />

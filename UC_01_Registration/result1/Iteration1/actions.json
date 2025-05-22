@@ -6,99 +6,106 @@
                 "stepId": "STEP1",
                 "stepName": "Url: authorize",
                 "infFile": "t1.inf",
-                "time": 1747821338128
+                "time": 1747917589572
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Submit Data: login",
                 "infFile": "t2.inf",
-                "time": 1747821338441
+                "time": 1747917589865
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Url: user",
                 "infFile": "t4.inf",
-                "time": 1747821338579
+                "time": 1747917590017
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Url: team_context",
                 "infFile": "t5.inf",
-                "time": 1747821338683
+                "time": 1747917590124
             },
             {
                 "stepId": "STEP5",
                 "stepName": "Url: teams",
                 "infFile": "t6.inf",
-                "time": 1747821338834
+                "time": 1747917590240
             },
             {
                 "stepId": "STEP6",
                 "stepName": "Url: team_number",
                 "infFile": "t7.inf",
-                "time": 1747821338967
+                "time": 1747917590364
             },
             {
                 "stepId": "STEP7",
                 "stepName": "Custom Request: add_member",
                 "infFile": "t9.inf",
-                "time": 1747821339400
+                "time": 1747917590732
             },
             {
                 "stepId": "STEP8",
                 "stepName": "Url: invite_url",
                 "infFile": "t10.inf",
-                "time": 1747821339744
+                "time": 1747917591021
             },
             {
                 "stepId": "STEP9",
                 "stepName": "Custom Request: change_password",
                 "infFile": "t11.inf",
-                "time": 1747821340061
+                "time": 1747917591310
             }
         ],
         "transactions": [
             {
                 "transactionName": "UC_01_TR_01_sign_in",
-                "rawStartTime": 1747821338134,
-                "rawEndTime": 1747821338694,
+                "rawStartTime": 1747917589586,
+                "rawEndTime": 1747917590128,
                 "thinkTime": 0.0,
-                "wastedTime": 0.017022371292114259
+                "wastedTime": 0.017311573028564454
             },
             {
                 "transactionName": "UC_01_TR_02_click_on_group",
-                "rawStartTime": 1747821338725,
-                "rawEndTime": 1747821338849,
+                "rawStartTime": 1747917590144,
+                "rawEndTime": 1747917590253,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0036215782165527345
+                "wastedTime": 0.004865407943725586
             },
             {
                 "transactionName": "UC_01_TR_03_edit_group",
-                "rawStartTime": 1747821338881,
-                "rawEndTime": 1747821339005,
+                "rawStartTime": 1747917590268,
+                "rawEndTime": 1747917590407,
                 "thinkTime": 0.0,
-                "wastedTime": 0.003109455108642578
+                "wastedTime": 0.004446983337402344
             },
             {
                 "transactionName": "UC_01_TR_04_add_member",
-                "rawStartTime": 1747821339038,
-                "rawEndTime": 1747821339459,
+                "rawStartTime": 1747917590423,
+                "rawEndTime": 1747917590782,
                 "thinkTime": 0.0,
-                "wastedTime": 0.006361246109008789
+                "wastedTime": 0.00588536262512207
             },
             {
                 "transactionName": "UC_01_TR_05_invite_url",
-                "rawStartTime": 1747821339490,
-                "rawEndTime": 1747821339773,
+                "rawStartTime": 1747917590798,
+                "rawEndTime": 1747917591047,
                 "thinkTime": 0.0,
-                "wastedTime": 0.004313230514526367
+                "wastedTime": 0.0044765472412109379
             },
             {
                 "transactionName": "UC_01_TR_06_change_password",
-                "rawStartTime": 1747821339804,
-                "rawEndTime": 1747821340072,
+                "rawStartTime": 1747917591063,
+                "rawEndTime": 1747917591328,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0036067962646484377
+                "wastedTime": 0.004351139068603516
+            },
+            {
+                "transactionName": "UC_01_GLOBAL_TRANSACTION",
+                "rawStartTime": 1747917576276,
+                "rawEndTime": 1747917591344,
+                "thinkTime": 0.0,
+                "wastedTime": 0.6318469047546387
             }
         ]
     }

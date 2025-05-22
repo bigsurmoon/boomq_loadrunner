@@ -1,9 +1,8 @@
 HTTP/2.0 200
 Status: 200
 server: nginx
-date: Wed, 21 May 2025 09:56:01 GMT
+date: Thu, 22 May 2025 12:39:47 GMT
 content-type: application/json
-vary: Accept-Encoding
 vary: Origin
 vary: Access-Control-Request-Method
 vary: Access-Control-Request-Headers
@@ -15,5 +14,4 @@ expires: 0
 strict-transport-security: max-age=31536000 ; includeSubDomains
 x-frame-options: DENY
 strict-transport-security: max-age=86400;
-content-encoding: gzip
 

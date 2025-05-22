@@ -17,6 +17,30 @@
     <FileEntry Name="combined_UC_03_CreateTest.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="116463299440.idx" Filter="1" />
+    <FileEntry Name="11646329944_11T.375.idx" Filter="1" />
+    <FileEntry Name="11646329944_2Q1.959.idx" Filter="1" />
+    <FileEntry Name="11646329944_76m.449.idx" Filter="1" />
+    <FileEntry Name="11646329944_7h9.455.idx" Filter="1" />
+    <FileEntry Name="11646329944_7l6.167.idx" Filter="1" />
+    <FileEntry Name="11646329944_8DS.757.idx" Filter="1" />
+    <FileEntry Name="11646329944_cch.953.idx" Filter="1" />
+    <FileEntry Name="11646329944_Ejz.589.idx" Filter="1" />
+    <FileEntry Name="11646329944_fDM.835.idx" Filter="1" />
+    <FileEntry Name="11646329944_ghL.759.idx" Filter="1" />
+    <FileEntry Name="11646329944_hPc.23.idx" Filter="1" />
+    <FileEntry Name="11646329944_jow.337.idx" Filter="1" />
+    <FileEntry Name="11646329944_oxj.587.idx" Filter="1" />
+    <FileEntry Name="11646329944_Pjc.805.idx" Filter="1" />
+    <FileEntry Name="11646329944_qWu.767.idx" Filter="1" />
+    <FileEntry Name="11646329944_Qx5.701.idx" Filter="1" />
+    <FileEntry Name="11646329944_uKu.165.idx" Filter="1" />
+    <FileEntry Name="11646329944_VCf.31.idx" Filter="1" />
+    <FileEntry Name="11646329944_Vf2.451.idx" Filter="1" />
+    <FileEntry Name="11646329944_Vmm.709.idx" Filter="1" />
+    <FileEntry Name="11646329944_wYU.813.idx" Filter="1" />
+    <FileEntry Name="11646329944_XT5.839.idx" Filter="1" />
+    <FileEntry Name="11646329944_YSU.705.idx" Filter="1" />
+    <FileEntry Name="11646329944_ZRW.393.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -36,6 +60,7 @@
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="UC_03_CreateTest.c.pickle" Filter="1" />
     <FileEntry Name="UC_03_CreateTest.ci" Filter="1" />
+    <FileEntry Name="UC_03_CreateTest.prm.bak" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
