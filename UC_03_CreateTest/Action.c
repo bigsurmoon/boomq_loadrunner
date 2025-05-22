@@ -21,11 +21,11 @@ Action()
 	web_set_max_html_param_len("4096");
 	
 	web_reg_save_param("auth_token",
-     	"LB=boomq_auth=",
-     	"RB=;",
-     	"Search=Headers",
-     	"Ordinal=1",
-    	LAST);
+		"LB=boomq_auth=",
+		"RB=;",
+		"Search=Headers",
+		"Ordinal=1",
+		LAST);
     
 	web_submit_data("login", 
 		"Action=https://dev-boomq.pflb.ru/auth-srv/login", 
@@ -54,7 +54,7 @@ Action()
 		"Scope=Body", 
 		LAST);
     
-    web_url("team", 
+	web_url("team", 
 		"URL=https://dev-boomq.pflb.ru/auth-srv/team?size=2", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -75,11 +75,11 @@ Action()
 		LAST);
 	
 	web_reg_save_param(
-        "auth_token_new",
-        "LB=set-cookie: boomq_auth=",
-        "RB=\r\n",
-        "Search=Headers",
-        LAST);
+		"auth_token_new",
+		"LB=set-cookie: boomq_auth=",
+		"RB=\r\n",
+		"Search=Headers",
+		LAST);
 	
 	web_url("team_context", 
 		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId={teamId}", 
@@ -93,7 +93,7 @@ Action()
 		
 	web_add_header("Cookie",  lr_eval_string("boomq_auth={auth_token_new}; boomq_auth={auth_token}"));
 	
-    web_add_auto_header("Authorization", lr_eval_string("Bearer {auth_token_new}"));
+	web_add_auto_header("Authorization", lr_eval_string("Bearer {auth_token_new}"));
 
 	lr_end_transaction("UC_03_TR_01_sign_in",LR_AUTO);
 
@@ -102,28 +102,28 @@ Action()
 	web_add_header("Origin", 
 		"https://dev-boomq.pflb.ru");
     
-    web_reg_save_param("ResponseBody", "LB=", "RB=", "Search=Body", LAST);
+	web_reg_save_param("ResponseBody", "LB=", "RB=", "Search=Body", LAST);
     
-    lr_output_message("Response body: %s", lr_eval_string("{ResponseBody}"));
+	lr_output_message("Response body: %s", lr_eval_string("{ResponseBody}"));
     
-    web_reg_find("Text=<svg", LAST);
+	web_reg_find("Text=<svg", LAST);
     
-    web_custom_request("create_test",
-    	"URL=https://dev-boomq.pflb.ru/project-srv/project",
-    	"Method=POST",
-    	"TargetFrame=",
-    	"Resource=0",
-    	"RecContentType=application/json",
-    	"Referer=https://dev-boomq.pflb.ru/account/new-test",
-    	"Snapshot=t6.inf",
-    	"Mode=HTML",
-    	"EncType=application/json",
-    	"Body={body}",
-    	EXTRARES, 
+	web_custom_request("create_test",
+		"URL=https://dev-boomq.pflb.ru/project-srv/project",
+		"Method=POST",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=https://dev-boomq.pflb.ru/account/new-test",
+		"Snapshot=t6.inf",
+		"Mode=HTML",
+		"EncType=application/json",
+		"Body={body}",
+		EXTRARES, 
 		"Url=../static/media/check.9725c0396328bae9471b624111fc14ca.svg", 
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
 		ENDITEM,
-    	LAST);
+		LAST);
 
 	lr_end_transaction("UC_03_TR_02_create_test",LR_AUTO);
 	

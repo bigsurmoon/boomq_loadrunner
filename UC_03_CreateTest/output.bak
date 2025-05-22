@@ -1,4 +1,4 @@
-Virtual User Script started at: May 22, 2025 6:05:56 PM
+Virtual User Script started at: May 22, 2025 6:06:50 PM
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (џэт 05 2021 19:27:22)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -25,7 +25,7 @@ Action.c(23): web_reg_save_param started  	[MsgId: MMSG-26355]
 Action.c(23): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 Action.c(30): web_submit_data("login") started  	[MsgId: MMSG-26355]
 Action.c(30): web_submit_data("login") was successful, 0 body bytes, 1929 header bytes  	[MsgId: MMSG-26386]
-Action.c(44): ========= TOKEN =========: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjIsInVzZXJfbmFtZSI6Im5hZ3J1emthM2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJFTiIsImV4cCI6MTc0Nzk2OTU2MCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6IjQzZmRhZjRkLWIyOGQtNDZmMy05OTRkLWQ5MjAwNWYyN2QwYiIsImNsaWVudF9pZCI6ImNsaWVudCJ9.zD3Nj82msh-RNUJgQ9OFmn8AMNhTn3D0tu4JX96LcFESrCA-bMyRlfk6TMhfgUgyyCNggHw_xxyuWsJ8kFE-WewTlESv7X1FR2cJSyh1MwjHcCnE3E8qVsssOXEA9NSS75oE5l7ryediAKi0tbxvfx4AImKAFRGUY8wNvYzuL1PzVqWLWvYiOA2dY_2MQvDJF-A_7wDHWIOxHDlVws5LxoG0GGV7ye9Oxj-1xjpVZ5vLqsG11OHsdX36aaMRRMflUof1gAlIu5WOOaxIstB1wkIGFqhejKj1cmA7LGlYmiJzbDJgealvokOD3XHruPQ0bj2hfGLB6mS1N7_zymTYZw
+Action.c(44): ========= TOKEN =========: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjIsInVzZXJfbmFtZSI6Im5hZ3J1emthM2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJFTiIsImV4cCI6MTc0Nzk2OTYxMiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImM1YzQ3ZmZlLWE5OWMtNDliZC1hZDIyLTAwYjNiNDc2OTUzZSIsImNsaWVudF9pZCI6ImNsaWVudCJ9.u5eveRhNyFHENH_mdlAEIOc27iEDIAE7dHmGW5YCc6yoAknf9kHMKte2geOl2TM9UrJGOoYl48_VO8ZTP1-iOaY-hIyMGfAr_cZXsmlq87ZiSshJ3RQkOn_o_x7BX_1mZamMOQdsTlCKt0m4bjCMzj6OlWp8aMbCxxBe5TbFVCd6W6CCe8tHGKIRbL331YlbYIBSotj8tyjk_LBV8pP-eFRzQkK3T2PPvs0j4GLg9dA52sazOqE_7kEJcjS4kKQdDPQjsp1Ag6QPxrAC5fAmp6PXzXWraIJ26YpVhJcBogBbPQgBaT7McdNHdUwSQqX5KfwluT_HhiIW2ot_GYc5vA
 Action.c(46): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
 Action.c(46): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(46): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
@@ -46,7 +46,7 @@ Action.c(94): web_add_header("Cookie") was successful  	[MsgId: MMSG-26392]
 Action.c(96): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
 Action.c(96): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(96): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(98): Notify: Transaction "UC_03_TR_01_sign_in" ended with a "Pass" status (Duration: 0.7031 Wasted Time: 0.0219).
+Action.c(98): Notify: Transaction "UC_03_TR_01_sign_in" ended with a "Pass" status (Duration: 0.5632 Wasted Time: 0.0222).
 Action.c(100): Notify: Transaction "UC_03_TR_02_create_test" started.
 Action.c(102): web_add_header("Origin") started  	[MsgId: MMSG-26355]
 Action.c(102): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
@@ -61,8 +61,8 @@ Action.c(111): Warning -26376: Requested parameter "ResponseBody" found in 2 dif
 Action.c(111): Warning -26373: Parameter "ResponseBody" saved from a resource (URL="https://dev-boomq.pflb.ru/static/media/check.9725c0396328bae9471b624111fc14ca.svg")  	[MsgId: MWAR-26373]
 Action.c(111): Registered web_reg_find successful for "Text=<svg" (count=1)  	[MsgId: MMSG-26364]
 Action.c(111): web_custom_request("create_test") highest severity level was "warning", 1397 body bytes, 691 header bytes  	[MsgId: MMSG-26388]
-Action.c(128): Notify: Transaction "UC_03_TR_02_create_test" ended with a "Pass" status (Duration: 0.2519 Wasted Time: 0.0054).
-Action.c(130): Notify: Transaction "UC_03_TR_GLOBAL" ended with a "Pass" status (Duration: 8.3954 Wasted Time: 0.6204).
+Action.c(128): Notify: Transaction "UC_03_TR_02_create_test" ended with a "Pass" status (Duration: 0.2029 Wasted Time: 0.0050).
+Action.c(130): Notify: Transaction "UC_03_TR_GLOBAL" ended with a "Pass" status (Duration: 5.7864 Wasted Time: 0.6332).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...
