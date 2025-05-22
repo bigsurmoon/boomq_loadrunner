@@ -1,18 +1,18 @@
 [t7]
 FileName2=t1_1_main.css
-RawStepEndTime=1747910024800
+RawStepEndTime=1747926832225
 RequestBodyFile=t7_RequestBody.txt
-RawStepName=test
+RawStepName=search
 ContentType=application/json
-URL1=https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&displayState=FINISHED
+URL1=https://dev-boomq.pflb.ru/report-srv/report/search
 URL2=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css
 URL3=https://dev-boomq.pflb.ru/static/js/main.cddf1824.js
 ResponseHeaderFile=t7_ResponseHeader.txt
 SnapshotXmlFile=snapshot_6.xml
 RequestHeaderFile=t7_RequestHeader.txt
 SaveSnapshotResources=1
-RawStepStartTime=1747910023807
+RawStepStartTime=1747926832102
 Total=3
-StepName=Url: test
+StepName=Custom Request: search
 FileName1=t7.json
 FileName3=t1_0_main.UNK

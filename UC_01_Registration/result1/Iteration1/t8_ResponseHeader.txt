@@ -1,0 +1,17 @@
+HTTP/2.0 200
+Status: 200
+server: nginx
+date: Thu, 22 May 2025 15:12:22 GMT
+content-type: application/json
+vary: Origin
+vary: Access-Control-Request-Method
+vary: Access-Control-Request-Headers
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+strict-transport-security: max-age=31536000 ; includeSubDomains
+x-frame-options: DENY
+strict-transport-security: max-age=86400;
+

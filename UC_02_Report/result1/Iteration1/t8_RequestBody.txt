@@ -1,6 +1,0 @@
-"{"labelSet":[],"name":"hadouken_751","testIdSet":[],"reportContent":{"charts":[],"reportMarkup"
-"":"[{\"id\":\"Sc91y_bCi2\",\"type\":\"paragraph\",\"data\":{\"text\":\"group_3_406\"}},{\"id\""
-":\"kBeLWSoZB4\",\"type\":\"list\",\"data\":{\"style\":\"unordered\",\"items\":[\"random_895\","
-"\"random_622\",\"random_985\"]}},{\"id\":\"YugbtKOd1c\",\"type\":\"table\",\"data\":{\"withHea"
-"dings\":false,\"content\":[[\"random_660\",\"random_589\",\"random_859\"],[\"random_182\",\"ra"
-"ndom_468\",\"random_218\"]]}}]","tables":[]}}"

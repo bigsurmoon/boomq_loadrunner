@@ -1,0 +1,17 @@
+GET https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=22 HTTP/1.1
+sec-ch-ua-platform: "Windows"
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjIsInVzZXJfbmFtZSI6Im5hZ3J1emthM2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJFTiIsImV4cCI6MTc0Nzk2MzU2NCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6IjA1NDQyOGU0LTdjNGQtNGQwMS1hNzk2LWQ0MGVkOTY1YjFmZSIsImNsaWVudF9pZCI6ImNsaWVudCJ9.dOR5JVamtfDXuBgcA7CM9QllfW2471X5sCB5Fc_d_sk6O4-0WrRsRsHj7tkuLJ8tnZWhkQ7Sbx4FalcS9RRza_iJUt7qFAY9S8feW0KAf2iU9XvT4Huagpa7TOobc9VlhkdRebE6WWj_WzWNZqvBWVDFTsRAVFxGTSDs07R0by-nzTquT11qOQLTZVbP9p0pi_UViQSpCQ0jkYxls1sq5XYSG-RKLFoooNMBXE8wnC_haSvw0BrDhN3x0Pnr6D8ejJb4gwjB-iwxGBijOPjJaNKcTnpDNkzAkOoLqmhdBFYMuDc-RRqWfqulWxW6XqOyZ1BjXaVD-Q0QztMx72T_1A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Accept: */*
+sec-ch-ua: "Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"
+DNT: 1
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://dev-boomq.pflb.ru/account/new-test
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru
+Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjIsInVzZXJfbmFtZSI6Im5hZ3J1emthM2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJFTiIsImV4cCI6MTc0Nzk2MzU2NCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6IjA1NDQyOGU0LTdjNGQtNGQwMS1hNzk2LWQ0MGVkOTY1YjFmZSIsImNsaWVudF9pZCI6ImNsaWVudCJ9.dOR5JVamtfDXuBgcA7CM9QllfW2471X5sCB5Fc_d_sk6O4-0WrRsRsHj7tkuLJ8tnZWhkQ7Sbx4FalcS9RRza_iJUt7qFAY9S8feW0KAf2iU9XvT4Huagpa7TOobc9VlhkdRebE6WWj_WzWNZqvBWVDFTsRAVFxGTSDs07R0by-nzTquT11qOQLTZVbP9p0pi_UViQSpCQ0jkYxls1sq5XYSG-RKLFoooNMBXE8wnC_haSvw0BrDhN3x0Pnr6D8ejJb4gwjB-iwxGBijOPjJaNKcTnpDNkzAkOoLqmhdBFYMuDc-RRqWfqulWxW6XqOyZ1BjXaVD-Q0QztMx72T_1A
+Host: dev-boomq.pflb.ru
+

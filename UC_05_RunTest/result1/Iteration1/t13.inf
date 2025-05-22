@@ -1,0 +1,20 @@
+[t13]
+FileName2=t13_2_v_3581.xml
+RawStepEndTime=1747927247157
+FileName4=t1_0_main.UNK
+RequestBodyFile=t13_RequestBody.txt
+RawStepName=downloadLink
+ContentType=application/json
+URL1=https://dev-boomq.pflb.ru/project-srv/project/2550/version/3588/downloadLink
+URL2=https://dev-boomq.pflb.ru/minio/boomq/boomq/teams/22/projects/2543/v_3581.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE/20250522/us-east-1/s3/aws4_request&X-Amz-Date=20250522T132651Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5cb5effba98a03efa8f7f340e3a175642173379a8e755e668f502c3a0b2656b1
+URL3=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css
+ResponseHeaderFile=t13_ResponseHeader.txt
+URL4=https://dev-boomq.pflb.ru/static/js/main.cddf1824.js
+SnapshotXmlFile=snapshot_10.xml
+RequestHeaderFile=t13_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1747927247080
+Total=4
+StepName=Url: downloadLink
+FileName1=t13.json
+FileName3=t1_1_main.css

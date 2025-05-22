@@ -1,0 +1,20 @@
+[t7]
+FileName2=t7_2_check.UNK
+RawStepEndTime=1747926416128
+FileName4=t1_0_main.UNK
+RequestBodyFile=t7_RequestBody.txt
+RawStepName=create_test
+ContentType=application/json
+URL1=https://dev-boomq.pflb.ru/project-srv/project
+URL2=https://dev-boomq.pflb.ru/static/media/check.9725c0396328bae9471b624111fc14ca.svg
+URL3=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css
+ResponseHeaderFile=t7_ResponseHeader.txt
+URL4=https://dev-boomq.pflb.ru/static/js/main.cddf1824.js
+SnapshotXmlFile=snapshot_6.xml
+RequestHeaderFile=t7_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1747926416034
+Total=4
+StepName=Custom Request: create_test
+FileName1=t7.json
+FileName3=t1_1_main.css

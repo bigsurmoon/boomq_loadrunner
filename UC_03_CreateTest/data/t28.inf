@@ -1,0 +1,11 @@
+[t28]
+FileName1=t28_team.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/team?size=2
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_28.xml
+RequestHeaderFile=t28_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t28_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

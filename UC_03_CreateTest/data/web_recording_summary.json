@@ -98,45 +98,19 @@
   "GeneralInfo": {
     "BrowserVersion": "",
     "IsWinInetMode": false,
-    "MaxUsedConnections": 22,
+    "MaxUsedConnections": 24,
     "RecordedBrowser": "Chrome",
     "RecordingDate": "May-21-2025",
-    "RecordingDuration": 436578,
+    "RecordingDuration": 59296,
     "RecordingMode": "N/A",
     "RecordingTimeStamp": 1747829277,
     "RecordingType": "Proxy",
-    "TotalBytesReceived": 1490470,
-    "TotalBytesSent": 37620,
-    "TotalRequests": 22,
+    "TotalBytesReceived": 4266871,
+    "TotalBytesSent": 37513,
+    "TotalRequests": 24,
     "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"
   },
   "HostInfo": [
-    {
-      "DomainName": "skype.com",
-      "Domains": [
-        {
-          "HTTPVersion": "HTTP/1.1",
-          "IP": "13.107.42.16",
-          "IncludeInScript": false,
-          "Name": "config.edge.skype.com",
-          "Port": 443,
-          "Requests": [
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 269,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "https://config.edge.skype.com/config/v1/Edge/136.0.3240.76?clientId=664339649591579807&agents=EdgeRuntime%2CEdgeRuntimeConfig%2CEdgeDomainActions&osname=win&client=edge&channel=stable&scpfre=0&osarch=x86_64&osver=10.0.26100&wu=1&devicefamily=desktop&soobedate=1726177529&uma=0&sessionid=517&mngd=0&installdate=1726177648&edu=0&vm=0&bphint=2&fg=1&lbfgdate=1747829379&lafgdate=0"
-            }
-          ],
-          "SSLCipher": "",
-          "SSLVersion": "TLS1.2"
-        }
-      ],
-      "IncludeInScript": true
-    },
     {
       "DomainName": "pflb.ru",
       "Domains": [
@@ -149,108 +123,126 @@
           "Requests": [
             {
               "CompressionType": "",
-              "DataType": "image/svg+xml",
-              "DownloadTime": 0,
-              "EventId": 524,
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 751,
               "HttpStatus": 200,
-              "Size": 877,
-              "URL": "https://dev-boomq.pflb.ru/static/media/check.9725c0396328bae9471b624111fc14ca.svg"
+              "Size": 1115,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=22&page=0&size=3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 741,
+              "HttpStatus": 200,
+              "Size": 276,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/team/22"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 736,
+              "HttpStatus": 200,
+              "Size": 590,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/team?page=0&size=5"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 731,
+              "HttpStatus": 200,
+              "Size": 276,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/team/22"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 721,
+              "HttpStatus": 200,
+              "Size": 162,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/user"
             },
             {
               "CompressionType": "",
               "DataType": "application/json",
               "DownloadTime": 15,
-              "EventId": 519,
-              "HttpStatus": 201,
-              "Size": 525,
-              "URL": "https://dev-boomq.pflb.ru/project-srv/project"
+              "EventId": 716,
+              "HttpStatus": 200,
+              "Size": 531,
+              "URL": "https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc"
             },
             {
               "CompressionType": "",
               "DataType": "application/json",
               "DownloadTime": 0,
-              "EventId": 514,
-              "HttpStatus": 500,
-              "Size": 162,
-              "URL": "https://dev-boomq.pflb.ru/testplan-srv/testInfo?testMode=TEST"
+              "EventId": 711,
+              "HttpStatus": 200,
+              "Size": 312,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=22"
             },
             {
-              "CompressionType": "gzip",
+              "CompressionType": "",
               "DataType": "application/json",
               "DownloadTime": 0,
-              "EventId": 405,
+              "EventId": 706,
               "HttpStatus": 200,
-              "Size": 251,
-              "URL": "https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc"
-            },
-            {
-              "CompressionType": "gzip",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 400,
-              "HttpStatus": 200,
-              "Size": 253,
-              "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=25"
-            },
-            {
-              "CompressionType": "gzip",
-              "DataType": "application/json",
-              "DownloadTime": 16,
-              "EventId": 395,
-              "HttpStatus": 200,
-              "Size": 359,
+              "Size": 590,
               "URL": "https://dev-boomq.pflb.ru/auth-srv/team?size=2"
             },
             {
-              "CompressionType": "gzip",
+              "CompressionType": "",
               "DataType": "application/json",
-              "DownloadTime": 31,
-              "EventId": 390,
+              "DownloadTime": 0,
+              "EventId": 701,
               "HttpStatus": 200,
-              "Size": 22,
+              "Size": 2,
               "URL": "https://dev-boomq.pflb.ru/auth-srv/identityProvider"
             },
             {
-              "CompressionType": "gzip",
+              "CompressionType": "",
               "DataType": "application/json",
               "DownloadTime": 0,
-              "EventId": 385,
+              "EventId": 696,
               "HttpStatus": 200,
-              "Size": 4680,
+              "Size": 66848,
               "URL": "https://dev-boomq.pflb.ru/project-srv/modelSchema"
-            },
-            {
-              "CompressionType": "gzip",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 380,
-              "HttpStatus": 200,
-              "Size": 184,
-              "URL": "https://dev-boomq.pflb.ru/config.json"
             },
             {
               "CompressionType": "",
               "DataType": "image/svg+xml",
               "DownloadTime": 0,
-              "EventId": 375,
+              "EventId": 691,
               "HttpStatus": 200,
               "Size": 4045,
               "URL": "https://dev-boomq.pflb.ru/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg"
             },
             {
-              "CompressionType": "gzip",
+              "CompressionType": "",
               "DataType": "application/json",
-              "DownloadTime": 16,
-              "EventId": 370,
+              "DownloadTime": 0,
+              "EventId": 686,
               "HttpStatus": 200,
-              "Size": 152,
+              "Size": 162,
               "URL": "https://dev-boomq.pflb.ru/auth-srv/user"
             },
             {
               "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 681,
+              "HttpStatus": 200,
+              "Size": 285,
+              "URL": "https://dev-boomq.pflb.ru/config.json"
+            },
+            {
+              "CompressionType": "",
               "DataType": "",
-              "DownloadTime": 16,
-              "EventId": 366,
+              "DownloadTime": 0,
+              "EventId": 677,
               "HttpStatus": 200,
               "Size": 0,
               "URL": "https://dev-boomq.pflb.ru/auth-srv/login"
@@ -259,7 +251,7 @@
               "CompressionType": "",
               "DataType": "image/png",
               "DownloadTime": 0,
-              "EventId": 332,
+              "EventId": 617,
               "HttpStatus": 200,
               "Size": 1016,
               "URL": "https://dev-boomq.pflb.ru/favicon.png"
@@ -268,7 +260,7 @@
               "CompressionType": "",
               "DataType": "font/woff",
               "DownloadTime": 16,
-              "EventId": 322,
+              "EventId": 603,
               "HttpStatus": 200,
               "Size": 138232,
               "URL": "https://dev-boomq.pflb.ru/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff"
@@ -276,8 +268,8 @@
             {
               "CompressionType": "",
               "DataType": "font/woff",
-              "DownloadTime": 0,
-              "EventId": 317,
+              "DownloadTime": 16,
+              "EventId": 598,
               "HttpStatus": 200,
               "Size": 138600,
               "URL": "https://dev-boomq.pflb.ru/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff"
@@ -286,7 +278,7 @@
               "CompressionType": "",
               "DataType": "font/woff",
               "DownloadTime": 0,
-              "EventId": 312,
+              "EventId": 593,
               "HttpStatus": 200,
               "Size": 138900,
               "URL": "https://dev-boomq.pflb.ru/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff"
@@ -295,7 +287,7 @@
               "CompressionType": "",
               "DataType": "font/woff",
               "DownloadTime": 0,
-              "EventId": 303,
+              "EventId": 588,
               "HttpStatus": 200,
               "Size": 138516,
               "URL": "https://dev-boomq.pflb.ru/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff"
@@ -303,8 +295,8 @@
             {
               "CompressionType": "",
               "DataType": "image/svg+xml",
-              "DownloadTime": 0,
-              "EventId": 293,
+              "DownloadTime": 16,
+              "EventId": 578,
               "HttpStatus": 200,
               "Size": 8365,
               "URL": "https://dev-boomq.pflb.ru/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg"
@@ -312,37 +304,37 @@
             {
               "CompressionType": "",
               "DataType": "image/svg+xml",
-              "DownloadTime": 16,
-              "EventId": 288,
+              "DownloadTime": 0,
+              "EventId": 573,
               "HttpStatus": 200,
               "Size": 1861,
               "URL": "https://dev-boomq.pflb.ru/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg"
             },
             {
-              "CompressionType": "gzip",
+              "CompressionType": "",
               "DataType": "application/javascript",
-              "DownloadTime": 0,
-              "EventId": 278,
+              "DownloadTime": 15,
+              "EventId": 568,
               "HttpStatus": 200,
-              "Size": 889798,
+              "Size": 3435354,
               "URL": "https://dev-boomq.pflb.ru/static/js/main.cddf1824.js"
             },
             {
-              "CompressionType": "gzip",
+              "CompressionType": "",
               "DataType": "text/css",
-              "DownloadTime": 16,
-              "EventId": 273,
+              "DownloadTime": 0,
+              "EventId": 549,
               "HttpStatus": 200,
-              "Size": 23017,
+              "Size": 189344,
               "URL": "https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css"
             },
             {
-              "CompressionType": "gzip",
+              "CompressionType": "",
               "DataType": "text/html",
               "DownloadTime": 0,
-              "EventId": 254,
+              "EventId": 529,
               "HttpStatus": 200,
-              "Size": 655,
+              "Size": 1489,
               "URL": "https://dev-boomq.pflb.ru/authorize"
             }
           ],
@@ -357,7 +349,7 @@
       "Domains": [
         {
           "HTTPVersion": "HTTP/1.1",
-          "IP": "40.99.204.50",
+          "IP": "40.99.204.34",
           "IncludeInScript": false,
           "Name": "substrate.office.com",
           "Port": 443,
@@ -365,8 +357,8 @@
             {
               "CompressionType": "",
               "DataType": "image/jpeg",
-              "DownloadTime": 0,
-              "EventId": 435,
+              "DownloadTime": 16,
+              "EventId": 672,
               "HttpStatus": 200,
               "Size": 181106,
               "URL": "https://substrate.office.com/imageb2/v1.0/me/image/$value"
@@ -375,16 +367,7 @@
               "CompressionType": "",
               "DataType": "application/json",
               "DownloadTime": 0,
-              "EventId": 430,
-              "HttpStatus": 200,
-              "Size": 4158,
-              "URL": "https://substrate.office.com/profileb2/v2.0/me/V1Profile"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 16,
-              "EventId": 415,
+              "EventId": 667,
               "HttpStatus": 200,
               "Size": 4158,
               "URL": "https://substrate.office.com/profileb2/v2.0/me/V1Profile"
@@ -393,36 +376,19 @@
               "CompressionType": "",
               "DataType": "application/json",
               "DownloadTime": 0,
-              "EventId": 337,
+              "EventId": 632,
               "HttpStatus": 200,
               "Size": 4158,
               "URL": "https://substrate.office.com/profileb2/v2.0/me/V1Profile"
-            }
-          ],
-          "SSLCipher": "",
-          "SSLVersion": "TLS1.2"
-        }
-      ],
-      "IncludeInScript": true
-    },
-    {
-      "DomainName": "microsoftapp.net",
-      "Domains": [
-        {
-          "HTTPVersion": "HTTP/1.1",
-          "IP": "94.131.119.22",
-          "IncludeInScript": false,
-          "Name": "static.edge.microsoftapp.net",
-          "Port": 443,
-          "Requests": [
+            },
             {
               "CompressionType": "",
               "DataType": "application/json",
-              "DownloadTime": 16,
-              "EventId": 465,
+              "DownloadTime": 0,
+              "EventId": 608,
               "HttpStatus": 200,
-              "Size": 0,
-              "URL": "https://static.edge.microsoftapp.net/default/cloud_config_observers.json"
+              "Size": 4158,
+              "URL": "https://substrate.office.com/profileb2/v2.0/me/V1Profile"
             }
           ],
           "SSLCipher": "",
@@ -436,7 +402,7 @@
       "Domains": [
         {
           "HTTPVersion": "HTTP/1.1",
-          "IP": "108.141.37.120",
+          "IP": "20.56.187.20",
           "IncludeInScript": false,
           "Name": "nav-edge.smartscreen.microsoft.com",
           "Port": 443,
@@ -445,10 +411,30 @@
               "CompressionType": "",
               "DataType": "application/json",
               "DownloadTime": 0,
-              "EventId": 259,
+              "EventId": 554,
               "HttpStatus": 200,
               "Size": 820,
               "URL": "https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "20.20.32.96",
+          "IncludeInScript": false,
+          "Name": "graph.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 657,
+              "HttpStatus": 200,
+              "Size": 475,
+              "URL": "https://graph.microsoft.com/beta/me/settings/regionalAndLanguageSettings"
             }
           ],
           "SSLCipher": "",
@@ -462,127 +448,46 @@
           "Port": 443,
           "Requests": [
             {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 16,
-              "EventId": 509,
-              "HttpStatus": 200,
-              "Size": 20,
-              "URL": "https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/6180558957378629304?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 504,
-              "HttpStatus": 200,
-              "Size": 20,
-              "URL": "https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/6390942939443604410?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 499,
-              "HttpStatus": 200,
-              "Size": 20,
-              "URL": "https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/-9037826917080962554?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 494,
-              "HttpStatus": 200,
-              "Size": 20,
-              "URL": "https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/5007960648141241409?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"
-            },
-            {
-              "CompressionType": "gzip",
-              "DataType": "application/x-protobuf",
-              "DownloadTime": 0,
-              "EventId": 489,
-              "HttpStatus": 200,
-              "Size": 49,
-              "URL": "https://edge.microsoft.com/extensionrevocation/v1/threatListUpdates:fetch?req=ChcKBm1zZWRnZRINMTM2LjAuMzI0MC43NhobCAEQCBoNMTc0NzgwNjUwOTE3OCIEIAEgAigEIgIIAQ==&ct=application/x-protobuf&key=d414dd4f9db345fa8003e32adc81b362"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 484,
-              "HttpStatus": 200,
-              "Size": 20,
-              "URL": "https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/-5589093177659688448?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 479,
-              "HttpStatus": 200,
-              "Size": 20,
-              "URL": "https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/-5094816008827707636?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 474,
-              "HttpStatus": 200,
-              "Size": 20,
-              "URL": "https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/3706210257134335163?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 469,
-              "HttpStatus": 200,
-              "Size": 20,
-              "URL": "https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/380532319250797170?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"
-            },
-            {
               "CompressionType": "gzip",
               "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 460,
+              "DownloadTime": 15,
+              "EventId": 761,
               "HttpStatus": 200,
-              "Size": 351,
+              "Size": 355,
               "URL": "https://edge.microsoft.com/componentupdater/api/v1/update"
             },
             {
-              "CompressionType": "gzip",
+              "CompressionType": "",
               "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 455,
+              "DownloadTime": 15,
+              "EventId": 756,
               "HttpStatus": 200,
-              "Size": 354,
-              "URL": "https://edge.microsoft.com/componentupdater/api/v1/update"
+              "Size": 175,
+              "URL": "https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/4848501405445292258?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"
             },
             {
               "CompressionType": "gzip",
               "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 450,
+              "DownloadTime": 15,
+              "EventId": 746,
               "HttpStatus": 200,
-              "Size": 1751,
-              "URL": "https://edge.microsoft.com/componentupdater/api/v1/update?cup2key=7:ibvC8MLfSe_MtYZNUdKrNwOnhIl1vZO6avS91uWFoM8&cup2hreq=59e57d39739c2659f7c138d44617cc5a7a556d2aa2584a777f49906fa8948f3c"
+              "Size": 2031,
+              "URL": "https://edge.microsoft.com/componentupdater/api/v1/update?cup2key=7:ibftflkwPKcnHQqgp8Nk6e-UiOd8MQBST3qMOGqdY3I&cup2hreq=5fbe7582fc5fadb99d69f58709e86d728cae39ab8494e24cac457366380edf28"
             },
             {
               "CompressionType": "",
               "DataType": "application/json",
               "DownloadTime": 0,
-              "EventId": 445,
+              "EventId": 726,
               "HttpStatus": 200,
               "Size": 20,
-              "URL": "https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/-7290567040324457449?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"
+              "URL": "https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/-4776165001487966812?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"
             },
             {
               "CompressionType": "gzip",
               "DataType": "application/octet-stream",
               "DownloadTime": 0,
-              "EventId": 440,
+              "EventId": 652,
               "HttpStatus": 200,
               "Size": 104,
               "URL": "https://edge.microsoft.com/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D"
@@ -591,43 +496,34 @@
               "CompressionType": "gzip",
               "DataType": "application/octet-stream",
               "DownloadTime": 0,
-              "EventId": 425,
+              "EventId": 647,
               "HttpStatus": 200,
-              "Size": 1161,
+              "Size": 1158,
               "URL": "https://edge.microsoft.com/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=KzXIPCCcL88k%2FSOMgo%2BPPQ%3D%3D"
             },
             {
               "CompressionType": "",
-              "DataType": "application/json",
+              "DataType": "text/xml",
               "DownloadTime": 16,
-              "EventId": 410,
+              "EventId": 627,
               "HttpStatus": 200,
-              "Size": 20,
-              "URL": "https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/-4776165001487966812?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"
+              "Size": 413,
+              "URL": "https://edge.microsoft.com/extensionwebstorebase/v1/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=edgecrx&prodchannel=&prodversion=136.0.3240.76&lang=en-US&acceptformat=crx3,puff&x=id%3Djmjflgjpcpepeafmmgdpfkogkghcpiha%26v%3D1.2.1%26installedby%3Dother%26uc"
             },
             {
               "CompressionType": "gzip",
               "DataType": "application/json",
-              "DownloadTime": 16,
-              "EventId": 352,
+              "DownloadTime": 0,
+              "EventId": 613,
               "HttpStatus": 304,
               "Size": 0,
               "URL": "https://edge.microsoft.com/abusiveadblocking/api/v1/blocklist"
             },
             {
               "CompressionType": "",
-              "DataType": "text/xml",
-              "DownloadTime": 0,
-              "EventId": 342,
-              "HttpStatus": 200,
-              "Size": 413,
-              "URL": "https://edge.microsoft.com/extensionwebstorebase/v1/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=edgecrx&prodchannel=&prodversion=136.0.3240.76&lang=en-US&acceptformat=crx3,puff&x=id%3Djmjflgjpcpepeafmmgdpfkogkghcpiha%26v%3D1.2.1%26installedby%3Dother%26uc"
-            },
-            {
-              "CompressionType": "",
               "DataType": "application/json",
               "DownloadTime": 0,
-              "EventId": 298,
+              "EventId": 583,
               "HttpStatus": 200,
               "Size": 365,
               "URL": "https://edge.microsoft.com/autofillservice/core/page/-5404104625039984836/8066415539964960608?GroupingThreshold=60&PasswordFieldThreshold=60&CIdAlgoVersion=2"
@@ -636,7 +532,7 @@
               "CompressionType": "",
               "DataType": "application/json",
               "DownloadTime": 0,
-              "EventId": 264,
+              "EventId": 539,
               "HttpStatus": 200,
               "Size": 3049,
               "URL": "https://edge.microsoft.com/identity/api/v3/msa"
@@ -645,7 +541,7 @@
               "CompressionType": "",
               "DataType": "application/json",
               "DownloadTime": 16,
-              "EventId": 249,
+              "EventId": 534,
               "HttpStatus": 200,
               "Size": 158,
               "URL": "https://edge.microsoft.com/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.26100&devicefamily=desktop&installdate=1726177648&clientversion=136.0.3240.76&experimentationmode=2&scpguard=0&scpfull=0&scpver=0"
@@ -670,26 +566,17 @@
             {
               "CompressionType": "gzip",
               "DataType": "application/json",
-              "DownloadTime": 16,
-              "EventId": 361,
+              "DownloadTime": 0,
+              "EventId": 642,
               "HttpStatus": 200,
               "Size": 418,
               "URL": "https://www.bing.com/api/shopping/v1/user/shoppingsettings"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 356,
-              "HttpStatus": 200,
-              "Size": 134,
-              "URL": "https://www.bing.com/api/shopping/v1/savings/rewards/rewardsUserInfo"
             },
             {
               "CompressionType": "gzip",
               "DataType": "application/json",
               "DownloadTime": 0,
-              "EventId": 347,
+              "EventId": 637,
               "HttpStatus": 200,
               "Size": 418,
               "URL": "https://www.bing.com/api/shopping/v1/user/shoppingsettings"
@@ -698,7 +585,16 @@
               "CompressionType": "",
               "DataType": "application/json",
               "DownloadTime": 0,
-              "EventId": 327,
+              "EventId": 622,
+              "HttpStatus": 200,
+              "Size": 134,
+              "URL": "https://www.bing.com/api/shopping/v1/savings/rewards/rewardsUserInfo"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 563,
               "HttpStatus": 200,
               "Size": 670615,
               "URL": "https://www.bing.com/bloomfilterfiles/ExpandedDomainsFilterGlobal.json"
@@ -706,8 +602,8 @@
             {
               "CompressionType": "gzip",
               "DataType": "",
-              "DownloadTime": 0,
-              "EventId": 308,
+              "DownloadTime": 16,
+              "EventId": 559,
               "HttpStatus": 200,
               "Size": 0,
               "URL": "https://www.bing.com/fd/auth/signin/v2?action=header"
@@ -715,8 +611,8 @@
             {
               "CompressionType": "",
               "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 283,
+              "DownloadTime": 15,
+              "EventId": 544,
               "HttpStatus": 200,
               "Size": 134,
               "URL": "https://www.bing.com/api/shopping/v1/savings/rewards/rewardsUserInfo"
@@ -733,7 +629,7 @@
       "Domains": [
         {
           "HTTPVersion": "HTTP/1.1",
-          "IP": "13.107.253.44",
+          "IP": "13.107.246.44",
           "IncludeInScript": false,
           "Name": "edge-consumer-static.azureedge.net",
           "Port": 443,
@@ -741,8 +637,8 @@
             {
               "CompressionType": "",
               "DataType": "application/json",
-              "DownloadTime": 16,
-              "EventId": 420,
+              "DownloadTime": 15,
+              "EventId": 662,
               "HttpStatus": 200,
               "Size": 101,
               "URL": "https://edge-consumer-static.azureedge.net/mouse-gesture/config.json"

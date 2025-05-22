@@ -1,2 +1,0 @@
-"[{"email":"test_935@hadouken.com","permissionList":["VIEW","EDIT","RUN"],"userDisplayName":"Te"
-"st_935"}]"

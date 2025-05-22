@@ -1,18 +1,18 @@
 [t6]
 FileName2=t1_1_main.css
-RawStepEndTime=1747917590227
+RawStepEndTime=1747926745383
 RequestBodyFile=t6_RequestBody.txt
-RawStepName=teams
+RawStepName=team_context
 ContentType=application/json
-URL1=https://dev-boomq.pflb.ru/auth-srv/team?page=0&size=5
+URL1=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=22
 URL2=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css
 URL3=https://dev-boomq.pflb.ru/static/js/main.cddf1824.js
 ResponseHeaderFile=t6_ResponseHeader.txt
 SnapshotXmlFile=snapshot_5.xml
 RequestHeaderFile=t6_RequestHeader.txt
 SaveSnapshotResources=1
-RawStepStartTime=1747917590159
+RawStepStartTime=1747926745287
 Total=3
-StepName=Url: teams
+StepName=Url: team_context
 FileName1=t6.json
 FileName3=t1_0_main.UNK

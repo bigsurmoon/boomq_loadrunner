@@ -1,0 +1,11 @@
+[t32]
+FileName1=t32_22.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/team/22
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_32.xml
+RequestHeaderFile=t32_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t32_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

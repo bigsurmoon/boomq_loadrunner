@@ -48,9 +48,20 @@ Action()
 	web_add_cookie("boomq_auth={auth_token}; DOMAIN=dev-boomq.pflb.ru");
 	
 	web_reg_save_param_json(
-		"ParamName=user_id",
-		"QueryString=$.id",
-		SEARCH_FILTERS,
+		"ParamName=teamId", 
+		"QueryString=$..id", 
+		SEARCH_FILTERS, 
+		"Scope=Body", 
+		LAST);
+    
+    web_url("team", 
+		"URL=https://dev-boomq.pflb.ru/auth-srv/team?size=2", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=application/json", 
+		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
+		"Snapshot=t3.inf", 
+		"Mode=HTML", 
 		LAST);
 
 	web_url("user", 
@@ -59,7 +70,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
-		"Snapshot=t3.inf", 
+		"Snapshot=t4.inf", 
 		"Mode=HTML", 
 		LAST);
 	
@@ -71,12 +82,12 @@ Action()
         LAST);
 	
 	web_url("team_context", 
-		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=22", 
+		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId={teamId}", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
-		"Snapshot=t4.inf", 
+		"Snapshot=t5.inf", 
 		"Mode=HTML", 
 		LAST);
 		
@@ -104,7 +115,7 @@ Action()
     	"Resource=0",
     	"RecContentType=application/json",
     	"Referer=https://dev-boomq.pflb.ru/account/new-test",
-    	"Snapshot=t5.inf",
+    	"Snapshot=t6.inf",
     	"Mode=HTML",
     	"EncType=application/json",
     	"Body={body}",

@@ -6,106 +6,112 @@
                 "stepId": "STEP1",
                 "stepName": "Url: authorize",
                 "infFile": "t1.inf",
-                "time": 1747917589572
+                "time": 1747926744697
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Submit Data: login",
                 "infFile": "t2.inf",
-                "time": 1747917589865
+                "time": 1747926745006
             },
             {
                 "stepId": "STEP3",
-                "stepName": "Url: user",
+                "stepName": "Url: team",
                 "infFile": "t4.inf",
-                "time": 1747917590017
+                "time": 1747926745175
             },
             {
                 "stepId": "STEP4",
-                "stepName": "Url: team_context",
+                "stepName": "Url: user",
                 "infFile": "t5.inf",
-                "time": 1747917590124
+                "time": 1747926745266
             },
             {
                 "stepId": "STEP5",
-                "stepName": "Url: teams",
+                "stepName": "Url: team_context",
                 "infFile": "t6.inf",
-                "time": 1747917590240
+                "time": 1747926745398
             },
             {
                 "stepId": "STEP6",
-                "stepName": "Url: team_number",
+                "stepName": "Url: teams",
                 "infFile": "t7.inf",
-                "time": 1747917590364
+                "time": 1747926745534
             },
             {
                 "stepId": "STEP7",
-                "stepName": "Custom Request: add_member",
-                "infFile": "t9.inf",
-                "time": 1747917590732
+                "stepName": "Url: team_number",
+                "infFile": "t8.inf",
+                "time": 1747926745644
             },
             {
                 "stepId": "STEP8",
-                "stepName": "Url: invite_url",
+                "stepName": "Custom Request: add_member",
                 "infFile": "t10.inf",
-                "time": 1747917591021
+                "time": 1747926746234
             },
             {
                 "stepId": "STEP9",
-                "stepName": "Custom Request: change_password",
+                "stepName": "Url: invite_url",
                 "infFile": "t11.inf",
-                "time": 1747917591310
+                "time": 1747926746669
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: change_password",
+                "infFile": "t12.inf",
+                "time": 1747926746989
             }
         ],
         "transactions": [
             {
                 "transactionName": "UC_01_TR_01_sign_in",
-                "rawStartTime": 1747917589586,
-                "rawEndTime": 1747917590128,
+                "rawStartTime": 1747926744709,
+                "rawEndTime": 1747926745411,
                 "thinkTime": 0.0,
-                "wastedTime": 0.017311573028564454
+                "wastedTime": 0.02126908302307129
             },
             {
                 "transactionName": "UC_01_TR_02_click_on_group",
-                "rawStartTime": 1747917590144,
-                "rawEndTime": 1747917590253,
+                "rawStartTime": 1747926745427,
+                "rawEndTime": 1747926745536,
                 "thinkTime": 0.0,
-                "wastedTime": 0.004865407943725586
+                "wastedTime": 0.003936290740966797
             },
             {
                 "transactionName": "UC_01_TR_03_edit_group",
-                "rawStartTime": 1747917590268,
-                "rawEndTime": 1747917590407,
+                "rawStartTime": 1747926745551,
+                "rawEndTime": 1747926745691,
                 "thinkTime": 0.0,
-                "wastedTime": 0.004446983337402344
+                "wastedTime": 0.0034673213958740236
             },
             {
                 "transactionName": "UC_01_TR_04_add_member",
-                "rawStartTime": 1747917590423,
-                "rawEndTime": 1747917590782,
+                "rawStartTime": 1747926745708,
+                "rawEndTime": 1747926746285,
                 "thinkTime": 0.0,
-                "wastedTime": 0.00588536262512207
+                "wastedTime": 0.005703449249267578
             },
             {
                 "transactionName": "UC_01_TR_05_invite_url",
-                "rawStartTime": 1747917590798,
-                "rawEndTime": 1747917591047,
+                "rawStartTime": 1747926746301,
+                "rawEndTime": 1747926746693,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0044765472412109379
+                "wastedTime": 0.003738880157470703
             },
             {
                 "transactionName": "UC_01_TR_06_change_password",
-                "rawStartTime": 1747917591063,
-                "rawEndTime": 1747917591328,
+                "rawStartTime": 1747926746710,
+                "rawEndTime": 1747926746993,
                 "thinkTime": 0.0,
-                "wastedTime": 0.004351139068603516
+                "wastedTime": 0.0041043758392333988
             },
             {
-                "transactionName": "UC_01_GLOBAL_TRANSACTION",
-                "rawStartTime": 1747917576276,
-                "rawEndTime": 1747917591344,
+                "transactionName": "UC_01_TR_GLOBAL",
+                "rawStartTime": 1747926737486,
+                "rawEndTime": 1747926747009,
                 "thinkTime": 0.0,
-                "wastedTime": 0.6318469047546387
+                "wastedTime": 0.6667144298553467
             }
         ]
     }

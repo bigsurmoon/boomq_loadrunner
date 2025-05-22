@@ -1,0 +1,18 @@
+[t4]
+FileName2=t1_1_main.css
+RawStepEndTime=1747927246516
+RequestBodyFile=t4_RequestBody.txt
+RawStepName=team
+ContentType=application/json
+URL1=https://dev-boomq.pflb.ru/auth-srv/team?size=2
+URL2=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css
+URL3=https://dev-boomq.pflb.ru/static/js/main.cddf1824.js
+ResponseHeaderFile=t4_ResponseHeader.txt
+SnapshotXmlFile=snapshot_3.xml
+RequestHeaderFile=t4_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1747927246460
+Total=3
+StepName=Url: team
+FileName1=t4.json
+FileName3=t1_0_main.UNK

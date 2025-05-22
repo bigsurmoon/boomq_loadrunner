@@ -1,11 +1,8 @@
 HTTP/2.0 200
 Status: 200
 server: nginx
-date: Thu, 22 May 2025 10:33:41 GMT
+date: Thu, 22 May 2025 15:13:48 GMT
 content-type: application/json
-vary: Origin
-vary: Access-Control-Request-Method
-vary: Access-Control-Request-Headers
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 cache-control: no-cache, no-store, max-age=0, must-revalidate

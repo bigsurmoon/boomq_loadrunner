@@ -6,80 +6,86 @@
                 "stepId": "STEP1",
                 "stepName": "Url: authorize",
                 "infFile": "t1.inf",
-                "time": 1747910022621
+                "time": 1747926831348
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Submit Data: login",
                 "infFile": "t2.inf",
-                "time": 1747910022882
+                "time": 1747926831637
             },
             {
                 "stepId": "STEP3",
-                "stepName": "Url: user",
+                "stepName": "Url: team",
                 "infFile": "t4.inf",
-                "time": 1747910023011
+                "time": 1747926831803
             },
             {
                 "stepId": "STEP4",
-                "stepName": "Url: team_context",
+                "stepName": "Url: user",
                 "infFile": "t5.inf",
-                "time": 1747910023092
+                "time": 1747926831887
             },
             {
                 "stepId": "STEP5",
-                "stepName": "Custom Request: search",
+                "stepName": "Url: team_context",
                 "infFile": "t6.inf",
-                "time": 1747910023767
+                "time": 1747926832005
             },
             {
                 "stepId": "STEP6",
-                "stepName": "Url: test",
+                "stepName": "Custom Request: search",
                 "infFile": "t7.inf",
-                "time": 1747910024813
+                "time": 1747926832239
             },
             {
                 "stepId": "STEP7",
-                "stepName": "Custom Request: report",
+                "stepName": "Url: test",
                 "infFile": "t8.inf",
-                "time": 1747910025857
+                "time": 1747926832476
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: report",
+                "infFile": "t9.inf",
+                "time": 1747926832694
             }
         ],
         "transactions": [
             {
                 "transactionName": "UC_02_TR_01_sign_in",
-                "rawStartTime": 1747910022625,
-                "rawEndTime": 1747910023106,
+                "rawStartTime": 1747926831362,
+                "rawEndTime": 1747926832024,
                 "thinkTime": 0.0,
-                "wastedTime": 0.019672155380249025
+                "wastedTime": 0.02253890037536621
             },
             {
                 "transactionName": "UC_02_TR_02_click_on_reports",
-                "rawStartTime": 1747910023121,
-                "rawEndTime": 1747910023776,
+                "rawStartTime": 1747926832039,
+                "rawEndTime": 1747926832242,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0044248104095458988
+                "wastedTime": 0.0041964054107666019
             },
             {
                 "transactionName": "UC_02_TR_03_add_report",
-                "rawStartTime": 1747910023791,
-                "rawEndTime": 1747910024819,
+                "rawStartTime": 1747926832258,
+                "rawEndTime": 1747926832479,
                 "thinkTime": 0.0,
-                "wastedTime": 0.003985404968261719
+                "wastedTime": 0.004910469055175781
             },
             {
                 "transactionName": "UC_02_TR_04_save_report",
-                "rawStartTime": 1747910024835,
-                "rawEndTime": 1747910025861,
+                "rawStartTime": 1747926832495,
+                "rawEndTime": 1747926832697,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0036847591400146486
+                "wastedTime": 0.0038330554962158205
             },
             {
                 "transactionName": "UC_02_TR_GLOBAL",
-                "rawStartTime": 1747910017938,
-                "rawEndTime": 1747910025876,
+                "rawStartTime": 1747926824310,
+                "rawEndTime": 1747926832714,
                 "thinkTime": 0.0,
-                "wastedTime": 0.6614842414855957
+                "wastedTime": 0.6344058513641357
             }
         ]
     }

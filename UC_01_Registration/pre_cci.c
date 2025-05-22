@@ -2628,7 +2628,7 @@ vuser_init()
 Action()
 {
 	
-	lr_start_transaction("UC_01_GLOBAL_TRANSACTION");
+	lr_start_transaction("UC_01_TR_GLOBAL");
 	
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 	
@@ -2676,9 +2676,20 @@ Action()
 	web_add_cookie("boomq_auth={auth_token}; DOMAIN=dev-boomq.pflb.ru");
 	
 	web_reg_save_param_json(
-		"ParamName=user_id",
-		"QueryString=$.id",
-		"SEARCH_FILTERS",
+		"ParamName=teamId", 
+		"QueryString=$..id", 
+		"SEARCH_FILTERS", 
+		"Scope=Body", 
+		"LAST");
+    
+    web_url("team", 
+		"URL=https://dev-boomq.pflb.ru/auth-srv/team?size=2", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=application/json", 
+		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
+		"Snapshot=t3.inf", 
+		"Mode=HTML", 
 		"LAST");
 
 	web_url("user", 
@@ -2687,7 +2698,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
-		"Snapshot=t3.inf", 
+		"Snapshot=t4.inf", 
 		"Mode=HTML", 
 		"LAST");
 	
@@ -2699,12 +2710,12 @@ Action()
         "LAST");
 	
 	web_url("team_context", 
-		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=22", 
+		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId={teamId}", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
-		"Snapshot=t4.inf", 
+		"Snapshot=t5.inf", 
 		"Mode=HTML", 
 		"LAST");
 
@@ -2718,7 +2729,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/teams", 
-		"Snapshot=t5.inf", 
+		"Snapshot=t6.inf", 
 		"Mode=HTML", 
 		"LAST");
 
@@ -2727,12 +2738,12 @@ Action()
 	lr_start_transaction("UC_01_TR_03_edit_group");
 
 	web_url("team_number", 
-		"URL=https://dev-boomq.pflb.ru/auth-srv/team/22", 
+		"URL=https://dev-boomq.pflb.ru/auth-srv/team/{teamId}", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer=https://dev-boomq.pflb.ru/account/teams/22", 
-		"Snapshot=t6.inf", 
+		"Referer=https://dev-boomq.pflb.ru/account/teams/{teamId}", 
+		"Snapshot=t7.inf", 
 		"Mode=HTML", 
 		"LAST");
 
@@ -2751,13 +2762,13 @@ Action()
 		"LAST");
 	
 	web_custom_request("add_member", 
-    	"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=22", 
+    	"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId={teamId}", 
     	"Method=POST", 
     	"TargetFrame=", 
     	"Resource=0", 
     	"RecContentType=application/json", 
-    	"Referer=https://dev-boomq.pflb.ru/account/teams/22", 
-    	"Snapshot=t7.inf", 
+    	"Referer=https://dev-boomq.pflb.ru/account/teams/{teamId}", 
+    	"Snapshot=t8.inf", 
     	"Mode=HTML", 
     	"EncType=application/json", 
     	"Body=[{\"email\":\"{email}\",\"permissionList\":[\"VIEW\",\"EDIT\",\"RUN\"],\"userDisplayName\":\"{displayName}\"}]", 
@@ -2787,7 +2798,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=", 
-		"Snapshot=t8.inf", 
+		"Snapshot=t9.inf", 
 		"Mode=HTML", 
 		"LAST");
     
@@ -2806,14 +2817,14 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/change-password", 
-		"Snapshot=t9.inf", 
+		"Snapshot=t10.inf", 
 		"Mode=HTML", 
 		"Body={\"password\":\"{password}\"}", 
 		"LAST");
 
 	lr_end_transaction("UC_01_TR_06_change_password",2);
 	
-	lr_end_transaction("UC_01_GLOBAL_TRANSACTION",2);
+	lr_end_transaction("UC_01_TR_GLOBAL",2);
 	
 	return 0;
 }
