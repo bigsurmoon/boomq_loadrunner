@@ -2692,11 +2692,11 @@ Action()
 	web_set_max_html_param_len("4096");
 	
 	web_reg_save_param("auth_token",
-     	"LB=boomq_auth=",
-     	"RB=;",
-     	"Search=Headers",
-     	"Ordinal=1",
-    	"LAST");
+		"LB=boomq_auth=",
+		"RB=;",
+		"Search=Headers",
+		"Ordinal=1",
+		"LAST");
     
 	web_submit_data("login", 
 		"Action=https://dev-boomq.pflb.ru/auth-srv/login", 
@@ -2725,7 +2725,7 @@ Action()
 		"Scope=Body", 
 		"LAST");
     
-    web_url("team", 
+	web_url("team", 
 		"URL=https://dev-boomq.pflb.ru/auth-srv/team?size=2", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2741,16 +2741,16 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
-		"Snapshot=t3.inf", 
+		"Snapshot=t4.inf", 
 		"Mode=HTML", 
 		"LAST");
 	
 	web_reg_save_param(
-        "auth_token_new",
-        "LB=set-cookie: boomq_auth=",
-        "RB=\r\n",
-        "Search=Headers",
-        "LAST");
+		"auth_token_new",
+		"LB=set-cookie: boomq_auth=",
+		"RB=\r\n",
+		"Search=Headers",
+		"LAST");
 	
 	web_url("team_context", 
 		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId={teamId}", 
@@ -2758,7 +2758,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
-		"Snapshot=t4.inf", 
+		"Snapshot=t5.inf", 
 		"Mode=HTML", 
 		"LAST");
 
@@ -2771,7 +2771,7 @@ Action()
 	
 	web_add_header("Cookie",  lr_eval_string("boomq_auth={auth_token_new}; boomq_auth={auth_token}"));
 	
-    web_add_auto_header("Authorization", lr_eval_string("Bearer {auth_token_new}"));
+	web_add_auto_header("Authorization", lr_eval_string("Bearer {auth_token_new}"));
 
 	web_custom_request("search", 
 		"URL=https://dev-boomq.pflb.ru/report-srv/report/search", 
@@ -2780,7 +2780,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/reports", 
-		"Snapshot=t5.inf", 
+		"Snapshot=t6.inf", 
 		"Mode=HTML", 
 		"EncType=application/json", 
 		"Body={\"pagination\":{\"pageNumber\":0,\"pageSize\":9},\"sort\":[{\"field\":\"CREATED_AT\",\"direction\":\"DESC\"}]}", 
@@ -2796,7 +2796,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/reports/new", 
-		"Snapshot=t6.inf", 
+		"Snapshot=t7.inf", 
 		"Mode=HTML", 
 		"LAST");
 
@@ -2814,7 +2814,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/reports/new", 
-		"Snapshot=t7.inf", 
+		"Snapshot=t8.inf", 
 		"Mode=HTML", 
 		"EncType=application/json", 
 		"Body={body}", 

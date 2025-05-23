@@ -1,0 +1,18 @@
+[t13]
+FileName2=t1_1_main.css
+RawStepEndTime=1748007966972
+RequestBodyFile=t13_RequestBody.txt
+RawStepName=slaTypeList
+ContentType=application/json
+URL1=https://dev-boomq.pflb.ru/test-srv/slaReportProfile/slaTypeList
+URL2=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css
+URL3=https://dev-boomq.pflb.ru/static/js/main.cddf1824.js
+ResponseHeaderFile=t13_ResponseHeader.txt
+SnapshotXmlFile=snapshot_9.xml
+RequestHeaderFile=t13_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1748007966859
+Total=3
+StepName=Custom Request: slaTypeList
+FileName1=t13.json
+FileName3=t1_0_main.UNK

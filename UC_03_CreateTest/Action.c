@@ -105,7 +105,7 @@ Action()
 	web_reg_save_param("ResponseBody", "LB=", "RB=", "Search=Body", LAST);
     
 	lr_output_message("Response body: %s", lr_eval_string("{ResponseBody}"));
-    
+	
 	web_reg_find("Text=<svg", LAST);
     
 	web_custom_request("create_test",

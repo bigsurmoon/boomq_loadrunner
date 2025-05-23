@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\vinny\Desktop\Project Scripts\UC_05_RunTests
+-IC:\Users\vinny\Desktop\Project Scripts\UC_05_RunTest
 -IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\vinny\desktop\project scripts\uc_05_runtests\\logfile.log
-c:\users\vinny\desktop\project scripts\uc_05_runtests\\combined_UC_05_RunTests.c
-c:\users\vinny\desktop\project scripts\uc_05_runtests\\pre_cci.c
+-ec:\users\vinny\desktop\project scripts\uc_05_runtest\\logfile.log
+c:\users\vinny\desktop\project scripts\uc_05_runtest\\combined_UC_05_RunTest.c
+c:\users\vinny\desktop\project scripts\uc_05_runtest\\pre_cci.c

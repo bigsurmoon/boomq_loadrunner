@@ -1,4 +1,4 @@
-Virtual User Script started at: May 22, 2025 6:45:55 PM
+Virtual User Script started at: May 23, 2025 4:04:27 PM
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (џэт 05 2021 19:27:22)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -25,7 +25,7 @@ Action.c(23): web_reg_save_param started  	[MsgId: MMSG-26355]
 Action.c(23): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 Action.c(30): web_submit_data("login") started  	[MsgId: MMSG-26355]
 Action.c(30): web_submit_data("login") was successful, 0 body bytes, 1929 header bytes  	[MsgId: MMSG-26386]
-Action.c(44): ========= TOKEN =========: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjIsInVzZXJfbmFtZSI6Im5hZ3J1emthM2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc0Nzk3MTk1NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6IjdlOTczOTMyLTYyYjUtNGM0YS05MWVmLTUyNTc4Yjk0OTQ5ZCIsImNsaWVudF9pZCI6ImNsaWVudCJ9.wf25jsIGwP9VtRpKtNgo-YgpYuNNGF01F5uh7knzCRVu6_bAqkUAOSPXYwDBswNX9dHm_3Zxq-U4MlScyElUBijeBL7w8jtfDeU_iS2Tgs9Y0RfIlVWXftDEybkYb_8gXXJTiOe_qBcl0qcxCikUFjc1a0JDOwGfOmP8TSHfatsJWl53J56Q-hQfD7wuYBcGFWwlaH_hOa_yGVU6IUX8zVk09RKQM7zqsMQxeu65_aTU6M_S-aGWE6ARwXbX4_gpY4cEVFaO0QCworNbwHGIFziEtSzsp0-3UL_EMOk8FxJUnTHMMzeyEKzd5-BCRzhDCH9zFQVD1R9V07CtifO95A
+Action.c(44): ========= TOKEN =========: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjIsInVzZXJfbmFtZSI6Im5hZ3J1emthM2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc0ODA0ODY3NCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6IjlhZjVjY2U5LWNmZDItNDBiOS1hMWI3LThhOTQ5NDhjZDNmNiIsImNsaWVudF9pZCI6ImNsaWVudCJ9.sLNVfDcMX5cnRBF2VgBzb3ERasqgnvsMmLUwe-osrjJQRCcUtETQHaX8lLy8Q0BFlcYoqVrGxJCu00vuh3ZKSLcTYjsf0I4xUhpczXll8k-mMMdr-aP5vXe0LdfEJtNNjuzGgcTqUg7qxF-kH5-N3qpSQGWcEV91KfkmtZxD8o9n2kBTg_lvjuNVoywFxCKlgoapH9ard4aqmmuiI-lqGB2I6QgwTu5RU_KBdZC-jcuYnD4F6abb6I7tEDvbpIP5mxCjOWs84-CUKBh-sobNLGZxWciUkqJHjqlgrKkXf2Yk_y1_4KOgwYJRzrzdWa21pL8mnz65-jQQLXVkis4o5Q
 Action.c(46): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
 Action.c(46): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(46): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
@@ -46,7 +46,7 @@ Action.c(94): web_add_header("Cookie") was successful  	[MsgId: MMSG-26392]
 Action.c(96): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
 Action.c(96): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(96): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(98): Notify: Transaction "UC_03_TR_01_sign_in" ended with a "Pass" status (Duration: 0.5560 Wasted Time: 0.0217).
+Action.c(98): Notify: Transaction "UC_03_TR_01_sign_in" ended with a "Pass" status (Duration: 0.5575 Wasted Time: 0.0210).
 Action.c(100): Notify: Transaction "UC_03_TR_02_create_test" started.
 Action.c(102): web_add_header("Origin") started  	[MsgId: MMSG-26355]
 Action.c(102): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
@@ -60,9 +60,9 @@ Action.c(111): Downloading resource "https://dev-boomq.pflb.ru/static/media/chec
 Action.c(111): Warning -26376: Requested parameter "ResponseBody" found in 2 different pages/frames. Use "web_reg_save_param" with more restrictive LB/RB/RelFrameId  	[MsgId: MWAR-26376]
 Action.c(111): Warning -26373: Parameter "ResponseBody" saved from a resource (URL="https://dev-boomq.pflb.ru/static/media/check.9725c0396328bae9471b624111fc14ca.svg")  	[MsgId: MWAR-26373]
 Action.c(111): Registered web_reg_find successful for "Text=<svg" (count=1)  	[MsgId: MMSG-26364]
-Action.c(111): web_custom_request("create_test") highest severity level was "warning", 1397 body bytes, 691 header bytes  	[MsgId: MMSG-26388]
-Action.c(128): Notify: Transaction "UC_03_TR_02_create_test" ended with a "Pass" status (Duration: 0.2021 Wasted Time: 0.0054).
-Action.c(130): Notify: Transaction "UC_03_TR_GLOBAL" ended with a "Pass" status (Duration: 5.4826 Wasted Time: 0.6636).
+Action.c(111): web_custom_request("create_test") highest severity level was "warning", 1403 body bytes, 691 header bytes  	[MsgId: MMSG-26388]
+Action.c(128): Notify: Transaction "UC_03_TR_02_create_test" ended with a "Pass" status (Duration: 0.2033 Wasted Time: 0.0043).
+Action.c(130): Notify: Transaction "UC_03_TR_GLOBAL" ended with a "Pass" status (Duration: 5.7084 Wasted Time: 0.6191).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

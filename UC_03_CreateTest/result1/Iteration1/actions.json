@@ -6,60 +6,60 @@
                 "stepId": "STEP1",
                 "stepName": "Url: authorize",
                 "infFile": "t1.inf",
-                "time": 1747928760308
+                "time": 1748005472688
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Submit Data: login",
                 "infFile": "t2.inf",
-                "time": 1747928760555
+                "time": 1748005472939
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Url: team",
                 "infFile": "t4.inf",
-                "time": 1747928760685
+                "time": 1748005473073
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Url: user",
                 "infFile": "t5.inf",
-                "time": 1747928760753
+                "time": 1748005473141
             },
             {
                 "stepId": "STEP5",
                 "stepName": "Url: team_context",
                 "infFile": "t6.inf",
-                "time": 1747928760832
+                "time": 1748005473221
             },
             {
                 "stepId": "STEP6",
                 "stepName": "Custom Request: create_test",
                 "infFile": "t7.inf",
-                "time": 1747928761076
+                "time": 1748005473468
             }
         ],
         "transactions": [
             {
                 "transactionName": "UC_03_TR_01_sign_in",
-                "rawStartTime": 1747928760313,
-                "rawEndTime": 1747928760869,
+                "rawStartTime": 1748005472700,
+                "rawEndTime": 1748005473258,
                 "thinkTime": 0.0,
-                "wastedTime": 0.02171158790588379
+                "wastedTime": 0.020995378494262697
             },
             {
                 "transactionName": "UC_03_TR_02_create_test",
-                "rawStartTime": 1747928760886,
-                "rawEndTime": 1747928761088,
+                "rawStartTime": 1748005473274,
+                "rawEndTime": 1748005473477,
                 "thinkTime": 0.0,
-                "wastedTime": 0.005387067794799805
+                "wastedTime": 0.0043447017669677738
             },
             {
                 "transactionName": "UC_03_TR_GLOBAL",
-                "rawStartTime": 1747928755621,
-                "rawEndTime": 1747928761103,
+                "rawStartTime": 1748005467784,
+                "rawEndTime": 1748005473492,
                 "thinkTime": 0.0,
-                "wastedTime": 0.6635849475860596
+                "wastedTime": 0.6191415786743164
             }
         ]
     }

@@ -6,104 +6,104 @@
                 "stepId": "STEP1",
                 "stepName": "Url: authorize",
                 "infFile": "t1.inf",
-                "time": 1747927246146
+                "time": 1748005522009
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Submit Data: login",
                 "infFile": "t2.inf",
-                "time": 1747927246392
+                "time": 1748005522259
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Url: team",
                 "infFile": "t4.inf",
-                "time": 1747927246527
+                "time": 1748005522388
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Url: user",
                 "infFile": "t5.inf",
-                "time": 1747927246591
+                "time": 1748005522444
             },
             {
                 "stepId": "STEP5",
                 "stepName": "Url: team_context",
                 "infFile": "t6.inf",
-                "time": 1747927246674
+                "time": 1748005522524
             },
             {
                 "stepId": "STEP6",
                 "stepName": "Url: label",
                 "infFile": "t7.inf",
-                "time": 1747927246793
+                "time": 1748005522642
             },
             {
                 "stepId": "STEP7",
                 "stepName": "Url: project",
                 "infFile": "t9.inf",
-                "time": 1747927246880
+                "time": 1748005522725
             },
             {
                 "stepId": "STEP8",
                 "stepName": "Url: project_id",
                 "infFile": "t11.inf",
-                "time": 1747927247004
+                "time": 1748005522842
             },
             {
                 "stepId": "STEP9",
                 "stepName": "Url: version_id",
                 "infFile": "t12.inf",
-                "time": 1747927247077
+                "time": 1748005522916
             },
             {
                 "stepId": "STEP10",
                 "stepName": "Url: downloadLink",
                 "infFile": "t13.inf",
-                "time": 1747927247170
+                "time": 1748005523009
             },
             {
                 "stepId": "STEP11",
                 "stepName": "Custom Request: test",
                 "infFile": "t14.inf",
-                "time": 1747927247326
+                "time": 1748005523158
             }
         ],
         "transactions": [
             {
                 "transactionName": "UC_05_TR_01_sign_in",
-                "rawStartTime": 1747927246149,
-                "rawEndTime": 1747927246710,
+                "rawStartTime": 1748005522013,
+                "rawEndTime": 1748005522561,
                 "thinkTime": 0.0,
-                "wastedTime": 0.02101445198059082
+                "wastedTime": 0.021082639694213868
             },
             {
                 "transactionName": "UC_05_TR_02_open_tests_page",
-                "rawStartTime": 1747927246726,
-                "rawEndTime": 1747927246893,
+                "rawStartTime": 1748005522577,
+                "rawEndTime": 1748005522733,
                 "thinkTime": 0.0,
-                "wastedTime": 0.009870767593383789
+                "wastedTime": 0.008463382720947266
             },
             {
                 "transactionName": "UC_05_TR_03_click_run_button",
-                "rawStartTime": 1747927246909,
-                "rawEndTime": 1747927247174,
+                "rawStartTime": 1748005522749,
+                "rawEndTime": 1748005523015,
                 "thinkTime": 0.0,
-                "wastedTime": 0.01494145393371582
+                "wastedTime": 0.014889001846313477
             },
             {
                 "transactionName": "UC_05_TR_04_run_tests",
-                "rawStartTime": 1747927247191,
-                "rawEndTime": 1747927247331,
+                "rawStartTime": 1748005523030,
+                "rawEndTime": 1748005523171,
                 "thinkTime": 0.0,
-                "wastedTime": 0.003883838653564453
+                "wastedTime": 0.0039691925048828129
             },
             {
                 "transactionName": "UC_05_TR_GLOBAL",
-                "rawStartTime": 1747927241097,
-                "rawEndTime": 1747927247346,
+                "rawStartTime": 1748005517081,
+                "rawEndTime": 1748005523186,
                 "thinkTime": 0.0,
-                "wastedTime": 0.6898674964904785
+                "wastedTime": 0.6372318267822266
             }
         ]
     }

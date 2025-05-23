@@ -1,0 +1,149 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: authorize",
+                "infFile": "t1.inf",
+                "time": 1748007965621
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login",
+                "infFile": "t2.inf",
+                "time": 1748007965926
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: team",
+                "infFile": "t4.inf",
+                "time": 1748007966086
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: user",
+                "infFile": "t5.inf",
+                "time": 1748007966161
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: team_context",
+                "infFile": "t6.inf",
+                "time": 1748007966258
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: slaReportProfile",
+                "infFile": "t7.inf",
+                "time": 1748007966410
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: project",
+                "infFile": "t9.inf",
+                "time": 1748007966559
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: test",
+                "infFile": "t12.inf",
+                "time": 1748007966754
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: slaTypeList",
+                "infFile": "t13.inf",
+                "time": 1748007966989
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: previewReport",
+                "infFile": "t14.inf",
+                "time": 1748007967125
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Custom Request: previewReport_2",
+                "infFile": "t15.inf",
+                "time": 1748007967300
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Custom Request: previewReport_3",
+                "infFile": "t16.inf",
+                "time": 1748007967438
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Custom Request: previewReport_5",
+                "infFile": "t17.inf",
+                "time": 1748007967577
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Custom Request: slaReportProfile_2",
+                "infFile": "t18.inf",
+                "time": 1748007967740
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC_04_TR_01_sign_in",
+                "rawStartTime": 1748007965637,
+                "rawEndTime": 1748007966294,
+                "thinkTime": 0.0,
+                "wastedTime": 0.024621009826660157
+            },
+            {
+                "transactionName": "UC_04_TR_02_click_trending_button",
+                "rawStartTime": 1748007966310,
+                "rawEndTime": 1748007966419,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0048139095306396488
+            },
+            {
+                "transactionName": "UC_04_TR_03_add_new_trend_report",
+                "rawStartTime": 1748007966436,
+                "rawEndTime": 1748007966592,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00800466537475586
+            },
+            {
+                "transactionName": "UC_04_TR_04_select_test",
+                "rawStartTime": 1748007966608,
+                "rawEndTime": 1748007966812,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007295131683349609
+            },
+            {
+                "transactionName": "UC_04_TR_05_click_next",
+                "rawStartTime": 1748007966828,
+                "rawEndTime": 1748007967142,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00903630256652832
+            },
+            {
+                "transactionName": "UC_04_TR_06_add_items",
+                "rawStartTime": 1748007967157,
+                "rawEndTime": 1748007967580,
+                "thinkTime": 0.0,
+                "wastedTime": 0.012911319732666016
+            },
+            {
+                "transactionName": "UC_04_TR_07_save",
+                "rawStartTime": 1748007967595,
+                "rawEndTime": 1748007967752,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004073143005371094
+            },
+            {
+                "transactionName": "UC_04_TR_GLOBAL",
+                "rawStartTime": 1748007958200,
+                "rawEndTime": 1748007967782,
+                "thinkTime": 0.0,
+                "wastedTime": 0.6642887592315674
+            }
+        ]
+    }
+]

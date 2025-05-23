@@ -1,0 +1,4 @@
+"{\"projectId\":2587,\"chartProfileList\":[{\"slaTypeList\":[{\"fromDate\":0,\"restrictionType\""
+":\"AVERAGE\",\"targetType\":\"THREAD_GROUP\",\"toDate\":60,\"type\":\"THREAD_GROUP_SLA_TYPE\","
+"\"threadGroupName\":\"random_test_283\"}]}],\"testFilterExpressionList\":[{\"type\":\"TEST_ID_"
+"EXPRESSION\",\"testIdList\":[8290,8278]}]}"

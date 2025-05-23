@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 23 May 2025 08:20:59 GMT
+Content-Type: application/json
+Content-Length: 285
+Connection: keep-alive
+Last-Modified: Tue, 26 Mar 2024 08:31:51 GMT
+ETag: "660287f7-11d"
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=86400;
+

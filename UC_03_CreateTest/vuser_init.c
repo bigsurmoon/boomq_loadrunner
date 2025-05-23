@@ -15,7 +15,7 @@ vuser_init()
 	testRequestNameRandom = 100 + rand() % 900;
 	transactionNameRandom = 100 + rand() % 900;
 
-	sprintf(projectName, "group_3_%d", projectNameRandom);
+	sprintf(projectName, "hadouken_test_%d", projectNameRandom);
 	sprintf(testRequestName, "random_test_%d", testRequestNameRandom);
 	sprintf(transactionName, "transaction_%d", transactionNameRandom);
 

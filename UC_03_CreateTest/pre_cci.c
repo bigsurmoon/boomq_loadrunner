@@ -2617,7 +2617,7 @@ vuser_init()
 	testRequestNameRandom = 100 + rand() % 900;
 	transactionNameRandom = 100 + rand() % 900;
 
-	sprintf(projectName, "group_3_%d", projectNameRandom);
+	sprintf(projectName, "hadouken_test_%d", projectNameRandom);
 	sprintf(testRequestName, "random_test_%d", testRequestNameRandom);
 	sprintf(transactionName, "transaction_%d", transactionNameRandom);
 
@@ -2873,7 +2873,7 @@ Action()
 	web_reg_save_param("ResponseBody", "LB=", "RB=", "Search=Body", "LAST");
     
 	lr_output_message("Response body: %s", lr_eval_string("{ResponseBody}"));
-    
+	
 	web_reg_find("Text=<svg", "LAST");
     
 	web_custom_request("create_test",

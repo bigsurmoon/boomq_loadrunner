@@ -1,0 +1,4 @@
+"{"projectId":2597,"chartProfileList":[{"slaTypeList":[{"fromDate":0,"restrictionType":"AVERAGE"
+"","targetType":"THREAD_GROUP","toDate":60,"type":"THREAD_GROUP_SLA_TYPE","threadGroupName":"ha"
+"douken_tread_169082912"}]}],"testFilterExpressionList":[{"type":"TEST_ID_EXPRESSION","testIdLi"
+"st":[8304,8303]}]}"

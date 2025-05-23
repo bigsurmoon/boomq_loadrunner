@@ -2604,21 +2604,21 @@ void
 vuser_init()
 {
 	char email[100];
-    char displayName[50];
-    char change_pass_url[1024];
-    int randNum;
+	char displayName[50];
+	char change_pass_url[1024];
+	int randNum;
 
-    srand((unsigned int)_time32(0));
+	srand((unsigned int)_time32(0));
 
-    randNum = 100 + rand() % 900;
+	randNum = 100 + rand() % 900;
 
-    sprintf(displayName, "Test_%d", randNum);
-    sprintf(email, "test_%d@hadouken.com", randNum);
-    sprintf(change_pass_url, "");
+	sprintf(displayName, "Test_%d", randNum);
+	sprintf(email, "test_%d@hadouken.com", randNum);
+	sprintf(change_pass_url, "");
 
-    lr_save_string(displayName, "displayName");
-    lr_save_string(email, "email");
-    lr_save_string(change_pass_url, "change_pass_url");
+	lr_save_string(displayName, "displayName");
+	lr_save_string(email, "email");
+	lr_save_string(change_pass_url, "change_pass_url");
     
 	return 0;
 }
@@ -2626,8 +2626,7 @@ vuser_init()
 
 # 1 "Action.c" 1
 Action()
-{
-	
+{	
 	lr_start_transaction("UC_01_TR_GLOBAL");
 	
 	web_set_sockets_option("SSL_VERSION", "AUTO");
@@ -2649,11 +2648,11 @@ Action()
 	web_set_max_html_param_len("4096");
 	
 	web_reg_save_param("auth_token",
-     	"LB=boomq_auth=",
-     	"RB=;",
-     	"Search=Headers",
-     	"Ordinal=1",
-    	"LAST");
+		"LB=boomq_auth=",
+		"RB=;",
+		"Search=Headers",
+		"Ordinal=1",
+		"LAST");
     
 	web_submit_data("login", 
 		"Action=https://dev-boomq.pflb.ru/auth-srv/login", 
@@ -2682,7 +2681,7 @@ Action()
 		"Scope=Body", 
 		"LAST");
     
-    web_url("team", 
+	web_url("team",
 		"URL=https://dev-boomq.pflb.ru/auth-srv/team?size=2", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2703,11 +2702,11 @@ Action()
 		"LAST");
 	
 	web_reg_save_param(
-        "auth_token_new",
-        "LB=set-cookie: boomq_auth=",
-        "RB=\r\n",
-        "Search=Headers",
-        "LAST");
+		"auth_token_new",
+		"LB=set-cookie: boomq_auth=",
+		"RB=\r\n",
+		"Search=Headers",
+		"LAST");
 	
 	web_url("team_context", 
 		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId={teamId}", 
@@ -2749,7 +2748,7 @@ Action()
 
 	web_add_header("Cookie",  lr_eval_string("boomq_auth={auth_token_new}; boomq_auth={auth_token}"));
 	
-    web_add_auto_header("Authorization", lr_eval_string("Bearer {auth_token_new}"));
+	web_add_auto_header("Authorization", lr_eval_string("Bearer {auth_token_new}"));
 
 	lr_end_transaction("UC_01_TR_03_edit_group",2);
 	
@@ -2762,37 +2761,37 @@ Action()
 		"LAST");
 	
 	web_custom_request("add_member", 
-    	"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId={teamId}", 
-    	"Method=POST", 
-    	"TargetFrame=", 
-    	"Resource=0", 
-    	"RecContentType=application/json", 
-    	"Referer=https://dev-boomq.pflb.ru/account/teams/{teamId}", 
-    	"Snapshot=t8.inf", 
-    	"Mode=HTML", 
-    	"EncType=application/json", 
-    	"Body=[{\"email\":\"{email}\",\"permissionList\":[\"VIEW\",\"EDIT\",\"RUN\"],\"userDisplayName\":\"{displayName}\"}]", 
-    	"LAST");
+		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId={teamId}", 
+		"Method=POST", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=application/json", 
+		"Referer=https://dev-boomq.pflb.ru/account/teams/{teamId}", 
+		"Snapshot=t8.inf", 
+		"Mode=HTML", 
+		"EncType=application/json", 
+		"Body=[{\"email\":\"{email}\",\"permissionList\":[\"VIEW\",\"EDIT\",\"RUN\"],\"userDisplayName\":\"{displayName}\"}]", 
+		"LAST");
 	
 	lr_output_message("========= INVITE URL =========: %s", lr_eval_string("{inviteUrl}"));
 	
 	web_cleanup_auto_headers();
 	
-    web_cleanup_cookies();
+	web_cleanup_cookies();
 
 	lr_end_transaction("UC_01_TR_04_add_member",2);
 	
 	lr_start_transaction("UC_01_TR_05_invite_url");
 	
 	lr_save_string(lr_eval_string("https://dev-boomq.pflb.ru{inviteUrl}"), "change_pass_url");
-
-    web_reg_save_param("auth_token_cookie", 
-    	"LB=set-cookie: boomq_auth=", 
-    	"RB=;", 
-    	"Search=Headers", 
-    	"LAST");
 	
-	web_url("invite_url", 
+	web_reg_save_param("auth_token_cookie",
+	"LB=set-cookie: boomq_auth=", 
+	"RB=;", 
+	"Search=Headers", 
+	"LAST");
+	
+	web_url("invite_url",
 		"URL={change_pass_url}",
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2802,7 +2801,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
     
-    web_add_auto_header("Authorization", "Bearer {auth_token_cookie}");
+	web_add_auto_header("Authorization", "Bearer {auth_token_cookie}");
 	
 	lr_end_transaction("UC_01_TR_05_invite_url", 2);
 	

@@ -1,0 +1,18 @@
+[t12]
+FileName2=t1_1_main.css
+RawStepEndTime=1748007966739
+RequestBodyFile=t12_RequestBody.txt
+RawStepName=test
+ContentType=application/json
+URL1=https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&size=999999&projectId=2597&state=FINISHED,FAILED,CANCELED
+URL2=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css
+URL3=https://dev-boomq.pflb.ru/static/js/main.cddf1824.js
+ResponseHeaderFile=t12_ResponseHeader.txt
+SnapshotXmlFile=snapshot_8.xml
+RequestHeaderFile=t12_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1748007966655
+Total=3
+StepName=Url: test
+FileName1=t12.json
+FileName3=t1_0_main.UNK
